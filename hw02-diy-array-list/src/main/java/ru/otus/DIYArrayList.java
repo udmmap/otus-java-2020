@@ -8,6 +8,11 @@ import java.util.function.UnaryOperator;
 import java.util.stream.Stream;
 import java.util.Collections;
 
+
+/**
+ * Лист, в основе которого лежит массив из блоков {@code ArrayBlock}
+ * @see List
+ */
 public class DIYArrayList<T> implements List<T> {
     private ArrayBlock<T>[] dataBlocks = null;
     private int size = 0;
@@ -34,8 +39,13 @@ public class DIYArrayList<T> implements List<T> {
 
     @Override
     public T set(int index, T element) {
-        throw new UnsupportedOperationException("Invalid operation for DIY ArrayList.");
-
+        int blockNum=0;
+        int aggSize=0;
+        while (aggSize+dataBlocks[blockNum].getSize() <= index){
+            aggSize+=dataBlocks[blockNum].getSize();
+            blockNum++;
+        }
+        return dataBlocks[blockNum].set(index-aggSize,element);
     }
 
     @Override
@@ -60,10 +70,7 @@ public class DIYArrayList<T> implements List<T> {
 
     @Override
     public ListIterator<T> listIterator() {
-        throw new UnsupportedOperationException("Invalid operation for DIY ArrayList.");
-
-
-
+        return new ListIter(0);
     }
 
     @Override
@@ -250,4 +257,90 @@ public class DIYArrayList<T> implements List<T> {
         throw new UnsupportedOperationException("Invalid operation for DIY ArrayList.");
     }
 
+    private class ListIter implements ListIterator<T> {
+        int cursor;
+        int cursorBlock;
+        int cursorElement; // index of next element to return
+        int lastRet = -1;
+        int lastRetBlock = -1;
+        int lastRetElement = -1; // index of last element returned; -1 if no such
+
+        ListIter (int index){
+            int blockNum=0;
+            int aggSize=0;
+            while (aggSize+dataBlocks[blockNum].getSize() <= index){
+                aggSize+=dataBlocks[blockNum].getSize();
+                blockNum++;
+            }
+            cursorBlock = blockNum;
+            cursorElement = index-aggSize;
+            cursor = index;
+        }
+
+        @Override
+        public boolean hasNext() {
+            return cursor < DIYArrayList.this.size;
+        }
+
+        @Override
+        public T next() {
+            int i = cursor;
+            int iB = cursorBlock;
+            int iE = cursorElement;
+            if (i >= size)
+                throw new NoSuchElementException();
+            cursor++;
+            cursorElement++;
+            if (cursor<size) {
+                while (dataBlocks[cursorBlock].getSize() == cursorElement) {
+                    cursorBlock++;
+                    cursorElement = 0;
+                }
+            }
+            lastRet = i;
+            lastRetBlock = iB;
+            lastRetElement = iE;
+            return dataBlocks[iB].get(iE);
+        }
+
+        @Override
+        public boolean hasPrevious() {
+            return cursor != 0;
+        }
+
+        @Override
+        public T previous() {
+            throw new UnsupportedOperationException("Invalid operation for DIY ArrayList.");
+        }
+
+        @Override
+        public int nextIndex() {
+            return cursor;
+        }
+
+        @Override
+        public int previousIndex() {
+            return cursor - 1;
+        }
+
+        @Override
+        public void remove() {
+            throw new UnsupportedOperationException("Invalid operation for DIY ArrayList.");
+        }
+
+        @Override
+        public void forEachRemaining(Consumer<? super T> action) {
+            throw new UnsupportedOperationException("Invalid operation for DIY ArrayList.");
+        }
+
+        @Override
+        public void set(T t) {
+            dataBlocks[lastRetBlock].set(lastRetElement,t);
+        }
+
+        @Override
+        public void add(T t) {
+            throw new UnsupportedOperationException("Invalid operation for DIY ArrayList.");
+        }
+    }
 }

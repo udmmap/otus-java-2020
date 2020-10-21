@@ -1,6 +1,8 @@
 package ru.otus;
 
+import java.lang.reflect.Array;
 import java.util.Arrays;
+import java.util.Objects;
 
 class ArrayBlock<T> {
     public static final int defaultBlockSize = 16;
@@ -45,5 +47,15 @@ class ArrayBlock<T> {
         return block.length - size;
     }
 
-    public T get(int index) {return (T)block[index];}
+    public T get(int index) {
+        Objects.checkIndex(index, size);
+        return (T)block[index];
+    }
+
+    public T set(int index, T element) {
+        Objects.checkIndex(index, size);
+        T oldValue = (T) block[index];
+        block[index] = element;
+        return oldValue;
+    }
 }
