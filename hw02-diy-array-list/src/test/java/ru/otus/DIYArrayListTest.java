@@ -34,10 +34,13 @@ public class DIYArrayListTest {
         DIYArrayList aDiy = new DIYArrayList<Integer>();
         //Инициализация массива
         aDiy.addAll(example);
-        Collections.reverse(example);
         //Копирование example -> aDiy
         Collections.copy(aDiy, example);
         Object[] aNative = aDiy.toArray();
+        assertThat(example.toArray()).isEqualTo(aNative);
+        //Копирование aDiy -> example
+        Collections.reverse(example);
+        Collections.copy(example, aDiy);
         assertThat(example.toArray()).isEqualTo(aNative);
     }
 
