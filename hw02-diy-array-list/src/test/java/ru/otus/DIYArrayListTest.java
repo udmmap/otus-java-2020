@@ -1,5 +1,4 @@
 package ru.otus;
-import com.google.common.collect.ImmutableList;
 import org.junit.jupiter.api.*;
 import static org.assertj.core.api.Assertions.assertThat;
 
@@ -18,6 +17,7 @@ public class DIYArrayListTest {
             example.add(i);
         }
         DIYArrayList aDiy = new DIYArrayList<Integer>();
+
         //Проверка addAll
         aDiy.addAll(example);
         Object[] aNative = aDiy.toArray();
@@ -32,12 +32,15 @@ public class DIYArrayListTest {
             example.add(i);
         }
         DIYArrayList aDiy = new DIYArrayList<Integer>();
+
         //Инициализация массива
         aDiy.addAll(example);
+
         //Копирование example -> aDiy
         Collections.copy(aDiy, example);
         Object[] aNative = aDiy.toArray();
         assertThat(example.toArray()).isEqualTo(aNative);
+
         //Копирование aDiy -> example
         Collections.reverse(example);
         Collections.copy(example, aDiy);
@@ -56,9 +59,11 @@ public class DIYArrayListTest {
         DIYArrayList aDiy = new DIYArrayList<Integer>();
         //Инициализация массива
         aDiy.addAll(example);
+
         //Сортировка с компаратором по умолчанию
         Collections.sort(aDiy);
         Object[] aNative = aDiy.toArray();
+
         //Сортировка тестового листа
         Collections.sort(example);
         assertThat(example.toArray()).isEqualTo(aNative);
