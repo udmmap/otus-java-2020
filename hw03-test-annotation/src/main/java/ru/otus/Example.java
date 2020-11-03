@@ -12,23 +12,32 @@ public class Example<T> {
     }
 
     @Test
-    public int firstTest(Integer arg){
+    public Integer firstTest(Integer arg){
         return arg;
     }
 
     @Test
-    public T secondTest(T arg){
+    public T secondTest(T arg, String arg2){
         return arg;
     }
 
     @Test
-    public Object[] thirdTest(Object[] arg){
+    public char thirdTest(char arg){
+        return arg;
+    }
+
+    @Test
+    public int fourTest(int arg){
         return arg;
     }
 
     @After
     public void firstAfter(){
+    }
 
+    @After
+    public Object[] secondAfter(Object[] arg){
+        return arg;
     }
 
 }

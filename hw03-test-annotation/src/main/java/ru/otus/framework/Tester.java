@@ -14,24 +14,20 @@ public class Tester {
             throws InvocationTargetException, IllegalAccessException, InstantiationException, RuntimeException {
         List<Object> aP = new ArrayList<Object>(); // Массив параметров
         for (Class<?> cP:m.getParameterTypes()){
-            int i = aP.size();
+            //int i = aP.size();
             Constructor<?> crP = null;
             try {
-                crP = cP.getConstructor();
-                aP.add(crP.newInstance());
-            } catch (NoSuchMethodException e) {
-                //Для подбора конструктора параметра в самых простых случаях
-            }
-            if (i==aP.size()) {
-                // Предыдущая попытка подобрать конструктор оказалась неудачной
-                // Делаем попытку использовать конструктор с другой сигнатурой
-                try {
-                    crP = cP.getConstructor(int.class);
-                    aP.add(crP.newInstance(0));
-                } catch (NoSuchMethodException e) {
-                    throw new RuntimeException(
-                            String.format("Не удалось инициировать параметры метода %s", m.getName()));
+                if (cP.equals(char.class)){
+                    aP.add('_');
+                } else if (cP.isPrimitive() || cP.equals(Integer.class)){
+                    aP.add(0);
+                } else {
+                    crP = cP.getConstructor();
+                    aP.add(crP.newInstance());
                 }
+            } catch (NoSuchMethodException e) {
+                throw new RuntimeException(
+                        String.format("Не удалось инициировать параметры метода %s", m.getName()));
             }
         }
         m.invoke(o, aP.toArray());
@@ -61,11 +57,12 @@ public class Tester {
             }
         }
 
+        Object oT = null;
         for(Method mT : alTest){
             try {
                 iR++;
 
-                Object oT = cT.getDeclaredConstructor().newInstance();
+                oT = cT.getDeclaredConstructor().newInstance();
                 for (Method mB : alBefore) {
                     stLog.append(String.format("\n@Before %s",mB.getName()));
                     runMethod(oT, mB);
@@ -74,16 +71,23 @@ public class Tester {
                 stLog.append(String.format("\n@Test %s",mT.getName()));
                 runMethod(oT, mT);
 
-                for (Method mA : alAfter) {
-                    stLog.append(String.format("\n@After %s",mA.getName()));
-                    runMethod(oT, mA);
-                }
 
                 iP++;
             } catch (Exception e) {
                 iE++;
                 stLog.append("\n"+e.getMessage());
+            } finally {
+                for (Method mA : alAfter) {
+                    try {
+                        stLog.append(String.format("\n@After %s",mA.getName()));
+                        runMethod(oT, mA);
+                    } catch (Exception e) {
+                        stLog.append("\n"+e.getMessage());
+                    }
+                }
             }
+
+
         }
         return stLog.append("\n\n"+String.format(Result, className, iR, iP, iE)).toString();
     }
