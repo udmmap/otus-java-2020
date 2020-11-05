@@ -47,10 +47,16 @@ public class GCMonitor {
                     + " action:" + gcAction
                     + " gcCause:" + gcCause
                     + "(" + duration + " ms)");
+            info.getGcInfo().getMemoryUsageBeforeGc().forEach((key,memUsed)->{
+                System.out.print(String.format(" %s:%d",key,memUsed.getUsed()));
+            });
+            System.out.println("");
             info.getGcInfo().getMemoryUsageAfterGc().forEach((key,memUsed)->{
                 System.out.print(String.format(" %s:%d",key,memUsed.getUsed()));
             });
             System.out.println("");
+            System.out.println("---------------------------------------------------------------------------------");
+
         }
     };
 
