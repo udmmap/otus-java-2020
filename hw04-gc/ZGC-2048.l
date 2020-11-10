@@ -1,4 +1,4 @@
-18:37:09: Executing task 'GCMonitor.main()'...
+14:06:10: Executing task 'GCMonitor.main()'...
 
 > Task :buildSrc:compileJava UP-TO-DATE
 > Task :buildSrc:compileGroovy NO-SOURCE
@@ -18,465 +18,485 @@
 > Task :hw04-gc:classes UP-TO-DATE
 
 > Task :hw04-gc:GCMonitor.main()
-Starting pid: 5174@blackbox
+Starting pid: 9814@blackbox
 GC name:ZGC
-time:23 totalGC:98 Name:ZGC action:end of major GC gcCause:Warmup(98 ms)
- ZHeap:216006656 CodeHeap 'profiled nmethods':2033920 CodeHeap 'non-profiled nmethods':419968 Compressed Class Space:723304 Metaspace:6505432 CodeHeap 'non-nmethods':1284608
- ZHeap:117440512 CodeHeap 'profiled nmethods':2036608 CodeHeap 'non-profiled nmethods':426368 Compressed Class Space:723304 Metaspace:6507024 CodeHeap 'non-nmethods':1268992
----------------------------------------------------------------------------------
-time:58 totalGC:252 Name:ZGC action:end of major GC gcCause:Warmup(154 ms)
- ZHeap:429916160 CodeHeap 'profiled nmethods':2775936 CodeHeap 'non-profiled nmethods':594304 Compressed Class Space:787328 Metaspace:7205520 CodeHeap 'non-nmethods':1280128
- ZHeap:285212672 CodeHeap 'profiled nmethods':2777088 CodeHeap 'non-profiled nmethods':594304 Compressed Class Space:787328 Metaspace:7206872 CodeHeap 'non-nmethods':1280128
----------------------------------------------------------------------------------
-time:99 totalGC:468 Name:ZGC action:end of major GC gcCause:Warmup(216 ms)
- ZHeap:645922816 CodeHeap 'profiled nmethods':3074944 CodeHeap 'non-profiled nmethods':648064 Compressed Class Space:787880 Metaspace:7282272 CodeHeap 'non-nmethods':1280128
- ZHeap:471859200 CodeHeap 'profiled nmethods':3074944 CodeHeap 'non-profiled nmethods':648064 Compressed Class Space:787880 Metaspace:7282272 CodeHeap 'non-nmethods':1280128
----------------------------------------------------------------------------------
-time:123 totalGC:623 Name:ZGC action:end of major GC gcCause:Proactive(155 ms)
- ZHeap:687865856 CodeHeap 'profiled nmethods':3150208 CodeHeap 'non-profiled nmethods':653952 Compressed Class Space:787880 Metaspace:7303632 CodeHeap 'non-nmethods':1280128
- ZHeap:624951296 CodeHeap 'profiled nmethods':3150208 CodeHeap 'non-profiled nmethods':653952 Compressed Class Space:787880 Metaspace:7303632 CodeHeap 'non-nmethods':1280128
----------------------------------------------------------------------------------
-time:149 totalGC:799 Name:ZGC action:end of major GC gcCause:Proactive(176 ms)
- ZHeap:840957952 CodeHeap 'profiled nmethods':3193600 CodeHeap 'non-profiled nmethods':673536 Compressed Class Space:787880 Metaspace:7316448 CodeHeap 'non-nmethods':1280128
- ZHeap:761266176 CodeHeap 'profiled nmethods':3193600 CodeHeap 'non-profiled nmethods':673536 Compressed Class Space:787880 Metaspace:7316448 CodeHeap 'non-nmethods':1280128
----------------------------------------------------------------------------------
-time:170 totalGC:975 Name:ZGC action:end of major GC gcCause:Proactive(176 ms)
- ZHeap:977272832 CodeHeap 'profiled nmethods':3212672 CodeHeap 'non-profiled nmethods':686336 Compressed Class Space:788432 Metaspace:7326496 CodeHeap 'non-nmethods':1280128
- ZHeap:878706688 CodeHeap 'profiled nmethods':3212672 CodeHeap 'non-profiled nmethods':686336 Compressed Class Space:788432 Metaspace:7326496 CodeHeap 'non-nmethods':1280128
----------------------------------------------------------------------------------
-time:195 totalGC:1179 Name:ZGC action:end of major GC gcCause:Proactive(204 ms)
- ZHeap:1094713344 CodeHeap 'profiled nmethods':3257984 CodeHeap 'non-profiled nmethods':726784 Compressed Class Space:788432 Metaspace:7341768 CodeHeap 'non-nmethods':1280128
- ZHeap:996147200 CodeHeap 'profiled nmethods':3257984 CodeHeap 'non-profiled nmethods':726784 Compressed Class Space:788432 Metaspace:7341768 CodeHeap 'non-nmethods':1280128
----------------------------------------------------------------------------------
-time:220 totalGC:1357 Name:ZGC action:end of major GC gcCause:Proactive(178 ms)
- ZHeap:1212153856 CodeHeap 'profiled nmethods':3278464 CodeHeap 'non-profiled nmethods':738432 Compressed Class Space:788432 Metaspace:7348256 CodeHeap 'non-nmethods':1286528
- ZHeap:1136656384 CodeHeap 'profiled nmethods':3278464 CodeHeap 'non-profiled nmethods':738432 Compressed Class Space:788432 Metaspace:7348256 CodeHeap 'non-nmethods':1286528
----------------------------------------------------------------------------------
-time:245 totalGC:1566 Name:ZGC action:end of major GC gcCause:Proactive(209 ms)
- ZHeap:1352663040 CodeHeap 'profiled nmethods':3328896 CodeHeap 'non-profiled nmethods':846464 Compressed Class Space:788432 Metaspace:7372096 CodeHeap 'non-nmethods':1286528
- ZHeap:1254096896 CodeHeap 'profiled nmethods':3328896 CodeHeap 'non-profiled nmethods':846464 Compressed Class Space:788432 Metaspace:7372096 CodeHeap 'non-nmethods':1286528
----------------------------------------------------------------------------------
-time:266 totalGC:1793 Name:ZGC action:end of major GC gcCause:Proactive(227 ms)
- ZHeap:1470103552 CodeHeap 'profiled nmethods':3417856 CodeHeap 'non-profiled nmethods':885888 Compressed Class Space:788432 Metaspace:7392288 CodeHeap 'non-nmethods':1286528
- ZHeap:1358954496 CodeHeap 'profiled nmethods':3417856 CodeHeap 'non-profiled nmethods':885888 Compressed Class Space:788432 Metaspace:7392288 CodeHeap 'non-nmethods':1286528
----------------------------------------------------------------------------------
-time:291 totalGC:2007 Name:ZGC action:end of major GC gcCause:Proactive(214 ms)
- ZHeap:1574961152 CodeHeap 'profiled nmethods':3466624 CodeHeap 'non-profiled nmethods':888320 Compressed Class Space:788432 Metaspace:7407216 CodeHeap 'non-nmethods':1286528
- ZHeap:1474297856 CodeHeap 'profiled nmethods':3466624 CodeHeap 'non-profiled nmethods':888320 Compressed Class Space:788432 Metaspace:7407216 CodeHeap 'non-nmethods':1286528
----------------------------------------------------------------------------------
-time:316 totalGC:2224 Name:ZGC action:end of major GC gcCause:Proactive(217 ms)
- ZHeap:1690304512 CodeHeap 'profiled nmethods':3536128 CodeHeap 'non-profiled nmethods':913408 Compressed Class Space:788432 Metaspace:7417696 CodeHeap 'non-nmethods':1286528
- ZHeap:1602224128 CodeHeap 'profiled nmethods':3536128 CodeHeap 'non-profiled nmethods':913408 Compressed Class Space:788432 Metaspace:7417696 CodeHeap 'non-nmethods':1286528
----------------------------------------------------------------------------------
-time:342 totalGC:2442 Name:ZGC action:end of major GC gcCause:Proactive(218 ms)
- ZHeap:1818230784 CodeHeap 'profiled nmethods':3553152 CodeHeap 'non-profiled nmethods':928768 Compressed Class Space:788432 Metaspace:7421184 CodeHeap 'non-nmethods':1286528
- ZHeap:1742733312 CodeHeap 'profiled nmethods':3553152 CodeHeap 'non-profiled nmethods':928768 Compressed Class Space:788432 Metaspace:7421184 CodeHeap 'non-nmethods':1286528
----------------------------------------------------------------------------------
-time:367 totalGC:2682 Name:ZGC action:end of major GC gcCause:Proactive(240 ms)
- ZHeap:1958739968 CodeHeap 'profiled nmethods':3651072 CodeHeap 'non-profiled nmethods':967424 Compressed Class Space:788432 Metaspace:7456024 CodeHeap 'non-nmethods':1286528
- ZHeap:1868562432 CodeHeap 'profiled nmethods':3651072 CodeHeap 'non-profiled nmethods':967424 Compressed Class Space:788432 Metaspace:7456024 CodeHeap 'non-nmethods':1286528
----------------------------------------------------------------------------------
-time:380 totalGC:2921 Name:ZGC action:end of major GC gcCause:High Usage(239 ms)
- ZHeap:2006974464 CodeHeap 'profiled nmethods':3667072 CodeHeap 'non-profiled nmethods':967424 Compressed Class Space:788432 Metaspace:7470144 CodeHeap 'non-nmethods':1286528
- ZHeap:1929379840 CodeHeap 'profiled nmethods':3667072 CodeHeap 'non-profiled nmethods':967424 Compressed Class Space:759416 Metaspace:7324120 CodeHeap 'non-nmethods':1286528
----------------------------------------------------------------------------------
-time:388 totalGC:3108 Name:ZGC action:end of major GC gcCause:High Usage(187 ms)
- ZHeap:2000683008 CodeHeap 'profiled nmethods':3707776 CodeHeap 'non-profiled nmethods':976256 Compressed Class Space:759416 Metaspace:7337120 CodeHeap 'non-nmethods':1286528
- ZHeap:1950351360 CodeHeap 'profiled nmethods':3707776 CodeHeap 'non-profiled nmethods':976256 Compressed Class Space:759416 Metaspace:7337120 CodeHeap 'non-nmethods':1286528
----------------------------------------------------------------------------------
-time:394 totalGC:3272 Name:ZGC action:end of major GC gcCause:High Usage(164 ms)
- ZHeap:2000683008 CodeHeap 'profiled nmethods':3728768 CodeHeap 'non-profiled nmethods':977664 Compressed Class Space:759416 Metaspace:7348464 CodeHeap 'non-nmethods':1286528
- ZHeap:1988100096 CodeHeap 'profiled nmethods':3728768 CodeHeap 'non-profiled nmethods':977664 Compressed Class Space:759416 Metaspace:7348464 CodeHeap 'non-nmethods':1286528
----------------------------------------------------------------------------------
-time:395 totalGC:3427 Name:ZGC action:end of major GC gcCause:High Usage(155 ms)
- ZHeap:2000683008 CodeHeap 'profiled nmethods':3733248 CodeHeap 'non-profiled nmethods':982912 Compressed Class Space:759416 Metaspace:7348464 CodeHeap 'non-nmethods':1286528
- ZHeap:1983905792 CodeHeap 'profiled nmethods':3733248 CodeHeap 'non-profiled nmethods':982912 Compressed Class Space:759416 Metaspace:7348464 CodeHeap 'non-nmethods':1286528
----------------------------------------------------------------------------------
-time:397 totalGC:3580 Name:ZGC action:end of major GC gcCause:High Usage(153 ms)
- ZHeap:2000683008 CodeHeap 'profiled nmethods':3761408 CodeHeap 'non-profiled nmethods':983808 Compressed Class Space:759416 Metaspace:7357408 CodeHeap 'non-nmethods':1286528
- ZHeap:1996488704 CodeHeap 'profiled nmethods':3761408 CodeHeap 'non-profiled nmethods':983808 Compressed Class Space:759416 Metaspace:7357408 CodeHeap 'non-nmethods':1286528
----------------------------------------------------------------------------------
-time:397 totalGC:3733 Name:ZGC action:end of major GC gcCause:High Usage(153 ms)
- ZHeap:2000683008 CodeHeap 'profiled nmethods':3767424 CodeHeap 'non-profiled nmethods':983808 Compressed Class Space:759416 Metaspace:7357896 CodeHeap 'non-nmethods':1286528
- ZHeap:1996488704 CodeHeap 'profiled nmethods':3767424 CodeHeap 'non-profiled nmethods':983808 Compressed Class Space:759416 Metaspace:7357896 CodeHeap 'non-nmethods':1286528
----------------------------------------------------------------------------------
-time:398 totalGC:3881 Name:ZGC action:end of major GC gcCause:High Usage(148 ms)
- ZHeap:2000683008 CodeHeap 'profiled nmethods':3767424 CodeHeap 'non-profiled nmethods':983808 Compressed Class Space:759416 Metaspace:7357896 CodeHeap 'non-nmethods':1286528
- ZHeap:1994391552 CodeHeap 'profiled nmethods':3767424 CodeHeap 'non-profiled nmethods':983808 Compressed Class Space:759416 Metaspace:7357896 CodeHeap 'non-nmethods':1286528
----------------------------------------------------------------------------------
-time:398 totalGC:4031 Name:ZGC action:end of major GC gcCause:High Usage(150 ms)
- ZHeap:2000683008 CodeHeap 'profiled nmethods':3782912 CodeHeap 'non-profiled nmethods':985728 Compressed Class Space:759416 Metaspace:7365584 CodeHeap 'non-nmethods':1286528
- ZHeap:1998585856 CodeHeap 'profiled nmethods':3782912 CodeHeap 'non-profiled nmethods':985728 Compressed Class Space:759416 Metaspace:7365584 CodeHeap 'non-nmethods':1286528
----------------------------------------------------------------------------------
-time:399 totalGC:4181 Name:ZGC action:end of major GC gcCause:High Usage(150 ms)
- ZHeap:2000683008 CodeHeap 'profiled nmethods':3817728 CodeHeap 'non-profiled nmethods':986496 Compressed Class Space:759416 Metaspace:7399272 CodeHeap 'non-nmethods':1286528
- ZHeap:1996488704 CodeHeap 'profiled nmethods':3817728 CodeHeap 'non-profiled nmethods':986496 Compressed Class Space:759416 Metaspace:7399272 CodeHeap 'non-nmethods':1286528
----------------------------------------------------------------------------------
-time:399 totalGC:4347 Name:ZGC action:end of major GC gcCause:High Usage(166 ms)
- ZHeap:2000683008 CodeHeap 'profiled nmethods':3827840 CodeHeap 'non-profiled nmethods':986496 Compressed Class Space:759416 Metaspace:7402480 CodeHeap 'non-nmethods':1286528
- ZHeap:1996488704 CodeHeap 'profiled nmethods':3827840 CodeHeap 'non-profiled nmethods':986496 Compressed Class Space:759416 Metaspace:7402480 CodeHeap 'non-nmethods':1286528
----------------------------------------------------------------------------------
-time:399 totalGC:4498 Name:ZGC action:end of major GC gcCause:High Usage(151 ms)
- ZHeap:2000683008 CodeHeap 'profiled nmethods':3853568 CodeHeap 'non-profiled nmethods':988032 Compressed Class Space:759416 Metaspace:7411840 CodeHeap 'non-nmethods':1286528
- ZHeap:1998585856 CodeHeap 'profiled nmethods':3853568 CodeHeap 'non-profiled nmethods':988032 Compressed Class Space:759416 Metaspace:7411840 CodeHeap 'non-nmethods':1286528
----------------------------------------------------------------------------------
-time:400 totalGC:4636 Name:ZGC action:end of major GC gcCause:High Usage(138 ms)
- ZHeap:2000683008 CodeHeap 'profiled nmethods':3853568 CodeHeap 'non-profiled nmethods':988800 Compressed Class Space:759416 Metaspace:7411840 CodeHeap 'non-nmethods':1286528
- ZHeap:2000683008 CodeHeap 'profiled nmethods':3853568 CodeHeap 'non-profiled nmethods':988800 Compressed Class Space:759416 Metaspace:7411840 CodeHeap 'non-nmethods':1286528
----------------------------------------------------------------------------------
-time:400 totalGC:4782 Name:ZGC action:end of major GC gcCause:High Usage(146 ms)
- ZHeap:2002780160 CodeHeap 'profiled nmethods':3854336 CodeHeap 'non-profiled nmethods':988800 Compressed Class Space:759416 Metaspace:7412256 CodeHeap 'non-nmethods':1286528
- ZHeap:1998585856 CodeHeap 'profiled nmethods':3854336 CodeHeap 'non-profiled nmethods':988800 Compressed Class Space:759416 Metaspace:7412256 CodeHeap 'non-nmethods':1286528
----------------------------------------------------------------------------------
-time:400 totalGC:4922 Name:ZGC action:end of major GC gcCause:High Usage(140 ms)
- ZHeap:2000683008 CodeHeap 'profiled nmethods':3883520 CodeHeap 'non-profiled nmethods':988800 Compressed Class Space:759416 Metaspace:7417480 CodeHeap 'non-nmethods':1286528
- ZHeap:2002780160 CodeHeap 'profiled nmethods':3883520 CodeHeap 'non-profiled nmethods':988800 Compressed Class Space:759416 Metaspace:7417480 CodeHeap 'non-nmethods':1286528
----------------------------------------------------------------------------------
-time:400 totalGC:5071 Name:ZGC action:end of major GC gcCause:High Usage(149 ms)
- ZHeap:2004877312 CodeHeap 'profiled nmethods':3886336 CodeHeap 'non-profiled nmethods':991360 Compressed Class Space:759416 Metaspace:7418376 CodeHeap 'non-nmethods':1286528
- ZHeap:2002780160 CodeHeap 'profiled nmethods':3886336 CodeHeap 'non-profiled nmethods':991360 Compressed Class Space:759416 Metaspace:7418376 CodeHeap 'non-nmethods':1286528
----------------------------------------------------------------------------------
-time:400 totalGC:5227 Name:ZGC action:end of major GC gcCause:High Usage(156 ms)
- ZHeap:2004877312 CodeHeap 'profiled nmethods':3889664 CodeHeap 'non-profiled nmethods':991360 Compressed Class Space:759416 Metaspace:7418840 CodeHeap 'non-nmethods':1286528
- ZHeap:1998585856 CodeHeap 'profiled nmethods':3889664 CodeHeap 'non-profiled nmethods':991360 Compressed Class Space:759416 Metaspace:7418840 CodeHeap 'non-nmethods':1286528
----------------------------------------------------------------------------------
-time:401 totalGC:5376 Name:ZGC action:end of major GC gcCause:High Usage(149 ms)
- ZHeap:2000683008 CodeHeap 'profiled nmethods':3889664 CodeHeap 'non-profiled nmethods':993536 Compressed Class Space:759416 Metaspace:7418840 CodeHeap 'non-nmethods':1286528
- ZHeap:2002780160 CodeHeap 'profiled nmethods':3889664 CodeHeap 'non-profiled nmethods':993536 Compressed Class Space:759416 Metaspace:7418840 CodeHeap 'non-nmethods':1286528
----------------------------------------------------------------------------------
-time:401 totalGC:5523 Name:ZGC action:end of major GC gcCause:High Usage(147 ms)
- ZHeap:2004877312 CodeHeap 'profiled nmethods':3889664 CodeHeap 'non-profiled nmethods':993536 Compressed Class Space:759416 Metaspace:7418840 CodeHeap 'non-nmethods':1286528
- ZHeap:2002780160 CodeHeap 'profiled nmethods':3889664 CodeHeap 'non-profiled nmethods':993536 Compressed Class Space:759416 Metaspace:7418840 CodeHeap 'non-nmethods':1286528
----------------------------------------------------------------------------------
-time:401 totalGC:5664 Name:ZGC action:end of major GC gcCause:High Usage(141 ms)
- ZHeap:2002780160 CodeHeap 'profiled nmethods':3927936 CodeHeap 'non-profiled nmethods':994304 Compressed Class Space:759416 Metaspace:7438488 CodeHeap 'non-nmethods':1286528
- ZHeap:2009071616 CodeHeap 'profiled nmethods':3927936 CodeHeap 'non-profiled nmethods':994304 Compressed Class Space:759416 Metaspace:7438488 CodeHeap 'non-nmethods':1286528
----------------------------------------------------------------------------------
-time:401 totalGC:5811 Name:ZGC action:end of major GC gcCause:High Usage(147 ms)
- ZHeap:2009071616 CodeHeap 'profiled nmethods':3936000 CodeHeap 'non-profiled nmethods':995072 Compressed Class Space:759416 Metaspace:7441352 CodeHeap 'non-nmethods':1286528
- ZHeap:2009071616 CodeHeap 'profiled nmethods':3936000 CodeHeap 'non-profiled nmethods':995072 Compressed Class Space:759416 Metaspace:7441352 CodeHeap 'non-nmethods':1286528
----------------------------------------------------------------------------------
-time:401 totalGC:5954 Name:ZGC action:end of major GC gcCause:High Usage(143 ms)
- ZHeap:2009071616 CodeHeap 'profiled nmethods':3952768 CodeHeap 'non-profiled nmethods':995072 Compressed Class Space:759416 Metaspace:7445040 CodeHeap 'non-nmethods':1286528
- ZHeap:2009071616 CodeHeap 'profiled nmethods':3952768 CodeHeap 'non-profiled nmethods':995072 Compressed Class Space:759416 Metaspace:7445040 CodeHeap 'non-nmethods':1286528
----------------------------------------------------------------------------------
-time:402 totalGC:6093 Name:ZGC action:end of major GC gcCause:High Usage(139 ms)
- ZHeap:2013265920 CodeHeap 'profiled nmethods':3952768 CodeHeap 'non-profiled nmethods':995840 Compressed Class Space:759416 Metaspace:7445040 CodeHeap 'non-nmethods':1286528
- ZHeap:2015363072 CodeHeap 'profiled nmethods':3952768 CodeHeap 'non-profiled nmethods':995840 Compressed Class Space:759416 Metaspace:7445040 CodeHeap 'non-nmethods':1286528
----------------------------------------------------------------------------------
-time:402 totalGC:6249 Name:ZGC action:end of major GC gcCause:High Usage(156 ms)
- ZHeap:2017460224 CodeHeap 'profiled nmethods':3952768 CodeHeap 'non-profiled nmethods':995840 Compressed Class Space:759416 Metaspace:7445040 CodeHeap 'non-nmethods':1286528
- ZHeap:2015363072 CodeHeap 'profiled nmethods':3952768 CodeHeap 'non-profiled nmethods':995840 Compressed Class Space:759416 Metaspace:7445040 CodeHeap 'non-nmethods':1286528
----------------------------------------------------------------------------------
-time:402 totalGC:6395 Name:ZGC action:end of major GC gcCause:High Usage(146 ms)
- ZHeap:2017460224 CodeHeap 'profiled nmethods':3952768 CodeHeap 'non-profiled nmethods':995840 Compressed Class Space:759416 Metaspace:7445040 CodeHeap 'non-nmethods':1286528
- ZHeap:2017460224 CodeHeap 'profiled nmethods':3952768 CodeHeap 'non-profiled nmethods':995840 Compressed Class Space:759416 Metaspace:7445040 CodeHeap 'non-nmethods':1286528
----------------------------------------------------------------------------------
-time:402 totalGC:6545 Name:ZGC action:end of major GC gcCause:High Usage(150 ms)
- ZHeap:2019557376 CodeHeap 'profiled nmethods':3952768 CodeHeap 'non-profiled nmethods':998400 Compressed Class Space:759416 Metaspace:7445040 CodeHeap 'non-nmethods':1286528
- ZHeap:2015363072 CodeHeap 'profiled nmethods':3952768 CodeHeap 'non-profiled nmethods':998400 Compressed Class Space:759416 Metaspace:7445040 CodeHeap 'non-nmethods':1286528
----------------------------------------------------------------------------------
-time:402 totalGC:6691 Name:ZGC action:end of major GC gcCause:High Usage(146 ms)
- ZHeap:2019557376 CodeHeap 'profiled nmethods':3952768 CodeHeap 'non-profiled nmethods':998400 Compressed Class Space:759416 Metaspace:7445040 CodeHeap 'non-nmethods':1286528
- ZHeap:2017460224 CodeHeap 'profiled nmethods':3952768 CodeHeap 'non-profiled nmethods':998400 Compressed Class Space:759416 Metaspace:7445040 CodeHeap 'non-nmethods':1286528
----------------------------------------------------------------------------------
-time:403 totalGC:6829 Name:ZGC action:end of major GC gcCause:High Usage(138 ms)
- ZHeap:2019557376 CodeHeap 'profiled nmethods':3958144 CodeHeap 'non-profiled nmethods':1043584 Compressed Class Space:759416 Metaspace:7445040 CodeHeap 'non-nmethods':1286528
- ZHeap:2021654528 CodeHeap 'profiled nmethods':3958144 CodeHeap 'non-profiled nmethods':1043584 Compressed Class Space:759416 Metaspace:7445040 CodeHeap 'non-nmethods':1286528
----------------------------------------------------------------------------------
-time:403 totalGC:6977 Name:ZGC action:end of major GC gcCause:High Usage(148 ms)
- ZHeap:2023751680 CodeHeap 'profiled nmethods':3958144 CodeHeap 'non-profiled nmethods':1043584 Compressed Class Space:759416 Metaspace:7445040 CodeHeap 'non-nmethods':1286528
- ZHeap:2021654528 CodeHeap 'profiled nmethods':3958144 CodeHeap 'non-profiled nmethods':1043584 Compressed Class Space:759416 Metaspace:7445040 CodeHeap 'non-nmethods':1286528
----------------------------------------------------------------------------------
-time:403 totalGC:7125 Name:ZGC action:end of major GC gcCause:High Usage(148 ms)
- ZHeap:2025848832 CodeHeap 'profiled nmethods':3961600 CodeHeap 'non-profiled nmethods':1045760 Compressed Class Space:759416 Metaspace:7445800 CodeHeap 'non-nmethods':1286528
- ZHeap:2021654528 CodeHeap 'profiled nmethods':3961600 CodeHeap 'non-profiled nmethods':1045760 Compressed Class Space:759416 Metaspace:7445800 CodeHeap 'non-nmethods':1286528
----------------------------------------------------------------------------------
-time:403 totalGC:7269 Name:ZGC action:end of major GC gcCause:High Usage(144 ms)
- ZHeap:2025848832 CodeHeap 'profiled nmethods':4001664 CodeHeap 'non-profiled nmethods':1047296 Compressed Class Space:759416 Metaspace:7469112 CodeHeap 'non-nmethods':1286528
- ZHeap:2025848832 CodeHeap 'profiled nmethods':4001664 CodeHeap 'non-profiled nmethods':1047296 Compressed Class Space:759416 Metaspace:7469112 CodeHeap 'non-nmethods':1286528
----------------------------------------------------------------------------------
-time:403 totalGC:7417 Name:ZGC action:end of major GC gcCause:High Usage(148 ms)
- ZHeap:2027945984 CodeHeap 'profiled nmethods':4006528 CodeHeap 'non-profiled nmethods':1047296 Compressed Class Space:759416 Metaspace:7469112 CodeHeap 'non-nmethods':1286528
- ZHeap:2025848832 CodeHeap 'profiled nmethods':4006528 CodeHeap 'non-profiled nmethods':1047296 Compressed Class Space:759416 Metaspace:7469112 CodeHeap 'non-nmethods':1286528
----------------------------------------------------------------------------------
-time:404 totalGC:7556 Name:ZGC action:end of major GC gcCause:High Usage(139 ms)
- ZHeap:2027945984 CodeHeap 'profiled nmethods':4021120 CodeHeap 'non-profiled nmethods':1048448 Compressed Class Space:759416 Metaspace:7469112 CodeHeap 'non-nmethods':1286528
- ZHeap:2030043136 CodeHeap 'profiled nmethods':4021120 CodeHeap 'non-profiled nmethods':1048448 Compressed Class Space:759416 Metaspace:7469112 CodeHeap 'non-nmethods':1286528
----------------------------------------------------------------------------------
-time:404 totalGC:7718 Name:ZGC action:end of major GC gcCause:High Usage(162 ms)
- ZHeap:2030043136 CodeHeap 'profiled nmethods':4021120 CodeHeap 'non-profiled nmethods':1048448 Compressed Class Space:759416 Metaspace:7469112 CodeHeap 'non-nmethods':1286528
- ZHeap:2025848832 CodeHeap 'profiled nmethods':4021120 CodeHeap 'non-profiled nmethods':1048448 Compressed Class Space:757760 Metaspace:7457232 CodeHeap 'non-nmethods':1286528
----------------------------------------------------------------------------------
-time:404 totalGC:7862 Name:ZGC action:end of major GC gcCause:High Usage(144 ms)
- ZHeap:2030043136 CodeHeap 'profiled nmethods':4021120 CodeHeap 'non-profiled nmethods':1051776 Compressed Class Space:757760 Metaspace:7457232 CodeHeap 'non-nmethods':1286528
- ZHeap:2027945984 CodeHeap 'profiled nmethods':4021120 CodeHeap 'non-profiled nmethods':1051776 Compressed Class Space:757760 Metaspace:7457232 CodeHeap 'non-nmethods':1286528
----------------------------------------------------------------------------------
-time:404 totalGC:8007 Name:ZGC action:end of major GC gcCause:High Usage(145 ms)
- ZHeap:2027945984 CodeHeap 'profiled nmethods':4023936 CodeHeap 'non-profiled nmethods':1051776 Compressed Class Space:757760 Metaspace:7457736 CodeHeap 'non-nmethods':1286528
- ZHeap:2025848832 CodeHeap 'profiled nmethods':4023936 CodeHeap 'non-profiled nmethods':1051776 Compressed Class Space:757760 Metaspace:7457736 CodeHeap 'non-nmethods':1286528
----------------------------------------------------------------------------------
-time:404 totalGC:8152 Name:ZGC action:end of major GC gcCause:High Usage(145 ms)
- ZHeap:2030043136 CodeHeap 'profiled nmethods':4025856 CodeHeap 'non-profiled nmethods':1051776 Compressed Class Space:757760 Metaspace:7457736 CodeHeap 'non-nmethods':1286528
- ZHeap:2030043136 CodeHeap 'profiled nmethods':4025856 CodeHeap 'non-profiled nmethods':1051776 Compressed Class Space:757760 Metaspace:7457736 CodeHeap 'non-nmethods':1286528
----------------------------------------------------------------------------------
-time:405 totalGC:8295 Name:ZGC action:end of major GC gcCause:High Usage(143 ms)
- ZHeap:2034237440 CodeHeap 'profiled nmethods':4028928 CodeHeap 'non-profiled nmethods':1051776 Compressed Class Space:757760 Metaspace:7459104 CodeHeap 'non-nmethods':1286528
- ZHeap:2032140288 CodeHeap 'profiled nmethods':4028928 CodeHeap 'non-profiled nmethods':1051776 Compressed Class Space:757760 Metaspace:7459104 CodeHeap 'non-nmethods':1286528
----------------------------------------------------------------------------------
-time:405 totalGC:8451 Name:ZGC action:end of major GC gcCause:High Usage(156 ms)
- ZHeap:2034237440 CodeHeap 'profiled nmethods':4028928 CodeHeap 'non-profiled nmethods':1051776 Compressed Class Space:757760 Metaspace:7459104 CodeHeap 'non-nmethods':1286528
- ZHeap:2034237440 CodeHeap 'profiled nmethods':4028928 CodeHeap 'non-profiled nmethods':1051776 Compressed Class Space:757760 Metaspace:7459104 CodeHeap 'non-nmethods':1286528
----------------------------------------------------------------------------------
-time:405 totalGC:8595 Name:ZGC action:end of major GC gcCause:High Usage(144 ms)
- ZHeap:2034237440 CodeHeap 'profiled nmethods':4033920 CodeHeap 'non-profiled nmethods':1051776 Compressed Class Space:757760 Metaspace:7459104 CodeHeap 'non-nmethods':1286528
- ZHeap:2036334592 CodeHeap 'profiled nmethods':4033920 CodeHeap 'non-profiled nmethods':1051776 Compressed Class Space:757760 Metaspace:7459104 CodeHeap 'non-nmethods':1286528
----------------------------------------------------------------------------------
-time:405 totalGC:8736 Name:ZGC action:end of major GC gcCause:High Usage(141 ms)
- ZHeap:2040528896 CodeHeap 'profiled nmethods':4033920 CodeHeap 'non-profiled nmethods':1051776 Compressed Class Space:757760 Metaspace:7459104 CodeHeap 'non-nmethods':1286528
- ZHeap:2038431744 CodeHeap 'profiled nmethods':4033920 CodeHeap 'non-profiled nmethods':1051776 Compressed Class Space:757760 Metaspace:7459104 CodeHeap 'non-nmethods':1286528
----------------------------------------------------------------------------------
-time:405 totalGC:8885 Name:ZGC action:end of major GC gcCause:High Usage(149 ms)
- ZHeap:2042626048 CodeHeap 'profiled nmethods':4123136 CodeHeap 'non-profiled nmethods':1055104 Compressed Class Space:757760 Metaspace:7478280 CodeHeap 'non-nmethods':1286528
- ZHeap:2038431744 CodeHeap 'profiled nmethods':4123136 CodeHeap 'non-profiled nmethods':1055104 Compressed Class Space:757760 Metaspace:7478280 CodeHeap 'non-nmethods':1286528
----------------------------------------------------------------------------------
-time:406 totalGC:9028 Name:ZGC action:end of major GC gcCause:High Usage(143 ms)
- ZHeap:2038431744 CodeHeap 'profiled nmethods':4124672 CodeHeap 'non-profiled nmethods':1055104 Compressed Class Space:757760 Metaspace:7478920 CodeHeap 'non-nmethods':1286528
- ZHeap:2036334592 CodeHeap 'profiled nmethods':4124672 CodeHeap 'non-profiled nmethods':1055104 Compressed Class Space:757760 Metaspace:7478920 CodeHeap 'non-nmethods':1286528
----------------------------------------------------------------------------------
-time:406 totalGC:9177 Name:ZGC action:end of major GC gcCause:High Usage(149 ms)
- ZHeap:2036334592 CodeHeap 'profiled nmethods':4126464 CodeHeap 'non-profiled nmethods':1062784 Compressed Class Space:757760 Metaspace:7478920 CodeHeap 'non-nmethods':1286528
- ZHeap:2036334592 CodeHeap 'profiled nmethods':4126464 CodeHeap 'non-profiled nmethods':1062784 Compressed Class Space:757760 Metaspace:7478920 CodeHeap 'non-nmethods':1286528
----------------------------------------------------------------------------------
-time:406 totalGC:9326 Name:ZGC action:end of major GC gcCause:High Usage(149 ms)
- ZHeap:2040528896 CodeHeap 'profiled nmethods':4127872 CodeHeap 'non-profiled nmethods':1062784 Compressed Class Space:757760 Metaspace:7478920 CodeHeap 'non-nmethods':1286528
- ZHeap:2042626048 CodeHeap 'profiled nmethods':4127872 CodeHeap 'non-profiled nmethods':1062784 Compressed Class Space:757760 Metaspace:7478920 CodeHeap 'non-nmethods':1286528
----------------------------------------------------------------------------------
-time:406 totalGC:9471 Name:ZGC action:end of major GC gcCause:High Usage(145 ms)
- ZHeap:2044723200 CodeHeap 'profiled nmethods':4127872 CodeHeap 'non-profiled nmethods':1064832 Compressed Class Space:757760 Metaspace:7478920 CodeHeap 'non-nmethods':1286528
- ZHeap:2042626048 CodeHeap 'profiled nmethods':4127872 CodeHeap 'non-profiled nmethods':1064832 Compressed Class Space:757760 Metaspace:7478920 CodeHeap 'non-nmethods':1286528
----------------------------------------------------------------------------------
-time:406 totalGC:9617 Name:ZGC action:end of major GC gcCause:High Usage(146 ms)
- ZHeap:2044723200 CodeHeap 'profiled nmethods':4127872 CodeHeap 'non-profiled nmethods':1068544 Compressed Class Space:757760 Metaspace:7478920 CodeHeap 'non-nmethods':1286528
- ZHeap:2040528896 CodeHeap 'profiled nmethods':4127872 CodeHeap 'non-profiled nmethods':1068544 Compressed Class Space:757760 Metaspace:7478920 CodeHeap 'non-nmethods':1286528
----------------------------------------------------------------------------------
-time:407 totalGC:9767 Name:ZGC action:end of major GC gcCause:High Usage(150 ms)
- ZHeap:2044723200 CodeHeap 'profiled nmethods':4130176 CodeHeap 'non-profiled nmethods':1079424 Compressed Class Space:757760 Metaspace:7479480 CodeHeap 'non-nmethods':1286528
- ZHeap:2044723200 CodeHeap 'profiled nmethods':4130176 CodeHeap 'non-profiled nmethods':1079424 Compressed Class Space:757760 Metaspace:7479480 CodeHeap 'non-nmethods':1286528
----------------------------------------------------------------------------------
-time:407 totalGC:9913 Name:ZGC action:end of major GC gcCause:High Usage(146 ms)
- ZHeap:2046820352 CodeHeap 'profiled nmethods':4131712 CodeHeap 'non-profiled nmethods':1079424 Compressed Class Space:757760 Metaspace:7479480 CodeHeap 'non-nmethods':1286528
- ZHeap:2042626048 CodeHeap 'profiled nmethods':4131712 CodeHeap 'non-profiled nmethods':1079424 Compressed Class Space:757760 Metaspace:7479480 CodeHeap 'non-nmethods':1286528
----------------------------------------------------------------------------------
-time:407 totalGC:10056 Name:ZGC action:end of major GC gcCause:High Usage(143 ms)
- ZHeap:2048917504 CodeHeap 'profiled nmethods':4133632 CodeHeap 'non-profiled nmethods':1080192 Compressed Class Space:757760 Metaspace:7479480 CodeHeap 'non-nmethods':1286528
- ZHeap:2048917504 CodeHeap 'profiled nmethods':4133632 CodeHeap 'non-profiled nmethods':1080192 Compressed Class Space:757760 Metaspace:7479480 CodeHeap 'non-nmethods':1286528
----------------------------------------------------------------------------------
-time:407 totalGC:10194 Name:ZGC action:end of major GC gcCause:High Usage(138 ms)
- ZHeap:2051014656 CodeHeap 'profiled nmethods':4137984 CodeHeap 'non-profiled nmethods':1080192 Compressed Class Space:757760 Metaspace:7480992 CodeHeap 'non-nmethods':1286528
- ZHeap:2048917504 CodeHeap 'profiled nmethods':4137984 CodeHeap 'non-profiled nmethods':1080192 Compressed Class Space:757760 Metaspace:7480992 CodeHeap 'non-nmethods':1286528
----------------------------------------------------------------------------------
-time:407 totalGC:10337 Name:ZGC action:end of major GC gcCause:High Usage(143 ms)
- ZHeap:2048917504 CodeHeap 'profiled nmethods':4161280 CodeHeap 'non-profiled nmethods':1084800 Compressed Class Space:757760 Metaspace:7485424 CodeHeap 'non-nmethods':1286528
- ZHeap:2051014656 CodeHeap 'profiled nmethods':4161280 CodeHeap 'non-profiled nmethods':1084800 Compressed Class Space:757760 Metaspace:7485424 CodeHeap 'non-nmethods':1286528
----------------------------------------------------------------------------------
-time:408 totalGC:10506 Name:ZGC action:end of major GC gcCause:High Usage(169 ms)
- ZHeap:2055208960 CodeHeap 'profiled nmethods':4163200 CodeHeap 'non-profiled nmethods':1084800 Compressed Class Space:757760 Metaspace:7486008 CodeHeap 'non-nmethods':1286528
- ZHeap:2048917504 CodeHeap 'profiled nmethods':4163200 CodeHeap 'non-profiled nmethods':1084800 Compressed Class Space:757760 Metaspace:7486008 CodeHeap 'non-nmethods':1286528
----------------------------------------------------------------------------------
-time:408 totalGC:10664 Name:ZGC action:end of major GC gcCause:High Usage(158 ms)
- ZHeap:2048917504 CodeHeap 'profiled nmethods':4170624 CodeHeap 'non-profiled nmethods':1086080 Compressed Class Space:757760 Metaspace:7489128 CodeHeap 'non-nmethods':1286528
- ZHeap:2046820352 CodeHeap 'profiled nmethods':4170624 CodeHeap 'non-profiled nmethods':1086080 Compressed Class Space:757760 Metaspace:7489128 CodeHeap 'non-nmethods':1286528
----------------------------------------------------------------------------------
-time:408 totalGC:10817 Name:ZGC action:end of major GC gcCause:High Usage(153 ms)
- ZHeap:2048917504 CodeHeap 'profiled nmethods':4170624 CodeHeap 'non-profiled nmethods':1086080 Compressed Class Space:757760 Metaspace:7489128 CodeHeap 'non-nmethods':1286528
- ZHeap:2053111808 CodeHeap 'profiled nmethods':4170624 CodeHeap 'non-profiled nmethods':1086080 Compressed Class Space:757760 Metaspace:7489128 CodeHeap 'non-nmethods':1286528
----------------------------------------------------------------------------------
-time:408 totalGC:10966 Name:ZGC action:end of major GC gcCause:High Usage(149 ms)
- ZHeap:2053111808 CodeHeap 'profiled nmethods':4170624 CodeHeap 'non-profiled nmethods':1086080 Compressed Class Space:757760 Metaspace:7489128 CodeHeap 'non-nmethods':1286528
- ZHeap:2051014656 CodeHeap 'profiled nmethods':4170624 CodeHeap 'non-profiled nmethods':1086080 Compressed Class Space:757760 Metaspace:7489128 CodeHeap 'non-nmethods':1286528
----------------------------------------------------------------------------------
-time:408 totalGC:11118 Name:ZGC action:end of major GC gcCause:High Usage(152 ms)
- ZHeap:2055208960 CodeHeap 'profiled nmethods':4172928 CodeHeap 'non-profiled nmethods':1086080 Compressed Class Space:757760 Metaspace:7490992 CodeHeap 'non-nmethods':1286528
- ZHeap:2053111808 CodeHeap 'profiled nmethods':4172928 CodeHeap 'non-profiled nmethods':1086080 Compressed Class Space:757760 Metaspace:7490992 CodeHeap 'non-nmethods':1286528
----------------------------------------------------------------------------------
-time:409 totalGC:11266 Name:ZGC action:end of major GC gcCause:High Usage(148 ms)
- ZHeap:2053111808 CodeHeap 'profiled nmethods':4175744 CodeHeap 'non-profiled nmethods':1086080 Compressed Class Space:757760 Metaspace:7491760 CodeHeap 'non-nmethods':1286528
- ZHeap:2057306112 CodeHeap 'profiled nmethods':4175744 CodeHeap 'non-profiled nmethods':1086080 Compressed Class Space:757760 Metaspace:7491760 CodeHeap 'non-nmethods':1286528
----------------------------------------------------------------------------------
-time:409 totalGC:11421 Name:ZGC action:end of major GC gcCause:High Usage(155 ms)
- ZHeap:2057306112 CodeHeap 'profiled nmethods':4175744 CodeHeap 'non-profiled nmethods':1086080 Compressed Class Space:757760 Metaspace:7491760 CodeHeap 'non-nmethods':1286528
- ZHeap:2055208960 CodeHeap 'profiled nmethods':4175744 CodeHeap 'non-profiled nmethods':1086080 Compressed Class Space:757760 Metaspace:7491760 CodeHeap 'non-nmethods':1286528
----------------------------------------------------------------------------------
-time:409 totalGC:11584 Name:ZGC action:end of major GC gcCause:High Usage(163 ms)
- ZHeap:2059403264 CodeHeap 'profiled nmethods':4175744 CodeHeap 'non-profiled nmethods':1086080 Compressed Class Space:757760 Metaspace:7491760 CodeHeap 'non-nmethods':1286528
- ZHeap:2059403264 CodeHeap 'profiled nmethods':4175744 CodeHeap 'non-profiled nmethods':1086080 Compressed Class Space:757760 Metaspace:7491760 CodeHeap 'non-nmethods':1286528
----------------------------------------------------------------------------------
-time:409 totalGC:11743 Name:ZGC action:end of major GC gcCause:High Usage(159 ms)
- ZHeap:2059403264 CodeHeap 'profiled nmethods':4178816 CodeHeap 'non-profiled nmethods':1087872 Compressed Class Space:757760 Metaspace:7492368 CodeHeap 'non-nmethods':1286528
- ZHeap:2059403264 CodeHeap 'profiled nmethods':4178816 CodeHeap 'non-profiled nmethods':1087872 Compressed Class Space:757760 Metaspace:7492368 CodeHeap 'non-nmethods':1286528
----------------------------------------------------------------------------------
-time:409 totalGC:11892 Name:ZGC action:end of major GC gcCause:High Usage(149 ms)
- ZHeap:2059403264 CodeHeap 'profiled nmethods':4178816 CodeHeap 'non-profiled nmethods':1087872 Compressed Class Space:757760 Metaspace:7492368 CodeHeap 'non-nmethods':1286528
- ZHeap:2057306112 CodeHeap 'profiled nmethods':4178816 CodeHeap 'non-profiled nmethods':1087872 Compressed Class Space:757760 Metaspace:7492368 CodeHeap 'non-nmethods':1286528
----------------------------------------------------------------------------------
-time:410 totalGC:12056 Name:ZGC action:end of major GC gcCause:High Usage(164 ms)
- ZHeap:2057306112 CodeHeap 'profiled nmethods':4182656 CodeHeap 'non-profiled nmethods':1087872 Compressed Class Space:757760 Metaspace:7493480 CodeHeap 'non-nmethods':1286528
- ZHeap:2063597568 CodeHeap 'profiled nmethods':4182656 CodeHeap 'non-profiled nmethods':1087872 Compressed Class Space:757760 Metaspace:7493480 CodeHeap 'non-nmethods':1286528
----------------------------------------------------------------------------------
-time:410 totalGC:12229 Name:ZGC action:end of major GC gcCause:High Usage(173 ms)
- ZHeap:2065694720 CodeHeap 'profiled nmethods':4182656 CodeHeap 'non-profiled nmethods':1087872 Compressed Class Space:757760 Metaspace:7493480 CodeHeap 'non-nmethods':1286528
- ZHeap:2059403264 CodeHeap 'profiled nmethods':4182656 CodeHeap 'non-profiled nmethods':1087872 Compressed Class Space:757760 Metaspace:7493480 CodeHeap 'non-nmethods':1286528
----------------------------------------------------------------------------------
-time:410 totalGC:12395 Name:ZGC action:end of major GC gcCause:High Usage(166 ms)
- ZHeap:2063597568 CodeHeap 'profiled nmethods':4182656 CodeHeap 'non-profiled nmethods':1089408 Compressed Class Space:757760 Metaspace:7493480 CodeHeap 'non-nmethods':1286528
- ZHeap:2061500416 CodeHeap 'profiled nmethods':4182656 CodeHeap 'non-profiled nmethods':1089408 Compressed Class Space:757760 Metaspace:7493480 CodeHeap 'non-nmethods':1286528
----------------------------------------------------------------------------------
-time:410 totalGC:12539 Name:ZGC action:end of major GC gcCause:High Usage(144 ms)
- ZHeap:2063597568 CodeHeap 'profiled nmethods':4182656 CodeHeap 'non-profiled nmethods':1089408 Compressed Class Space:757760 Metaspace:7493480 CodeHeap 'non-nmethods':1286528
- ZHeap:2061500416 CodeHeap 'profiled nmethods':4182656 CodeHeap 'non-profiled nmethods':1089408 Compressed Class Space:757760 Metaspace:7493480 CodeHeap 'non-nmethods':1286528
----------------------------------------------------------------------------------
-time:410 totalGC:12688 Name:ZGC action:end of major GC gcCause:High Usage(149 ms)
- ZHeap:2063597568 CodeHeap 'profiled nmethods':4184576 CodeHeap 'non-profiled nmethods':1089408 Compressed Class Space:757760 Metaspace:7494768 CodeHeap 'non-nmethods':1286528
- ZHeap:2063597568 CodeHeap 'profiled nmethods':4184576 CodeHeap 'non-profiled nmethods':1089408 Compressed Class Space:757760 Metaspace:7494768 CodeHeap 'non-nmethods':1286528
----------------------------------------------------------------------------------
-time:411 totalGC:12830 Name:ZGC action:end of major GC gcCause:High Usage(142 ms)
- ZHeap:2065694720 CodeHeap 'profiled nmethods':4184576 CodeHeap 'non-profiled nmethods':1089408 Compressed Class Space:757760 Metaspace:7494768 CodeHeap 'non-nmethods':1286528
- ZHeap:2067791872 CodeHeap 'profiled nmethods':4184576 CodeHeap 'non-profiled nmethods':1089408 Compressed Class Space:757760 Metaspace:7494768 CodeHeap 'non-nmethods':1286528
----------------------------------------------------------------------------------
-time:411 totalGC:12982 Name:ZGC action:end of major GC gcCause:High Usage(152 ms)
- ZHeap:2067791872 CodeHeap 'profiled nmethods':4184576 CodeHeap 'non-profiled nmethods':1089408 Compressed Class Space:757760 Metaspace:7494768 CodeHeap 'non-nmethods':1286528
- ZHeap:2065694720 CodeHeap 'profiled nmethods':4184576 CodeHeap 'non-profiled nmethods':1089408 Compressed Class Space:757760 Metaspace:7494768 CodeHeap 'non-nmethods':1286528
----------------------------------------------------------------------------------
-time:411 totalGC:13124 Name:ZGC action:end of major GC gcCause:High Usage(142 ms)
- ZHeap:2065694720 CodeHeap 'profiled nmethods':4184576 CodeHeap 'non-profiled nmethods':1089408 Compressed Class Space:757760 Metaspace:7494768 CodeHeap 'non-nmethods':1286528
- ZHeap:2069889024 CodeHeap 'profiled nmethods':4184576 CodeHeap 'non-profiled nmethods':1089408 Compressed Class Space:757760 Metaspace:7494768 CodeHeap 'non-nmethods':1286528
----------------------------------------------------------------------------------
-time:411 totalGC:13268 Name:ZGC action:end of major GC gcCause:High Usage(144 ms)
- ZHeap:2069889024 CodeHeap 'profiled nmethods':4184576 CodeHeap 'non-profiled nmethods':1089408 Compressed Class Space:757760 Metaspace:7494768 CodeHeap 'non-nmethods':1286528
- ZHeap:2065694720 CodeHeap 'profiled nmethods':4184576 CodeHeap 'non-profiled nmethods':1089408 Compressed Class Space:757760 Metaspace:7494768 CodeHeap 'non-nmethods':1286528
----------------------------------------------------------------------------------
-time:411 totalGC:13415 Name:ZGC action:end of major GC gcCause:High Usage(147 ms)
- ZHeap:2067791872 CodeHeap 'profiled nmethods':4186368 CodeHeap 'non-profiled nmethods':1089408 Compressed Class Space:757760 Metaspace:7495392 CodeHeap 'non-nmethods':1286528
- ZHeap:2067791872 CodeHeap 'profiled nmethods':4186368 CodeHeap 'non-profiled nmethods':1089408 Compressed Class Space:757760 Metaspace:7495392 CodeHeap 'non-nmethods':1286528
----------------------------------------------------------------------------------
-time:412 totalGC:13573 Name:ZGC action:end of major GC gcCause:High Usage(158 ms)
- ZHeap:2069889024 CodeHeap 'profiled nmethods':4189568 CodeHeap 'non-profiled nmethods':1090176 Compressed Class Space:757760 Metaspace:7496784 CodeHeap 'non-nmethods':1286528
- ZHeap:2071986176 CodeHeap 'profiled nmethods':4189568 CodeHeap 'non-profiled nmethods':1090176 Compressed Class Space:757760 Metaspace:7496784 CodeHeap 'non-nmethods':1286528
----------------------------------------------------------------------------------
-time:412 totalGC:13724 Name:ZGC action:end of major GC gcCause:High Usage(151 ms)
- ZHeap:2071986176 CodeHeap 'profiled nmethods':4201472 CodeHeap 'non-profiled nmethods':1090176 Compressed Class Space:757760 Metaspace:7499736 CodeHeap 'non-nmethods':1286528
- ZHeap:2071986176 CodeHeap 'profiled nmethods':4201472 CodeHeap 'non-profiled nmethods':1090176 Compressed Class Space:757760 Metaspace:7499736 CodeHeap 'non-nmethods':1286528
----------------------------------------------------------------------------------
-time:412 totalGC:13878 Name:ZGC action:end of major GC gcCause:High Usage(154 ms)
- ZHeap:2074083328 CodeHeap 'profiled nmethods':4201472 CodeHeap 'non-profiled nmethods':1090176 Compressed Class Space:757760 Metaspace:7499736 CodeHeap 'non-nmethods':1286528
- ZHeap:2074083328 CodeHeap 'profiled nmethods':4201472 CodeHeap 'non-profiled nmethods':1090176 Compressed Class Space:757760 Metaspace:7499736 CodeHeap 'non-nmethods':1286528
----------------------------------------------------------------------------------
-time:412 totalGC:14025 Name:ZGC action:end of major GC gcCause:High Usage(147 ms)
- ZHeap:2074083328 CodeHeap 'profiled nmethods':4201472 CodeHeap 'non-profiled nmethods':1090176 Compressed Class Space:757760 Metaspace:7499736 CodeHeap 'non-nmethods':1286528
- ZHeap:2076180480 CodeHeap 'profiled nmethods':4201472 CodeHeap 'non-profiled nmethods':1090176 Compressed Class Space:757760 Metaspace:7499736 CodeHeap 'non-nmethods':1286528
----------------------------------------------------------------------------------
-time:412 totalGC:14169 Name:ZGC action:end of major GC gcCause:High Usage(144 ms)
- ZHeap:2078277632 CodeHeap 'profiled nmethods':4201472 CodeHeap 'non-profiled nmethods':1090176 Compressed Class Space:757760 Metaspace:7499736 CodeHeap 'non-nmethods':1286528
- ZHeap:2078277632 CodeHeap 'profiled nmethods':4201472 CodeHeap 'non-profiled nmethods':1090176 Compressed Class Space:757760 Metaspace:7499736 CodeHeap 'non-nmethods':1286528
----------------------------------------------------------------------------------
-time:413 totalGC:14314 Name:ZGC action:end of major GC gcCause:High Usage(145 ms)
- ZHeap:2080374784 CodeHeap 'profiled nmethods':4201472 CodeHeap 'non-profiled nmethods':1090944 Compressed Class Space:757760 Metaspace:7499736 CodeHeap 'non-nmethods':1286528
- ZHeap:2082471936 CodeHeap 'profiled nmethods':4201472 CodeHeap 'non-profiled nmethods':1090944 Compressed Class Space:757760 Metaspace:7499736 CodeHeap 'non-nmethods':1286528
----------------------------------------------------------------------------------
-time:413 totalGC:14468 Name:ZGC action:end of major GC gcCause:High Usage(154 ms)
- ZHeap:2082471936 CodeHeap 'profiled nmethods':4201472 CodeHeap 'non-profiled nmethods':1090944 Compressed Class Space:757760 Metaspace:7499736 CodeHeap 'non-nmethods':1286528
- ZHeap:2080374784 CodeHeap 'profiled nmethods':4201472 CodeHeap 'non-profiled nmethods':1090944 Compressed Class Space:757760 Metaspace:7499736 CodeHeap 'non-nmethods':1286528
----------------------------------------------------------------------------------
-time:413 totalGC:14613 Name:ZGC action:end of major GC gcCause:High Usage(145 ms)
- ZHeap:2084569088 CodeHeap 'profiled nmethods':4201472 CodeHeap 'non-profiled nmethods':1090944 Compressed Class Space:757760 Metaspace:7499736 CodeHeap 'non-nmethods':1286528
- ZHeap:2084569088 CodeHeap 'profiled nmethods':4201472 CodeHeap 'non-profiled nmethods':1090944 Compressed Class Space:757760 Metaspace:7499736 CodeHeap 'non-nmethods':1286528
----------------------------------------------------------------------------------
-time:413 totalGC:14760 Name:ZGC action:end of major GC gcCause:High Usage(147 ms)
- ZHeap:2086666240 CodeHeap 'profiled nmethods':4201472 CodeHeap 'non-profiled nmethods':1090944 Compressed Class Space:757760 Metaspace:7499736 CodeHeap 'non-nmethods':1286528
- ZHeap:2084569088 CodeHeap 'profiled nmethods':4201472 CodeHeap 'non-profiled nmethods':1090944 Compressed Class Space:757760 Metaspace:7499736 CodeHeap 'non-nmethods':1286528
----------------------------------------------------------------------------------
-time:413 totalGC:14909 Name:ZGC action:end of major GC gcCause:Allocation Rate(149 ms)
- ZHeap:2088763392 CodeHeap 'profiled nmethods':4201472 CodeHeap 'non-profiled nmethods':1090944 Compressed Class Space:757760 Metaspace:7499736 CodeHeap 'non-nmethods':1286528
- ZHeap:2084569088 CodeHeap 'profiled nmethods':4201472 CodeHeap 'non-profiled nmethods':1090944 Compressed Class Space:757760 Metaspace:7499736 CodeHeap 'non-nmethods':1286528
----------------------------------------------------------------------------------
-time:414 totalGC:15055 Name:ZGC action:end of major GC gcCause:High Usage(146 ms)
- ZHeap:2086666240 CodeHeap 'profiled nmethods':4201472 CodeHeap 'non-profiled nmethods':1090944 Compressed Class Space:757760 Metaspace:7499736 CodeHeap 'non-nmethods':1286528
- ZHeap:2090860544 CodeHeap 'profiled nmethods':4201472 CodeHeap 'non-profiled nmethods':1090944 Compressed Class Space:757760 Metaspace:7499736 CodeHeap 'non-nmethods':1286528
----------------------------------------------------------------------------------
-time:414 totalGC:15204 Name:ZGC action:end of major GC gcCause:Allocation Rate(149 ms)
- ZHeap:2092957696 CodeHeap 'profiled nmethods':4210432 CodeHeap 'non-profiled nmethods':1090944 Compressed Class Space:757760 Metaspace:7502336 CodeHeap 'non-nmethods':1286528
- ZHeap:2088763392 CodeHeap 'profiled nmethods':4210432 CodeHeap 'non-profiled nmethods':1090944 Compressed Class Space:757760 Metaspace:7502336 CodeHeap 'non-nmethods':1286528
----------------------------------------------------------------------------------
-time:414 totalGC:15351 Name:ZGC action:end of major GC gcCause:High Usage(147 ms)
- ZHeap:2090860544 CodeHeap 'profiled nmethods':4212864 CodeHeap 'non-profiled nmethods':1090944 Compressed Class Space:757760 Metaspace:7504296 CodeHeap 'non-nmethods':1286528
- ZHeap:2092957696 CodeHeap 'profiled nmethods':4212864 CodeHeap 'non-profiled nmethods':1090944 Compressed Class Space:757760 Metaspace:7504296 CodeHeap 'non-nmethods':1286528
----------------------------------------------------------------------------------
-time:414 totalGC:15496 Name:ZGC action:end of major GC gcCause:Allocation Rate(145 ms)
- ZHeap:2095054848 CodeHeap 'profiled nmethods':4221056 CodeHeap 'non-profiled nmethods':1090944 Compressed Class Space:757760 Metaspace:7504296 CodeHeap 'non-nmethods':1286528
- ZHeap:2095054848 CodeHeap 'profiled nmethods':4221056 CodeHeap 'non-profiled nmethods':1099136 Compressed Class Space:757760 Metaspace:7504296 CodeHeap 'non-nmethods':1286528
----------------------------------------------------------------------------------
-time:414 totalGC:15644 Name:ZGC action:end of major GC gcCause:Allocation Rate(148 ms)
- ZHeap:2097152000 CodeHeap 'profiled nmethods':4221056 CodeHeap 'non-profiled nmethods':1099136 Compressed Class Space:757760 Metaspace:7504296 CodeHeap 'non-nmethods':1286528
- ZHeap:2095054848 CodeHeap 'profiled nmethods':4221056 CodeHeap 'non-profiled nmethods':1099136 Compressed Class Space:757760 Metaspace:7504296 CodeHeap 'non-nmethods':1286528
----------------------------------------------------------------------------------
-time:415 totalGC:15796 Name:ZGC action:end of major GC gcCause:Allocation Rate(152 ms)
- ZHeap:2099249152 CodeHeap 'profiled nmethods':4224896 CodeHeap 'non-profiled nmethods':1099136 Compressed Class Space:757760 Metaspace:7505736 CodeHeap 'non-nmethods':1286528
- ZHeap:2097152000 CodeHeap 'profiled nmethods':4224896 CodeHeap 'non-profiled nmethods':1099136 Compressed Class Space:757760 Metaspace:7505736 CodeHeap 'non-nmethods':1286528
----------------------------------------------------------------------------------
-time:415 totalGC:15951 Name:ZGC action:end of major GC gcCause:Allocation Rate(155 ms)
- ZHeap:2097152000 CodeHeap 'profiled nmethods':4224896 CodeHeap 'non-profiled nmethods':1099136 Compressed Class Space:757760 Metaspace:7505736 CodeHeap 'non-nmethods':1286528
- ZHeap:2092957696 CodeHeap 'profiled nmethods':4224896 CodeHeap 'non-profiled nmethods':1099136 Compressed Class Space:757760 Metaspace:7505736 CodeHeap 'non-nmethods':1286528
----------------------------------------------------------------------------------
-time:415 totalGC:16097 Name:ZGC action:end of major GC gcCause:Allocation Rate(146 ms)
- ZHeap:2095054848 CodeHeap 'profiled nmethods':4228480 CodeHeap 'non-profiled nmethods':1099136 Compressed Class Space:757760 Metaspace:7507008 CodeHeap 'non-nmethods':1286528
- ZHeap:2097152000 CodeHeap 'profiled nmethods':4228480 CodeHeap 'non-profiled nmethods':1099136 Compressed Class Space:757760 Metaspace:7507008 CodeHeap 'non-nmethods':1286528
----------------------------------------------------------------------------------
-time:415 totalGC:16245 Name:ZGC action:end of major GC gcCause:Allocation Rate(148 ms)
- ZHeap:2099249152 CodeHeap 'profiled nmethods':4228480 CodeHeap 'non-profiled nmethods':1099904 Compressed Class Space:757760 Metaspace:7507008 CodeHeap 'non-nmethods':1286528
- ZHeap:2099249152 CodeHeap 'profiled nmethods':4228480 CodeHeap 'non-profiled nmethods':1099904 Compressed Class Space:757760 Metaspace:7507008 CodeHeap 'non-nmethods':1286528
----------------------------------------------------------------------------------
-time:415 totalGC:16388 Name:ZGC action:end of major GC gcCause:Allocation Rate(143 ms)
- ZHeap:2101346304 CodeHeap 'profiled nmethods':4232576 CodeHeap 'non-profiled nmethods':1099904 Compressed Class Space:757760 Metaspace:7507008 CodeHeap 'non-nmethods':1286528
- ZHeap:2099249152 CodeHeap 'profiled nmethods':4232576 CodeHeap 'non-profiled nmethods':1099904 Compressed Class Space:757760 Metaspace:7507008 CodeHeap 'non-nmethods':1286528
----------------------------------------------------------------------------------
-time:416 totalGC:16532 Name:ZGC action:end of major GC gcCause:Allocation Rate(144 ms)
- ZHeap:2103443456 CodeHeap 'profiled nmethods':4232576 CodeHeap 'non-profiled nmethods':1099904 Compressed Class Space:757760 Metaspace:7507008 CodeHeap 'non-nmethods':1286528
- ZHeap:2105540608 CodeHeap 'profiled nmethods':4232576 CodeHeap 'non-profiled nmethods':1099904 Compressed Class Space:757760 Metaspace:7507008 CodeHeap 'non-nmethods':1286528
----------------------------------------------------------------------------------
-time:416 totalGC:16676 Name:ZGC action:end of major GC gcCause:Allocation Rate(144 ms)
- ZHeap:2107637760 CodeHeap 'profiled nmethods':4232576 CodeHeap 'non-profiled nmethods':1099904 Compressed Class Space:757760 Metaspace:7507008 CodeHeap 'non-nmethods':1286528
- ZHeap:2103443456 CodeHeap 'profiled nmethods':4232576 CodeHeap 'non-profiled nmethods':1099904 Compressed Class Space:757760 Metaspace:7507008 CodeHeap 'non-nmethods':1286528
----------------------------------------------------------------------------------
-time:416 totalGC:16818 Name:ZGC action:end of major GC gcCause:Allocation Rate(142 ms)
- ZHeap:2105540608 CodeHeap 'profiled nmethods':4232576 CodeHeap 'non-profiled nmethods':1099904 Compressed Class Space:757760 Metaspace:7507008 CodeHeap 'non-nmethods':1286528
- ZHeap:2105540608 CodeHeap 'profiled nmethods':4232576 CodeHeap 'non-profiled nmethods':1099904 Compressed Class Space:757760 Metaspace:7507008 CodeHeap 'non-nmethods':1286528
----------------------------------------------------------------------------------
-time:416 totalGC:16994 Name:ZGC action:end of major GC gcCause:Allocation Rate(176 ms)
- ZHeap:2105540608 CodeHeap 'profiled nmethods':4232576 CodeHeap 'non-profiled nmethods':1099904 Compressed Class Space:757760 Metaspace:7507008 CodeHeap 'non-nmethods':1286528
- ZHeap:2101346304 CodeHeap 'profiled nmethods':4232576 CodeHeap 'non-profiled nmethods':1099904 Compressed Class Space:757760 Metaspace:7507008 CodeHeap 'non-nmethods':1286528
----------------------------------------------------------------------------------
-time:416 totalGC:17155 Name:ZGC action:end of major GC gcCause:Allocation Rate(161 ms)
- ZHeap:2103443456 CodeHeap 'profiled nmethods':4235648 CodeHeap 'non-profiled nmethods':1099904 Compressed Class Space:757760 Metaspace:7507664 CodeHeap 'non-nmethods':1286528
- ZHeap:2103443456 CodeHeap 'profiled nmethods':4235648 CodeHeap 'non-profiled nmethods':1099904 Compressed Class Space:757760 Metaspace:7507664 CodeHeap 'non-nmethods':1286528
----------------------------------------------------------------------------------
-time:417 totalGC:17323 Name:ZGC action:end of major GC gcCause:Allocation Rate(168 ms)
- ZHeap:2103443456 CodeHeap 'profiled nmethods':4235648 CodeHeap 'non-profiled nmethods':1099904 Compressed Class Space:757760 Metaspace:7507664 CodeHeap 'non-nmethods':1286528
- ZHeap:2105540608 CodeHeap 'profiled nmethods':4235648 CodeHeap 'non-profiled nmethods':1099904 Compressed Class Space:757760 Metaspace:7507664 CodeHeap 'non-nmethods':1286528
----------------------------------------------------------------------------------
-time:417 totalGC:17408 Name:ZGC action:end of major GC gcCause:Allocation Stall(85 ms)
- ZHeap:2107637760 CodeHeap 'profiled nmethods':4235648 CodeHeap 'non-profiled nmethods':1099904 Compressed Class Space:757760 Metaspace:7507664 CodeHeap 'non-nmethods':1286528
- ZHeap:2105540608 CodeHeap 'profiled nmethods':4235648 CodeHeap 'non-profiled nmethods':1099904 Compressed Class Space:746168 Metaspace:7421040 CodeHeap 'non-nmethods':1286528
----------------------------------------------------------------------------------
-time:417 totalGC:17568 Name:ZGC action:end of major GC gcCause:Allocation Rate(160 ms)
- ZHeap:2105540608 CodeHeap 'profiled nmethods':4235648 CodeHeap 'non-profiled nmethods':1100928 Compressed Class Space:746168 Metaspace:7421120 CodeHeap 'non-nmethods':1286528
- ZHeap:2105540608 CodeHeap 'profiled nmethods':4235648 CodeHeap 'non-profiled nmethods':1100928 Compressed Class Space:746168 Metaspace:7421120 CodeHeap 'non-nmethods':1286528
----------------------------------------------------------------------------------
-time:417 totalGC:17715 Name:ZGC action:end of major GC gcCause:Allocation Rate(147 ms)
- ZHeap:2107637760 CodeHeap 'profiled nmethods':4235648 CodeHeap 'non-profiled nmethods':1100928 Compressed Class Space:746168 Metaspace:7421120 CodeHeap 'non-nmethods':1286528
- ZHeap:2107637760 CodeHeap 'profiled nmethods':4241920 CodeHeap 'non-profiled nmethods':1100928 Compressed Class Space:747272 Metaspace:7431760 CodeHeap 'non-nmethods':1286528
----------------------------------------------------------------------------------
-Exception in thread "main" 
+time:24 totalGC:96 maxGC:96 meanGC: 96,00 Name:ZGC action:end of major GC gcCause:Warmup(96 ms)
+ ZHeap:216006656 CodeHeap 'profiled nmethods':946560 CodeHeap 'non-profiled nmethods':171136 Compressed Class Space:385592 Metaspace:3383448 CodeHeap 'non-nmethods':1249280
+ ZHeap:123731968 CodeHeap 'profiled nmethods':946560 CodeHeap 'non-profiled nmethods':171136 Compressed Class Space:385592 Metaspace:3383768 CodeHeap 'non-nmethods':1249280
+---------------------------------------------------------------------------------
+time:60 totalGC:248 maxGC:152 meanGC: 124,00 Name:ZGC action:end of major GC gcCause:Warmup(152 ms)
+ ZHeap:429916160 CodeHeap 'profiled nmethods':1132928 CodeHeap 'non-profiled nmethods':228608 Compressed Class Space:462032 Metaspace:3932512 CodeHeap 'non-nmethods':1270144
+ ZHeap:295698432 CodeHeap 'profiled nmethods':1132928 CodeHeap 'non-profiled nmethods':228608 Compressed Class Space:462032 Metaspace:3932512 CodeHeap 'non-nmethods':1270144
+---------------------------------------------------------------------------------
+time:101 totalGC:437 maxGC:189 meanGC: 145,67 Name:ZGC action:end of major GC gcCause:Warmup(189 ms)
+ ZHeap:645922816 CodeHeap 'profiled nmethods':1152640 CodeHeap 'non-profiled nmethods':238720 Compressed Class Space:462584 Metaspace:3941592 CodeHeap 'non-nmethods':1270144
+ ZHeap:482344960 CodeHeap 'profiled nmethods':1152640 CodeHeap 'non-profiled nmethods':238720 Compressed Class Space:462584 Metaspace:3941592 CodeHeap 'non-nmethods':1270144
+---------------------------------------------------------------------------------
+time:126 totalGC:566 maxGC:189 meanGC: 141,50 Name:ZGC action:end of major GC gcCause:Proactive(129 ms)
+ ZHeap:698351616 CodeHeap 'profiled nmethods':1177472 CodeHeap 'non-profiled nmethods':243072 Compressed Class Space:462584 Metaspace:3949248 CodeHeap 'non-nmethods':1270144
+ ZHeap:631242752 CodeHeap 'profiled nmethods':1177472 CodeHeap 'non-profiled nmethods':243072 Compressed Class Space:462584 Metaspace:3949248 CodeHeap 'non-nmethods':1270144
+---------------------------------------------------------------------------------
+time:152 totalGC:729 maxGC:189 meanGC: 145,80 Name:ZGC action:end of major GC gcCause:Proactive(163 ms)
+ ZHeap:847249408 CodeHeap 'profiled nmethods':1187328 CodeHeap 'non-profiled nmethods':244608 Compressed Class Space:462584 Metaspace:3953040 CodeHeap 'non-nmethods':1270144
+ ZHeap:754974720 CodeHeap 'profiled nmethods':1187328 CodeHeap 'non-profiled nmethods':244608 Compressed Class Space:462584 Metaspace:3953040 CodeHeap 'non-nmethods':1270144
+---------------------------------------------------------------------------------
+time:173 totalGC:890 maxGC:189 meanGC: 148,33 Name:ZGC action:end of major GC gcCause:Proactive(161 ms)
+ ZHeap:970981376 CodeHeap 'profiled nmethods':1217280 CodeHeap 'non-profiled nmethods':251392 Compressed Class Space:462584 Metaspace:3964016 CodeHeap 'non-nmethods':1270144
+ ZHeap:876609536 CodeHeap 'profiled nmethods':1217280 CodeHeap 'non-profiled nmethods':251392 Compressed Class Space:462584 Metaspace:3964016 CodeHeap 'non-nmethods':1270144
+---------------------------------------------------------------------------------
+time:199 totalGC:1040 maxGC:189 meanGC: 148,57 Name:ZGC action:end of major GC gcCause:Proactive(150 ms)
+ ZHeap:1092616192 CodeHeap 'profiled nmethods':1238272 CodeHeap 'non-profiled nmethods':258048 Compressed Class Space:462584 Metaspace:3972728 CodeHeap 'non-nmethods':1270144
+ ZHeap:1025507328 CodeHeap 'profiled nmethods':1238272 CodeHeap 'non-profiled nmethods':258048 Compressed Class Space:462584 Metaspace:3972728 CodeHeap 'non-nmethods':1270144
+---------------------------------------------------------------------------------
+time:225 totalGC:1215 maxGC:189 meanGC: 151,88 Name:ZGC action:end of major GC gcCause:Proactive(175 ms)
+ ZHeap:1241513984 CodeHeap 'profiled nmethods':1254784 CodeHeap 'non-profiled nmethods':258816 Compressed Class Space:462584 Metaspace:3977024 CodeHeap 'non-nmethods':1270144
+ ZHeap:1157627904 CodeHeap 'profiled nmethods':1254784 CodeHeap 'non-profiled nmethods':258816 Compressed Class Space:462584 Metaspace:3977024 CodeHeap 'non-nmethods':1270144
+---------------------------------------------------------------------------------
+time:250 totalGC:1401 maxGC:189 meanGC: 155,67 Name:ZGC action:end of major GC gcCause:Proactive(186 ms)
+ ZHeap:1373634560 CodeHeap 'profiled nmethods':1271808 CodeHeap 'non-profiled nmethods':258816 Compressed Class Space:462584 Metaspace:3983208 CodeHeap 'non-nmethods':1270144
+ ZHeap:1275068416 CodeHeap 'profiled nmethods':1271808 CodeHeap 'non-profiled nmethods':258816 Compressed Class Space:462584 Metaspace:3983208 CodeHeap 'non-nmethods':1270144
+---------------------------------------------------------------------------------
+time:272 totalGC:1583 maxGC:189 meanGC: 158,30 Name:ZGC action:end of major GC gcCause:Proactive(182 ms)
+ ZHeap:1491075072 CodeHeap 'profiled nmethods':1293312 CodeHeap 'non-profiled nmethods':258816 Compressed Class Space:462584 Metaspace:3989992 CodeHeap 'non-nmethods':1270144
+ ZHeap:1367343104 CodeHeap 'profiled nmethods':1293312 CodeHeap 'non-profiled nmethods':258816 Compressed Class Space:462584 Metaspace:3989992 CodeHeap 'non-nmethods':1270144
+---------------------------------------------------------------------------------
+time:298 totalGC:1768 maxGC:189 meanGC: 160,73 Name:ZGC action:end of major GC gcCause:Proactive(185 ms)
+ ZHeap:1583349760 CodeHeap 'profiled nmethods':1312256 CodeHeap 'non-profiled nmethods':259584 Compressed Class Space:462584 Metaspace:4000664 CodeHeap 'non-nmethods':1270144
+ ZHeap:1499463680 CodeHeap 'profiled nmethods':1312256 CodeHeap 'non-profiled nmethods':259584 Compressed Class Space:462584 Metaspace:4000664 CodeHeap 'non-nmethods':1270144
+---------------------------------------------------------------------------------
+time:324 totalGC:1963 maxGC:195 meanGC: 163,58 Name:ZGC action:end of major GC gcCause:Proactive(195 ms)
+ ZHeap:1715470336 CodeHeap 'profiled nmethods':1330560 CodeHeap 'non-profiled nmethods':261888 Compressed Class Space:462584 Metaspace:4012024 CodeHeap 'non-nmethods':1270144
+ ZHeap:1637875712 CodeHeap 'profiled nmethods':1330560 CodeHeap 'non-profiled nmethods':261888 Compressed Class Space:462584 Metaspace:4012024 CodeHeap 'non-nmethods':1270144
+---------------------------------------------------------------------------------
+time:350 totalGC:2182 maxGC:219 meanGC: 167,85 Name:ZGC action:end of major GC gcCause:Proactive(219 ms)
+ ZHeap:1853882368 CodeHeap 'profiled nmethods':1358976 CodeHeap 'non-profiled nmethods':263680 Compressed Class Space:462584 Metaspace:4025680 CodeHeap 'non-nmethods':1270144
+ ZHeap:1749024768 CodeHeap 'profiled nmethods':1358976 CodeHeap 'non-profiled nmethods':263680 Compressed Class Space:462584 Metaspace:4025680 CodeHeap 'non-nmethods':1270144
+---------------------------------------------------------------------------------
+time:376 totalGC:2383 maxGC:219 meanGC: 170,21 Name:ZGC action:end of major GC gcCause:Proactive(201 ms)
+ ZHeap:1965031424 CodeHeap 'profiled nmethods':1380480 CodeHeap 'non-profiled nmethods':265600 Compressed Class Space:462584 Metaspace:4037920 CodeHeap 'non-nmethods':1270144
+ ZHeap:1887436800 CodeHeap 'profiled nmethods':1380480 CodeHeap 'non-profiled nmethods':265600 Compressed Class Space:462584 Metaspace:4037920 CodeHeap 'non-nmethods':1270144
+---------------------------------------------------------------------------------
+time:386 totalGC:2553 maxGC:219 meanGC: 170,20 Name:ZGC action:end of major GC gcCause:High Usage(170 ms)
+ ZHeap:2000683008 CodeHeap 'profiled nmethods':1409408 CodeHeap 'non-profiled nmethods':269568 Compressed Class Space:462584 Metaspace:4045952 CodeHeap 'non-nmethods':1270144
+ ZHeap:1929379840 CodeHeap 'profiled nmethods':1412096 CodeHeap 'non-profiled nmethods':270464 Compressed Class Space:442792 Metaspace:3958992 CodeHeap 'non-nmethods':1270144
+---------------------------------------------------------------------------------
+time:394 totalGC:2702 maxGC:219 meanGC: 168,88 Name:ZGC action:end of major GC gcCause:High Usage(149 ms)
+ ZHeap:2000683008 CodeHeap 'profiled nmethods':1431936 CodeHeap 'non-profiled nmethods':273536 Compressed Class Space:442792 Metaspace:3966008 CodeHeap 'non-nmethods':1270144
+ ZHeap:1969225728 CodeHeap 'profiled nmethods':1431936 CodeHeap 'non-profiled nmethods':273536 Compressed Class Space:442792 Metaspace:3966008 CodeHeap 'non-nmethods':1270144
+---------------------------------------------------------------------------------
+time:398 totalGC:2854 maxGC:219 meanGC: 167,88 Name:ZGC action:end of major GC gcCause:High Usage(152 ms)
+ ZHeap:2000683008 CodeHeap 'profiled nmethods':1460992 CodeHeap 'non-profiled nmethods':273536 Compressed Class Space:442792 Metaspace:3969608 CodeHeap 'non-nmethods':1270144
+ ZHeap:1973420032 CodeHeap 'profiled nmethods':1460992 CodeHeap 'non-profiled nmethods':273536 Compressed Class Space:442792 Metaspace:3969608 CodeHeap 'non-nmethods':1270144
+---------------------------------------------------------------------------------
+time:401 totalGC:2998 maxGC:219 meanGC: 166,56 Name:ZGC action:end of major GC gcCause:High Usage(144 ms)
+ ZHeap:2000683008 CodeHeap 'profiled nmethods':1475584 CodeHeap 'non-profiled nmethods':275456 Compressed Class Space:442792 Metaspace:3983504 CodeHeap 'non-nmethods':1270144
+ ZHeap:1983905792 CodeHeap 'profiled nmethods':1475584 CodeHeap 'non-profiled nmethods':275456 Compressed Class Space:442792 Metaspace:3983504 CodeHeap 'non-nmethods':1270144
+---------------------------------------------------------------------------------
+time:403 totalGC:3130 maxGC:219 meanGC: 164,74 Name:ZGC action:end of major GC gcCause:High Usage(132 ms)
+ ZHeap:2000683008 CodeHeap 'profiled nmethods':1486720 CodeHeap 'non-profiled nmethods':276224 Compressed Class Space:442792 Metaspace:3989336 CodeHeap 'non-nmethods':1270144
+ ZHeap:1988100096 CodeHeap 'profiled nmethods':1486720 CodeHeap 'non-profiled nmethods':276224 Compressed Class Space:442792 Metaspace:3989336 CodeHeap 'non-nmethods':1270144
+---------------------------------------------------------------------------------
+time:404 totalGC:3262 maxGC:219 meanGC: 163,10 Name:ZGC action:end of major GC gcCause:High Usage(132 ms)
+ ZHeap:2000683008 CodeHeap 'profiled nmethods':1519616 CodeHeap 'non-profiled nmethods':276224 Compressed Class Space:442792 Metaspace:4007920 CodeHeap 'non-nmethods':1270144
+ ZHeap:1996488704 CodeHeap 'profiled nmethods':1519616 CodeHeap 'non-profiled nmethods':276224 Compressed Class Space:442792 Metaspace:4007920 CodeHeap 'non-nmethods':1270144
+---------------------------------------------------------------------------------
+time:404 totalGC:3401 maxGC:219 meanGC: 161,95 Name:ZGC action:end of major GC gcCause:High Usage(139 ms)
+ ZHeap:2000683008 CodeHeap 'profiled nmethods':1526784 CodeHeap 'non-profiled nmethods':278144 Compressed Class Space:442792 Metaspace:4013880 CodeHeap 'non-nmethods':1270144
+ ZHeap:1994391552 CodeHeap 'profiled nmethods':1526784 CodeHeap 'non-profiled nmethods':278144 Compressed Class Space:442792 Metaspace:4013880 CodeHeap 'non-nmethods':1270144
+---------------------------------------------------------------------------------
+time:404 totalGC:3527 maxGC:219 meanGC: 160,32 Name:ZGC action:end of major GC gcCause:High Usage(126 ms)
+ ZHeap:2000683008 CodeHeap 'profiled nmethods':1562112 CodeHeap 'non-profiled nmethods':278144 Compressed Class Space:442792 Metaspace:4045432 CodeHeap 'non-nmethods':1270144
+ ZHeap:1996488704 CodeHeap 'profiled nmethods':1562112 CodeHeap 'non-profiled nmethods':278144 Compressed Class Space:442792 Metaspace:4045432 CodeHeap 'non-nmethods':1270144
+---------------------------------------------------------------------------------
+time:405 totalGC:3649 maxGC:219 meanGC: 158,65 Name:ZGC action:end of major GC gcCause:High Usage(122 ms)
+ ZHeap:2000683008 CodeHeap 'profiled nmethods':1600256 CodeHeap 'non-profiled nmethods':281984 Compressed Class Space:442792 Metaspace:4074256 CodeHeap 'non-nmethods':1270144
+ ZHeap:2000683008 CodeHeap 'profiled nmethods':1600256 CodeHeap 'non-profiled nmethods':281984 Compressed Class Space:442792 Metaspace:4074256 CodeHeap 'non-nmethods':1270144
+---------------------------------------------------------------------------------
+time:405 totalGC:3789 maxGC:219 meanGC: 157,88 Name:ZGC action:end of major GC gcCause:High Usage(140 ms)
+ ZHeap:2002780160 CodeHeap 'profiled nmethods':1606272 CodeHeap 'non-profiled nmethods':283008 Compressed Class Space:442792 Metaspace:4077896 CodeHeap 'non-nmethods':1270144
+ ZHeap:2000683008 CodeHeap 'profiled nmethods':1606272 CodeHeap 'non-profiled nmethods':283008 Compressed Class Space:442792 Metaspace:4077896 CodeHeap 'non-nmethods':1270144
+---------------------------------------------------------------------------------
+time:405 totalGC:3917 maxGC:219 meanGC: 156,68 Name:ZGC action:end of major GC gcCause:High Usage(128 ms)
+ ZHeap:2004877312 CodeHeap 'profiled nmethods':1625216 CodeHeap 'non-profiled nmethods':283008 Compressed Class Space:442792 Metaspace:4085760 CodeHeap 'non-nmethods':1270144
+ ZHeap:2002780160 CodeHeap 'profiled nmethods':1625216 CodeHeap 'non-profiled nmethods':283008 Compressed Class Space:442792 Metaspace:4085760 CodeHeap 'non-nmethods':1270144
+---------------------------------------------------------------------------------
+time:405 totalGC:4053 maxGC:219 meanGC: 155,88 Name:ZGC action:end of major GC gcCause:High Usage(136 ms)
+ ZHeap:2004877312 CodeHeap 'profiled nmethods':1626368 CodeHeap 'non-profiled nmethods':283008 Compressed Class Space:442792 Metaspace:4085760 CodeHeap 'non-nmethods':1270144
+ ZHeap:2004877312 CodeHeap 'profiled nmethods':1626368 CodeHeap 'non-profiled nmethods':283008 Compressed Class Space:442792 Metaspace:4085760 CodeHeap 'non-nmethods':1270144
+---------------------------------------------------------------------------------
+time:405 totalGC:4180 maxGC:219 meanGC: 154,81 Name:ZGC action:end of major GC gcCause:High Usage(127 ms)
+ ZHeap:2006974464 CodeHeap 'profiled nmethods':1658240 CodeHeap 'non-profiled nmethods':283008 Compressed Class Space:442792 Metaspace:4094360 CodeHeap 'non-nmethods':1270144
+ ZHeap:2004877312 CodeHeap 'profiled nmethods':1658240 CodeHeap 'non-profiled nmethods':283008 Compressed Class Space:442792 Metaspace:4094360 CodeHeap 'non-nmethods':1270144
+---------------------------------------------------------------------------------
+time:406 totalGC:4313 maxGC:219 meanGC: 154,04 Name:ZGC action:end of major GC gcCause:High Usage(133 ms)
+ ZHeap:2004877312 CodeHeap 'profiled nmethods':1660672 CodeHeap 'non-profiled nmethods':283008 Compressed Class Space:442792 Metaspace:4094360 CodeHeap 'non-nmethods':1270144
+ ZHeap:2004877312 CodeHeap 'profiled nmethods':1660672 CodeHeap 'non-profiled nmethods':283008 Compressed Class Space:442792 Metaspace:4094360 CodeHeap 'non-nmethods':1270144
+---------------------------------------------------------------------------------
+time:406 totalGC:4445 maxGC:219 meanGC: 153,28 Name:ZGC action:end of major GC gcCause:High Usage(132 ms)
+ ZHeap:2006974464 CodeHeap 'profiled nmethods':1707648 CodeHeap 'non-profiled nmethods':283776 Compressed Class Space:442792 Metaspace:4105696 CodeHeap 'non-nmethods':1270144
+ ZHeap:2006974464 CodeHeap 'profiled nmethods':1707648 CodeHeap 'non-profiled nmethods':283776 Compressed Class Space:442792 Metaspace:4105696 CodeHeap 'non-nmethods':1270144
+---------------------------------------------------------------------------------
+time:406 totalGC:4573 maxGC:219 meanGC: 152,43 Name:ZGC action:end of major GC gcCause:High Usage(128 ms)
+ ZHeap:2011168768 CodeHeap 'profiled nmethods':1711232 CodeHeap 'non-profiled nmethods':285312 Compressed Class Space:442792 Metaspace:4109608 CodeHeap 'non-nmethods':1270144
+ ZHeap:2009071616 CodeHeap 'profiled nmethods':1711232 CodeHeap 'non-profiled nmethods':285312 Compressed Class Space:442792 Metaspace:4109608 CodeHeap 'non-nmethods':1270144
+---------------------------------------------------------------------------------
+time:406 totalGC:4705 maxGC:219 meanGC: 151,77 Name:ZGC action:end of major GC gcCause:High Usage(132 ms)
+ ZHeap:2011168768 CodeHeap 'profiled nmethods':1744640 CodeHeap 'non-profiled nmethods':295808 Compressed Class Space:442792 Metaspace:4119296 CodeHeap 'non-nmethods':1270144
+ ZHeap:2013265920 CodeHeap 'profiled nmethods':1744640 CodeHeap 'non-profiled nmethods':295808 Compressed Class Space:442792 Metaspace:4119296 CodeHeap 'non-nmethods':1270144
+---------------------------------------------------------------------------------
+time:407 totalGC:4839 maxGC:219 meanGC: 151,22 Name:ZGC action:end of major GC gcCause:High Usage(134 ms)
+ ZHeap:2015363072 CodeHeap 'profiled nmethods':1744640 CodeHeap 'non-profiled nmethods':297472 Compressed Class Space:442792 Metaspace:4119296 CodeHeap 'non-nmethods':1270144
+ ZHeap:2011168768 CodeHeap 'profiled nmethods':1744640 CodeHeap 'non-profiled nmethods':297472 Compressed Class Space:442792 Metaspace:4119296 CodeHeap 'non-nmethods':1270144
+---------------------------------------------------------------------------------
+time:407 totalGC:4972 maxGC:219 meanGC: 150,67 Name:ZGC action:end of major GC gcCause:High Usage(133 ms)
+ ZHeap:2013265920 CodeHeap 'profiled nmethods':1774208 CodeHeap 'non-profiled nmethods':298240 Compressed Class Space:442792 Metaspace:4132336 CodeHeap 'non-nmethods':1270144
+ ZHeap:2009071616 CodeHeap 'profiled nmethods':1774208 CodeHeap 'non-profiled nmethods':298240 Compressed Class Space:442792 Metaspace:4132336 CodeHeap 'non-nmethods':1270144
+---------------------------------------------------------------------------------
+time:407 totalGC:5110 maxGC:219 meanGC: 150,29 Name:ZGC action:end of major GC gcCause:High Usage(138 ms)
+ ZHeap:2013265920 CodeHeap 'profiled nmethods':1792640 CodeHeap 'non-profiled nmethods':298240 Compressed Class Space:442792 Metaspace:4135792 CodeHeap 'non-nmethods':1270144
+ ZHeap:2009071616 CodeHeap 'profiled nmethods':1792640 CodeHeap 'non-profiled nmethods':298240 Compressed Class Space:442792 Metaspace:4135792 CodeHeap 'non-nmethods':1270144
+---------------------------------------------------------------------------------
+time:407 totalGC:5238 maxGC:219 meanGC: 149,66 Name:ZGC action:end of major GC gcCause:High Usage(128 ms)
+ ZHeap:2011168768 CodeHeap 'profiled nmethods':1800192 CodeHeap 'non-profiled nmethods':298240 Compressed Class Space:442792 Metaspace:4138184 CodeHeap 'non-nmethods':1270144
+ ZHeap:2011168768 CodeHeap 'profiled nmethods':1800192 CodeHeap 'non-profiled nmethods':309376 Compressed Class Space:442792 Metaspace:4138184 CodeHeap 'non-nmethods':1270144
+---------------------------------------------------------------------------------
+time:407 totalGC:5383 maxGC:219 meanGC: 149,53 Name:ZGC action:end of major GC gcCause:High Usage(145 ms)
+ ZHeap:2013265920 CodeHeap 'profiled nmethods':1801088 CodeHeap 'non-profiled nmethods':311936 Compressed Class Space:442792 Metaspace:4138632 CodeHeap 'non-nmethods':1270144
+ ZHeap:2013265920 CodeHeap 'profiled nmethods':1801088 CodeHeap 'non-profiled nmethods':311936 Compressed Class Space:442792 Metaspace:4138632 CodeHeap 'non-nmethods':1270144
+---------------------------------------------------------------------------------
+time:407 totalGC:5508 maxGC:219 meanGC: 148,86 Name:ZGC action:end of major GC gcCause:High Usage(125 ms)
+ ZHeap:2015363072 CodeHeap 'profiled nmethods':1807488 CodeHeap 'non-profiled nmethods':320768 Compressed Class Space:442792 Metaspace:4141152 CodeHeap 'non-nmethods':1270144
+ ZHeap:2015363072 CodeHeap 'profiled nmethods':1807488 CodeHeap 'non-profiled nmethods':320768 Compressed Class Space:442792 Metaspace:4141152 CodeHeap 'non-nmethods':1270144
+---------------------------------------------------------------------------------
+time:408 totalGC:5649 maxGC:219 meanGC: 148,66 Name:ZGC action:end of major GC gcCause:High Usage(141 ms)
+ ZHeap:2019557376 CodeHeap 'profiled nmethods':1811328 CodeHeap 'non-profiled nmethods':322176 Compressed Class Space:442792 Metaspace:4143016 CodeHeap 'non-nmethods':1270144
+ ZHeap:2019557376 CodeHeap 'profiled nmethods':1811328 CodeHeap 'non-profiled nmethods':322176 Compressed Class Space:442792 Metaspace:4143016 CodeHeap 'non-nmethods':1270144
+---------------------------------------------------------------------------------
+time:408 totalGC:5779 maxGC:219 meanGC: 148,18 Name:ZGC action:end of major GC gcCause:High Usage(130 ms)
+ ZHeap:2021654528 CodeHeap 'profiled nmethods':1811328 CodeHeap 'non-profiled nmethods':325120 Compressed Class Space:442792 Metaspace:4143016 CodeHeap 'non-nmethods':1270144
+ ZHeap:2017460224 CodeHeap 'profiled nmethods':1811328 CodeHeap 'non-profiled nmethods':325120 Compressed Class Space:442792 Metaspace:4143016 CodeHeap 'non-nmethods':1270144
+---------------------------------------------------------------------------------
+time:408 totalGC:5918 maxGC:219 meanGC: 147,95 Name:ZGC action:end of major GC gcCause:High Usage(139 ms)
+ ZHeap:2021654528 CodeHeap 'profiled nmethods':1813504 CodeHeap 'non-profiled nmethods':325120 Compressed Class Space:442792 Metaspace:4144480 CodeHeap 'non-nmethods':1270144
+ ZHeap:2019557376 CodeHeap 'profiled nmethods':1813504 CodeHeap 'non-profiled nmethods':325120 Compressed Class Space:442792 Metaspace:4144480 CodeHeap 'non-nmethods':1270144
+---------------------------------------------------------------------------------
+time:408 totalGC:6064 maxGC:219 meanGC: 147,90 Name:ZGC action:end of major GC gcCause:High Usage(146 ms)
+ ZHeap:2021654528 CodeHeap 'profiled nmethods':1843840 CodeHeap 'non-profiled nmethods':326912 Compressed Class Space:442792 Metaspace:4148712 CodeHeap 'non-nmethods':1270144
+ ZHeap:2017460224 CodeHeap 'profiled nmethods':1843840 CodeHeap 'non-profiled nmethods':326912 Compressed Class Space:442792 Metaspace:4148712 CodeHeap 'non-nmethods':1270144
+---------------------------------------------------------------------------------
+time:409 totalGC:6197 maxGC:219 meanGC: 147,55 Name:ZGC action:end of major GC gcCause:High Usage(133 ms)
+ ZHeap:2019557376 CodeHeap 'profiled nmethods':1843840 CodeHeap 'non-profiled nmethods':328320 Compressed Class Space:442792 Metaspace:4148712 CodeHeap 'non-nmethods':1270144
+ ZHeap:2015363072 CodeHeap 'profiled nmethods':1843840 CodeHeap 'non-profiled nmethods':328320 Compressed Class Space:442792 Metaspace:4148712 CodeHeap 'non-nmethods':1270144
+---------------------------------------------------------------------------------
+time:409 totalGC:6328 maxGC:219 meanGC: 147,16 Name:ZGC action:end of major GC gcCause:High Usage(131 ms)
+ ZHeap:2017460224 CodeHeap 'profiled nmethods':1844992 CodeHeap 'non-profiled nmethods':328320 Compressed Class Space:442792 Metaspace:4149272 CodeHeap 'non-nmethods':1270144
+ ZHeap:2017460224 CodeHeap 'profiled nmethods':1844992 CodeHeap 'non-profiled nmethods':328320 Compressed Class Space:442792 Metaspace:4149272 CodeHeap 'non-nmethods':1270144
+---------------------------------------------------------------------------------
+time:409 totalGC:6460 maxGC:219 meanGC: 146,82 Name:ZGC action:end of major GC gcCause:High Usage(132 ms)
+ ZHeap:2021654528 CodeHeap 'profiled nmethods':1880320 CodeHeap 'non-profiled nmethods':331264 Compressed Class Space:442792 Metaspace:4154712 CodeHeap 'non-nmethods':1270144
+ ZHeap:2021654528 CodeHeap 'profiled nmethods':1880320 CodeHeap 'non-profiled nmethods':331264 Compressed Class Space:442792 Metaspace:4154712 CodeHeap 'non-nmethods':1270144
+---------------------------------------------------------------------------------
+time:409 totalGC:6598 maxGC:219 meanGC: 146,62 Name:ZGC action:end of major GC gcCause:High Usage(138 ms)
+ ZHeap:2021654528 CodeHeap 'profiled nmethods':1882880 CodeHeap 'non-profiled nmethods':334592 Compressed Class Space:442792 Metaspace:4154712 CodeHeap 'non-nmethods':1270144
+ ZHeap:2023751680 CodeHeap 'profiled nmethods':1882880 CodeHeap 'non-profiled nmethods':334592 Compressed Class Space:442792 Metaspace:4154712 CodeHeap 'non-nmethods':1270144
+---------------------------------------------------------------------------------
+time:409 totalGC:6738 maxGC:219 meanGC: 146,48 Name:ZGC action:end of major GC gcCause:High Usage(140 ms)
+ ZHeap:2025848832 CodeHeap 'profiled nmethods':1891584 CodeHeap 'non-profiled nmethods':335360 Compressed Class Space:442792 Metaspace:4158048 CodeHeap 'non-nmethods':1270144
+ ZHeap:2021654528 CodeHeap 'profiled nmethods':1891584 CodeHeap 'non-profiled nmethods':335360 Compressed Class Space:442792 Metaspace:4158048 CodeHeap 'non-nmethods':1270144
+---------------------------------------------------------------------------------
+time:409 totalGC:6866 maxGC:219 meanGC: 146,09 Name:ZGC action:end of major GC gcCause:High Usage(128 ms)
+ ZHeap:2025848832 CodeHeap 'profiled nmethods':1893632 CodeHeap 'non-profiled nmethods':335360 Compressed Class Space:442792 Metaspace:4158856 CodeHeap 'non-nmethods':1270144
+ ZHeap:2025848832 CodeHeap 'profiled nmethods':1893632 CodeHeap 'non-profiled nmethods':335360 Compressed Class Space:442792 Metaspace:4158856 CodeHeap 'non-nmethods':1270144
+---------------------------------------------------------------------------------
+time:410 totalGC:6997 maxGC:219 meanGC: 145,77 Name:ZGC action:end of major GC gcCause:High Usage(131 ms)
+ ZHeap:2027945984 CodeHeap 'profiled nmethods':1893632 CodeHeap 'non-profiled nmethods':337280 Compressed Class Space:442792 Metaspace:4158856 CodeHeap 'non-nmethods':1270144
+ ZHeap:2025848832 CodeHeap 'profiled nmethods':1893632 CodeHeap 'non-profiled nmethods':337280 Compressed Class Space:442792 Metaspace:4158856 CodeHeap 'non-nmethods':1270144
+---------------------------------------------------------------------------------
+time:410 totalGC:7129 maxGC:219 meanGC: 145,49 Name:ZGC action:end of major GC gcCause:High Usage(132 ms)
+ ZHeap:2027945984 CodeHeap 'profiled nmethods':1893632 CodeHeap 'non-profiled nmethods':337280 Compressed Class Space:442792 Metaspace:4158856 CodeHeap 'non-nmethods':1270144
+ ZHeap:2027945984 CodeHeap 'profiled nmethods':1893632 CodeHeap 'non-profiled nmethods':337280 Compressed Class Space:442792 Metaspace:4158856 CodeHeap 'non-nmethods':1270144
+---------------------------------------------------------------------------------
+time:410 totalGC:7263 maxGC:219 meanGC: 145,26 Name:ZGC action:end of major GC gcCause:High Usage(134 ms)
+ ZHeap:2030043136 CodeHeap 'profiled nmethods':1895552 CodeHeap 'non-profiled nmethods':337280 Compressed Class Space:442792 Metaspace:4159552 CodeHeap 'non-nmethods':1270144
+ ZHeap:2032140288 CodeHeap 'profiled nmethods':1895552 CodeHeap 'non-profiled nmethods':337280 Compressed Class Space:442792 Metaspace:4159552 CodeHeap 'non-nmethods':1270144
+---------------------------------------------------------------------------------
+time:410 totalGC:7401 maxGC:219 meanGC: 145,12 Name:ZGC action:end of major GC gcCause:High Usage(138 ms)
+ ZHeap:2034237440 CodeHeap 'profiled nmethods':1895552 CodeHeap 'non-profiled nmethods':337280 Compressed Class Space:442792 Metaspace:4159552 CodeHeap 'non-nmethods':1270144
+ ZHeap:2032140288 CodeHeap 'profiled nmethods':1895552 CodeHeap 'non-profiled nmethods':337280 Compressed Class Space:442792 Metaspace:4159552 CodeHeap 'non-nmethods':1270144
+---------------------------------------------------------------------------------
+time:411 totalGC:7541 maxGC:219 meanGC: 145,02 Name:ZGC action:end of major GC gcCause:High Usage(140 ms)
+ ZHeap:2032140288 CodeHeap 'profiled nmethods':1895552 CodeHeap 'non-profiled nmethods':341376 Compressed Class Space:442792 Metaspace:4159552 CodeHeap 'non-nmethods':1270144
+ ZHeap:2032140288 CodeHeap 'profiled nmethods':1895552 CodeHeap 'non-profiled nmethods':341376 Compressed Class Space:442792 Metaspace:4159552 CodeHeap 'non-nmethods':1270144
+---------------------------------------------------------------------------------
+time:411 totalGC:7674 maxGC:219 meanGC: 144,79 Name:ZGC action:end of major GC gcCause:High Usage(133 ms)
+ ZHeap:2034237440 CodeHeap 'profiled nmethods':1895552 CodeHeap 'non-profiled nmethods':342784 Compressed Class Space:442792 Metaspace:4159552 CodeHeap 'non-nmethods':1270144
+ ZHeap:2032140288 CodeHeap 'profiled nmethods':1895552 CodeHeap 'non-profiled nmethods':342784 Compressed Class Space:442792 Metaspace:4159552 CodeHeap 'non-nmethods':1270144
+---------------------------------------------------------------------------------
+time:411 totalGC:7807 maxGC:219 meanGC: 144,57 Name:ZGC action:end of major GC gcCause:High Usage(133 ms)
+ ZHeap:2034237440 CodeHeap 'profiled nmethods':1897728 CodeHeap 'non-profiled nmethods':344192 Compressed Class Space:442792 Metaspace:4160224 CodeHeap 'non-nmethods':1270144
+ ZHeap:2032140288 CodeHeap 'profiled nmethods':1897728 CodeHeap 'non-profiled nmethods':344192 Compressed Class Space:442792 Metaspace:4160224 CodeHeap 'non-nmethods':1270144
+---------------------------------------------------------------------------------
+time:411 totalGC:7939 maxGC:219 meanGC: 144,35 Name:ZGC action:end of major GC gcCause:High Usage(132 ms)
+ ZHeap:2036334592 CodeHeap 'profiled nmethods':1903488 CodeHeap 'non-profiled nmethods':345344 Compressed Class Space:442792 Metaspace:4160224 CodeHeap 'non-nmethods':1270144
+ ZHeap:2034237440 CodeHeap 'profiled nmethods':1903488 CodeHeap 'non-profiled nmethods':345344 Compressed Class Space:442792 Metaspace:4160224 CodeHeap 'non-nmethods':1270144
+---------------------------------------------------------------------------------
+time:411 totalGC:8088 maxGC:219 meanGC: 144,43 Name:ZGC action:end of major GC gcCause:High Usage(149 ms)
+ ZHeap:2038431744 CodeHeap 'profiled nmethods':1905408 CodeHeap 'non-profiled nmethods':347136 Compressed Class Space:442792 Metaspace:4160224 CodeHeap 'non-nmethods':1270144
+ ZHeap:2036334592 CodeHeap 'profiled nmethods':1905408 CodeHeap 'non-profiled nmethods':347136 Compressed Class Space:442792 Metaspace:4160224 CodeHeap 'non-nmethods':1270144
+---------------------------------------------------------------------------------
+time:411 totalGC:8219 maxGC:219 meanGC: 144,19 Name:ZGC action:end of major GC gcCause:High Usage(131 ms)
+ ZHeap:2038431744 CodeHeap 'profiled nmethods':1908096 CodeHeap 'non-profiled nmethods':347136 Compressed Class Space:442792 Metaspace:4160632 CodeHeap 'non-nmethods':1270144
+ ZHeap:2036334592 CodeHeap 'profiled nmethods':1908096 CodeHeap 'non-profiled nmethods':347136 Compressed Class Space:442792 Metaspace:4160632 CodeHeap 'non-nmethods':1270144
+---------------------------------------------------------------------------------
+time:412 totalGC:8355 maxGC:219 meanGC: 144,05 Name:ZGC action:end of major GC gcCause:High Usage(136 ms)
+ ZHeap:2038431744 CodeHeap 'profiled nmethods':1908096 CodeHeap 'non-profiled nmethods':347136 Compressed Class Space:442792 Metaspace:4160632 CodeHeap 'non-nmethods':1270144
+ ZHeap:2038431744 CodeHeap 'profiled nmethods':1908096 CodeHeap 'non-profiled nmethods':347136 Compressed Class Space:442792 Metaspace:4160632 CodeHeap 'non-nmethods':1270144
+---------------------------------------------------------------------------------
+time:412 totalGC:8496 maxGC:219 meanGC: 144,00 Name:ZGC action:end of major GC gcCause:High Usage(141 ms)
+ ZHeap:2042626048 CodeHeap 'profiled nmethods':1912320 CodeHeap 'non-profiled nmethods':347136 Compressed Class Space:442792 Metaspace:4161840 CodeHeap 'non-nmethods':1270144
+ ZHeap:2042626048 CodeHeap 'profiled nmethods':1912320 CodeHeap 'non-profiled nmethods':347136 Compressed Class Space:442792 Metaspace:4161840 CodeHeap 'non-nmethods':1270144
+---------------------------------------------------------------------------------
+time:412 totalGC:8631 maxGC:219 meanGC: 143,85 Name:ZGC action:end of major GC gcCause:High Usage(135 ms)
+ ZHeap:2044723200 CodeHeap 'profiled nmethods':1912320 CodeHeap 'non-profiled nmethods':350080 Compressed Class Space:442792 Metaspace:4161840 CodeHeap 'non-nmethods':1270144
+ ZHeap:2038431744 CodeHeap 'profiled nmethods':1912320 CodeHeap 'non-profiled nmethods':350080 Compressed Class Space:442792 Metaspace:4161840 CodeHeap 'non-nmethods':1270144
+---------------------------------------------------------------------------------
+time:412 totalGC:8765 maxGC:219 meanGC: 143,69 Name:ZGC action:end of major GC gcCause:High Usage(134 ms)
+ ZHeap:2040528896 CodeHeap 'profiled nmethods':1914752 CodeHeap 'non-profiled nmethods':350080 Compressed Class Space:442792 Metaspace:4166400 CodeHeap 'non-nmethods':1270144
+ ZHeap:2038431744 CodeHeap 'profiled nmethods':1914752 CodeHeap 'non-profiled nmethods':350080 Compressed Class Space:442792 Metaspace:4166400 CodeHeap 'non-nmethods':1270144
+---------------------------------------------------------------------------------
+time:412 totalGC:8898 maxGC:219 meanGC: 143,52 Name:ZGC action:end of major GC gcCause:High Usage(133 ms)
+ ZHeap:2040528896 CodeHeap 'profiled nmethods':1914752 CodeHeap 'non-profiled nmethods':350080 Compressed Class Space:442792 Metaspace:4166400 CodeHeap 'non-nmethods':1270144
+ ZHeap:2040528896 CodeHeap 'profiled nmethods':1914752 CodeHeap 'non-profiled nmethods':350080 Compressed Class Space:442792 Metaspace:4166400 CodeHeap 'non-nmethods':1270144
+---------------------------------------------------------------------------------
+time:413 totalGC:9032 maxGC:219 meanGC: 143,37 Name:ZGC action:end of major GC gcCause:High Usage(134 ms)
+ ZHeap:2044723200 CodeHeap 'profiled nmethods':1918592 CodeHeap 'non-profiled nmethods':350080 Compressed Class Space:442792 Metaspace:4169232 CodeHeap 'non-nmethods':1270144
+ ZHeap:2042626048 CodeHeap 'profiled nmethods':1918592 CodeHeap 'non-profiled nmethods':350080 Compressed Class Space:442792 Metaspace:4169232 CodeHeap 'non-nmethods':1270144
+---------------------------------------------------------------------------------
+time:413 totalGC:9162 maxGC:219 meanGC: 143,16 Name:ZGC action:end of major GC gcCause:High Usage(130 ms)
+ ZHeap:2044723200 CodeHeap 'profiled nmethods':1922944 CodeHeap 'non-profiled nmethods':351616 Compressed Class Space:442792 Metaspace:4170744 CodeHeap 'non-nmethods':1270144
+ ZHeap:2042626048 CodeHeap 'profiled nmethods':1922944 CodeHeap 'non-profiled nmethods':351616 Compressed Class Space:442792 Metaspace:4170744 CodeHeap 'non-nmethods':1270144
+---------------------------------------------------------------------------------
+time:413 totalGC:9302 maxGC:219 meanGC: 143,11 Name:ZGC action:end of major GC gcCause:High Usage(140 ms)
+ ZHeap:2044723200 CodeHeap 'profiled nmethods':1940736 CodeHeap 'non-profiled nmethods':355456 Compressed Class Space:442792 Metaspace:4175584 CodeHeap 'non-nmethods':1270144
+ ZHeap:2044723200 CodeHeap 'profiled nmethods':1940736 CodeHeap 'non-profiled nmethods':355456 Compressed Class Space:442792 Metaspace:4175584 CodeHeap 'non-nmethods':1270144
+---------------------------------------------------------------------------------
+time:413 totalGC:9437 maxGC:219 meanGC: 142,98 Name:ZGC action:end of major GC gcCause:High Usage(135 ms)
+ ZHeap:2048917504 CodeHeap 'profiled nmethods':1963776 CodeHeap 'non-profiled nmethods':356992 Compressed Class Space:442792 Metaspace:4187320 CodeHeap 'non-nmethods':1270144
+ ZHeap:2046820352 CodeHeap 'profiled nmethods':1963776 CodeHeap 'non-profiled nmethods':356992 Compressed Class Space:442792 Metaspace:4187320 CodeHeap 'non-nmethods':1270144
+---------------------------------------------------------------------------------
+time:414 totalGC:9573 maxGC:219 meanGC: 142,88 Name:ZGC action:end of major GC gcCause:High Usage(136 ms)
+ ZHeap:2048917504 CodeHeap 'profiled nmethods':1966848 CodeHeap 'non-profiled nmethods':357760 Compressed Class Space:442792 Metaspace:4188688 CodeHeap 'non-nmethods':1270144
+ ZHeap:2048917504 CodeHeap 'profiled nmethods':1966848 CodeHeap 'non-profiled nmethods':357760 Compressed Class Space:442792 Metaspace:4188688 CodeHeap 'non-nmethods':1270144
+---------------------------------------------------------------------------------
+time:414 totalGC:9702 maxGC:219 meanGC: 142,68 Name:ZGC action:end of major GC gcCause:High Usage(129 ms)
+ ZHeap:2053111808 CodeHeap 'profiled nmethods':1966848 CodeHeap 'non-profiled nmethods':357760 Compressed Class Space:442792 Metaspace:4188688 CodeHeap 'non-nmethods':1270144
+ ZHeap:2051014656 CodeHeap 'profiled nmethods':1966848 CodeHeap 'non-profiled nmethods':357760 Compressed Class Space:442792 Metaspace:4188688 CodeHeap 'non-nmethods':1270144
+---------------------------------------------------------------------------------
+time:414 totalGC:9846 maxGC:219 meanGC: 142,70 Name:ZGC action:end of major GC gcCause:High Usage(144 ms)
+ ZHeap:2053111808 CodeHeap 'profiled nmethods':1968384 CodeHeap 'non-profiled nmethods':357760 Compressed Class Space:442792 Metaspace:4188688 CodeHeap 'non-nmethods':1270144
+ ZHeap:2055208960 CodeHeap 'profiled nmethods':1968384 CodeHeap 'non-profiled nmethods':357760 Compressed Class Space:442792 Metaspace:4188688 CodeHeap 'non-nmethods':1270144
+---------------------------------------------------------------------------------
+time:414 totalGC:9980 maxGC:219 meanGC: 142,57 Name:ZGC action:end of major GC gcCause:High Usage(134 ms)
+ ZHeap:2057306112 CodeHeap 'profiled nmethods':1970688 CodeHeap 'non-profiled nmethods':357760 Compressed Class Space:442792 Metaspace:4189128 CodeHeap 'non-nmethods':1270144
+ ZHeap:2055208960 CodeHeap 'profiled nmethods':1970688 CodeHeap 'non-profiled nmethods':357760 Compressed Class Space:442792 Metaspace:4189128 CodeHeap 'non-nmethods':1270144
+---------------------------------------------------------------------------------
+time:414 totalGC:10119 maxGC:219 meanGC: 142,52 Name:ZGC action:end of major GC gcCause:High Usage(139 ms)
+ ZHeap:2057306112 CodeHeap 'profiled nmethods':1974656 CodeHeap 'non-profiled nmethods':357760 Compressed Class Space:442792 Metaspace:4190400 CodeHeap 'non-nmethods':1270144
+ ZHeap:2055208960 CodeHeap 'profiled nmethods':1974656 CodeHeap 'non-profiled nmethods':357760 Compressed Class Space:442792 Metaspace:4190400 CodeHeap 'non-nmethods':1270144
+---------------------------------------------------------------------------------
+time:415 totalGC:10260 maxGC:219 meanGC: 142,50 Name:ZGC action:end of major GC gcCause:High Usage(141 ms)
+ ZHeap:2059403264 CodeHeap 'profiled nmethods':1974656 CodeHeap 'non-profiled nmethods':358528 Compressed Class Space:442792 Metaspace:4190400 CodeHeap 'non-nmethods':1270144
+ ZHeap:2053111808 CodeHeap 'profiled nmethods':1974656 CodeHeap 'non-profiled nmethods':358528 Compressed Class Space:442792 Metaspace:4190400 CodeHeap 'non-nmethods':1270144
+---------------------------------------------------------------------------------
+time:415 totalGC:10387 maxGC:219 meanGC: 142,29 Name:ZGC action:end of major GC gcCause:High Usage(127 ms)
+ ZHeap:2053111808 CodeHeap 'profiled nmethods':1974656 CodeHeap 'non-profiled nmethods':358528 Compressed Class Space:442792 Metaspace:4190400 CodeHeap 'non-nmethods':1270144
+ ZHeap:2055208960 CodeHeap 'profiled nmethods':1974656 CodeHeap 'non-profiled nmethods':358528 Compressed Class Space:442792 Metaspace:4190400 CodeHeap 'non-nmethods':1270144
+---------------------------------------------------------------------------------
+time:415 totalGC:10529 maxGC:219 meanGC: 142,28 Name:ZGC action:end of major GC gcCause:High Usage(142 ms)
+ ZHeap:2057306112 CodeHeap 'profiled nmethods':1974656 CodeHeap 'non-profiled nmethods':358528 Compressed Class Space:442792 Metaspace:4190400 CodeHeap 'non-nmethods':1270144
+ ZHeap:2057306112 CodeHeap 'profiled nmethods':1974656 CodeHeap 'non-profiled nmethods':358528 Compressed Class Space:442792 Metaspace:4190400 CodeHeap 'non-nmethods':1270144
+---------------------------------------------------------------------------------
+time:415 totalGC:10660 maxGC:219 meanGC: 142,13 Name:ZGC action:end of major GC gcCause:High Usage(131 ms)
+ ZHeap:2057306112 CodeHeap 'profiled nmethods':1974656 CodeHeap 'non-profiled nmethods':358528 Compressed Class Space:442792 Metaspace:4190400 CodeHeap 'non-nmethods':1270144
+ ZHeap:2055208960 CodeHeap 'profiled nmethods':1974656 CodeHeap 'non-profiled nmethods':358528 Compressed Class Space:442792 Metaspace:4190400 CodeHeap 'non-nmethods':1270144
+---------------------------------------------------------------------------------
+time:415 totalGC:10802 maxGC:219 meanGC: 142,13 Name:ZGC action:end of major GC gcCause:High Usage(142 ms)
+ ZHeap:2059403264 CodeHeap 'profiled nmethods':1979264 CodeHeap 'non-profiled nmethods':360448 Compressed Class Space:442792 Metaspace:4193720 CodeHeap 'non-nmethods':1270144
+ ZHeap:2057306112 CodeHeap 'profiled nmethods':1979264 CodeHeap 'non-profiled nmethods':360448 Compressed Class Space:442792 Metaspace:4193720 CodeHeap 'non-nmethods':1270144
+---------------------------------------------------------------------------------
+time:415 totalGC:10934 maxGC:219 meanGC: 142,00 Name:ZGC action:end of major GC gcCause:High Usage(132 ms)
+ ZHeap:2059403264 CodeHeap 'profiled nmethods':1979264 CodeHeap 'non-profiled nmethods':360448 Compressed Class Space:442792 Metaspace:4193720 CodeHeap 'non-nmethods':1270144
+ ZHeap:2059403264 CodeHeap 'profiled nmethods':1979264 CodeHeap 'non-profiled nmethods':360448 Compressed Class Space:442792 Metaspace:4193720 CodeHeap 'non-nmethods':1270144
+---------------------------------------------------------------------------------
+time:416 totalGC:11075 maxGC:219 meanGC: 141,99 Name:ZGC action:end of major GC gcCause:High Usage(141 ms)
+ ZHeap:2061500416 CodeHeap 'profiled nmethods':1979264 CodeHeap 'non-profiled nmethods':360448 Compressed Class Space:442792 Metaspace:4193720 CodeHeap 'non-nmethods':1270144
+ ZHeap:2061500416 CodeHeap 'profiled nmethods':1979264 CodeHeap 'non-profiled nmethods':360448 Compressed Class Space:442792 Metaspace:4193720 CodeHeap 'non-nmethods':1270144
+---------------------------------------------------------------------------------
+time:416 totalGC:11219 maxGC:219 meanGC: 142,01 Name:ZGC action:end of major GC gcCause:High Usage(144 ms)
+ ZHeap:2063597568 CodeHeap 'profiled nmethods':1979264 CodeHeap 'non-profiled nmethods':360448 Compressed Class Space:442792 Metaspace:4193720 CodeHeap 'non-nmethods':1270144
+ ZHeap:2063597568 CodeHeap 'profiled nmethods':1979264 CodeHeap 'non-profiled nmethods':360448 Compressed Class Space:442792 Metaspace:4193720 CodeHeap 'non-nmethods':1270144
+---------------------------------------------------------------------------------
+time:416 totalGC:11353 maxGC:219 meanGC: 141,91 Name:ZGC action:end of major GC gcCause:High Usage(134 ms)
+ ZHeap:2067791872 CodeHeap 'profiled nmethods':1981440 CodeHeap 'non-profiled nmethods':360448 Compressed Class Space:442792 Metaspace:4195232 CodeHeap 'non-nmethods':1270144
+ ZHeap:2065694720 CodeHeap 'profiled nmethods':1981440 CodeHeap 'non-profiled nmethods':360448 Compressed Class Space:442792 Metaspace:4195232 CodeHeap 'non-nmethods':1270144
+---------------------------------------------------------------------------------
+time:416 totalGC:11485 maxGC:219 meanGC: 141,79 Name:ZGC action:end of major GC gcCause:High Usage(132 ms)
+ ZHeap:2067791872 CodeHeap 'profiled nmethods':1984512 CodeHeap 'non-profiled nmethods':360448 Compressed Class Space:442792 Metaspace:4197880 CodeHeap 'non-nmethods':1270144
+ ZHeap:2069889024 CodeHeap 'profiled nmethods':1984512 CodeHeap 'non-profiled nmethods':360448 Compressed Class Space:442792 Metaspace:4197880 CodeHeap 'non-nmethods':1270144
+---------------------------------------------------------------------------------
+time:416 totalGC:11617 maxGC:219 meanGC: 141,67 Name:ZGC action:end of major GC gcCause:High Usage(132 ms)
+ ZHeap:2069889024 CodeHeap 'profiled nmethods':1984512 CodeHeap 'non-profiled nmethods':360448 Compressed Class Space:442792 Metaspace:4197880 CodeHeap 'non-nmethods':1270144
+ ZHeap:2069889024 CodeHeap 'profiled nmethods':1984512 CodeHeap 'non-profiled nmethods':360448 Compressed Class Space:442792 Metaspace:4197880 CodeHeap 'non-nmethods':1270144
+---------------------------------------------------------------------------------
+time:417 totalGC:11757 maxGC:219 meanGC: 141,65 Name:ZGC action:end of major GC gcCause:High Usage(140 ms)
+ ZHeap:2069889024 CodeHeap 'profiled nmethods':1984512 CodeHeap 'non-profiled nmethods':361984 Compressed Class Space:442792 Metaspace:4197880 CodeHeap 'non-nmethods':1270144
+ ZHeap:2069889024 CodeHeap 'profiled nmethods':1984512 CodeHeap 'non-profiled nmethods':361984 Compressed Class Space:442792 Metaspace:4197880 CodeHeap 'non-nmethods':1270144
+---------------------------------------------------------------------------------
+time:417 totalGC:11899 maxGC:219 meanGC: 141,65 Name:ZGC action:end of major GC gcCause:High Usage(142 ms)
+ ZHeap:2071986176 CodeHeap 'profiled nmethods':1984512 CodeHeap 'non-profiled nmethods':361984 Compressed Class Space:442792 Metaspace:4197880 CodeHeap 'non-nmethods':1270144
+ ZHeap:2071986176 CodeHeap 'profiled nmethods':1984512 CodeHeap 'non-profiled nmethods':361984 Compressed Class Space:442792 Metaspace:4197880 CodeHeap 'non-nmethods':1270144
+---------------------------------------------------------------------------------
+time:417 totalGC:12034 maxGC:219 meanGC: 141,58 Name:ZGC action:end of major GC gcCause:High Usage(135 ms)
+ ZHeap:2074083328 CodeHeap 'profiled nmethods':1986304 CodeHeap 'non-profiled nmethods':363008 Compressed Class Space:442792 Metaspace:4198504 CodeHeap 'non-nmethods':1270144
+ ZHeap:2074083328 CodeHeap 'profiled nmethods':1986304 CodeHeap 'non-profiled nmethods':363008 Compressed Class Space:442792 Metaspace:4198504 CodeHeap 'non-nmethods':1270144
+---------------------------------------------------------------------------------
+time:417 totalGC:12173 maxGC:219 meanGC: 141,55 Name:ZGC action:end of major GC gcCause:High Usage(139 ms)
+ ZHeap:2074083328 CodeHeap 'profiled nmethods':1993600 CodeHeap 'non-profiled nmethods':363008 Compressed Class Space:442792 Metaspace:4201344 CodeHeap 'non-nmethods':1270144
+ ZHeap:2074083328 CodeHeap 'profiled nmethods':1993600 CodeHeap 'non-profiled nmethods':363008 Compressed Class Space:442792 Metaspace:4201344 CodeHeap 'non-nmethods':1270144
+---------------------------------------------------------------------------------
+time:417 totalGC:12298 maxGC:219 meanGC: 141,36 Name:ZGC action:end of major GC gcCause:High Usage(125 ms)
+ ZHeap:2076180480 CodeHeap 'profiled nmethods':2001664 CodeHeap 'non-profiled nmethods':363008 Compressed Class Space:442792 Metaspace:4205416 CodeHeap 'non-nmethods':1270144
+ ZHeap:2076180480 CodeHeap 'profiled nmethods':2001664 CodeHeap 'non-profiled nmethods':363008 Compressed Class Space:442792 Metaspace:4205416 CodeHeap 'non-nmethods':1270144
+---------------------------------------------------------------------------------
+time:418 totalGC:12433 maxGC:219 meanGC: 141,28 Name:ZGC action:end of major GC gcCause:High Usage(135 ms)
+ ZHeap:2078277632 CodeHeap 'profiled nmethods':2001664 CodeHeap 'non-profiled nmethods':363008 Compressed Class Space:442792 Metaspace:4205416 CodeHeap 'non-nmethods':1270144
+ ZHeap:2078277632 CodeHeap 'profiled nmethods':2001664 CodeHeap 'non-profiled nmethods':363008 Compressed Class Space:442792 Metaspace:4205416 CodeHeap 'non-nmethods':1270144
+---------------------------------------------------------------------------------
+time:418 totalGC:12573 maxGC:219 meanGC: 141,27 Name:ZGC action:end of major GC gcCause:High Usage(140 ms)
+ ZHeap:2082471936 CodeHeap 'profiled nmethods':2001664 CodeHeap 'non-profiled nmethods':363008 Compressed Class Space:442792 Metaspace:4205416 CodeHeap 'non-nmethods':1270144
+ ZHeap:2082471936 CodeHeap 'profiled nmethods':2001664 CodeHeap 'non-profiled nmethods':363008 Compressed Class Space:442792 Metaspace:4205416 CodeHeap 'non-nmethods':1270144
+---------------------------------------------------------------------------------
+time:418 totalGC:12714 maxGC:219 meanGC: 141,27 Name:ZGC action:end of major GC gcCause:High Usage(141 ms)
+ ZHeap:2084569088 CodeHeap 'profiled nmethods':2001664 CodeHeap 'non-profiled nmethods':363008 Compressed Class Space:442792 Metaspace:4205416 CodeHeap 'non-nmethods':1270144
+ ZHeap:2082471936 CodeHeap 'profiled nmethods':2001664 CodeHeap 'non-profiled nmethods':363008 Compressed Class Space:442792 Metaspace:4205416 CodeHeap 'non-nmethods':1270144
+---------------------------------------------------------------------------------
+time:418 totalGC:12854 maxGC:219 meanGC: 141,25 Name:ZGC action:end of major GC gcCause:High Usage(140 ms)
+ ZHeap:2086666240 CodeHeap 'profiled nmethods':2003584 CodeHeap 'non-profiled nmethods':363008 Compressed Class Space:442792 Metaspace:4206000 CodeHeap 'non-nmethods':1270144
+ ZHeap:2082471936 CodeHeap 'profiled nmethods':2003584 CodeHeap 'non-profiled nmethods':363008 Compressed Class Space:442792 Metaspace:4206000 CodeHeap 'non-nmethods':1270144
+---------------------------------------------------------------------------------
+time:418 totalGC:12983 maxGC:219 meanGC: 141,12 Name:ZGC action:end of major GC gcCause:High Usage(129 ms)
+ ZHeap:2084569088 CodeHeap 'profiled nmethods':2004480 CodeHeap 'non-profiled nmethods':363008 Compressed Class Space:442792 Metaspace:4206432 CodeHeap 'non-nmethods':1270144
+ ZHeap:2082471936 CodeHeap 'profiled nmethods':2004480 CodeHeap 'non-profiled nmethods':374272 Compressed Class Space:442792 Metaspace:4206432 CodeHeap 'non-nmethods':1270144
+---------------------------------------------------------------------------------
+time:419 totalGC:13126 maxGC:219 meanGC: 141,14 Name:ZGC action:end of major GC gcCause:High Usage(143 ms)
+ ZHeap:2084569088 CodeHeap 'profiled nmethods':2005888 CodeHeap 'non-profiled nmethods':374272 Compressed Class Space:442792 Metaspace:4206432 CodeHeap 'non-nmethods':1270144
+ ZHeap:2086666240 CodeHeap 'profiled nmethods':2005888 CodeHeap 'non-profiled nmethods':374272 Compressed Class Space:442792 Metaspace:4206432 CodeHeap 'non-nmethods':1270144
+---------------------------------------------------------------------------------
+time:419 totalGC:13263 maxGC:219 meanGC: 141,10 Name:ZGC action:end of major GC gcCause:High Usage(137 ms)
+ ZHeap:2086666240 CodeHeap 'profiled nmethods':2005888 CodeHeap 'non-profiled nmethods':374272 Compressed Class Space:442792 Metaspace:4206432 CodeHeap 'non-nmethods':1270144
+ ZHeap:2086666240 CodeHeap 'profiled nmethods':2005888 CodeHeap 'non-profiled nmethods':374272 Compressed Class Space:442792 Metaspace:4206432 CodeHeap 'non-nmethods':1270144
+---------------------------------------------------------------------------------
+time:419 totalGC:13396 maxGC:219 meanGC: 141,01 Name:ZGC action:end of major GC gcCause:High Usage(133 ms)
+ ZHeap:2088763392 CodeHeap 'profiled nmethods':2005888 CodeHeap 'non-profiled nmethods':375552 Compressed Class Space:442792 Metaspace:4206432 CodeHeap 'non-nmethods':1270144
+ ZHeap:2086666240 CodeHeap 'profiled nmethods':2005888 CodeHeap 'non-profiled nmethods':375552 Compressed Class Space:442792 Metaspace:4206432 CodeHeap 'non-nmethods':1270144
+---------------------------------------------------------------------------------
+time:419 totalGC:13535 maxGC:219 meanGC: 140,99 Name:ZGC action:end of major GC gcCause:High Usage(139 ms)
+ ZHeap:2088763392 CodeHeap 'profiled nmethods':2008832 CodeHeap 'non-profiled nmethods':375552 Compressed Class Space:442792 Metaspace:4207040 CodeHeap 'non-nmethods':1270144
+ ZHeap:2086666240 CodeHeap 'profiled nmethods':2008832 CodeHeap 'non-profiled nmethods':375552 Compressed Class Space:442792 Metaspace:4207040 CodeHeap 'non-nmethods':1270144
+---------------------------------------------------------------------------------
+time:419 totalGC:13661 maxGC:219 meanGC: 140,84 Name:ZGC action:end of major GC gcCause:High Usage(126 ms)
+ ZHeap:2088763392 CodeHeap 'profiled nmethods':2021888 CodeHeap 'non-profiled nmethods':375552 Compressed Class Space:442792 Metaspace:4214560 CodeHeap 'non-nmethods':1270144
+ ZHeap:2088763392 CodeHeap 'profiled nmethods':2021888 CodeHeap 'non-profiled nmethods':375552 Compressed Class Space:442792 Metaspace:4214560 CodeHeap 'non-nmethods':1270144
+---------------------------------------------------------------------------------
+time:420 totalGC:13804 maxGC:219 meanGC: 140,86 Name:ZGC action:end of major GC gcCause:High Usage(143 ms)
+ ZHeap:2092957696 CodeHeap 'profiled nmethods':2021888 CodeHeap 'non-profiled nmethods':378496 Compressed Class Space:442792 Metaspace:4214560 CodeHeap 'non-nmethods':1270144
+ ZHeap:2088763392 CodeHeap 'profiled nmethods':2021888 CodeHeap 'non-profiled nmethods':378496 Compressed Class Space:442792 Metaspace:4214560 CodeHeap 'non-nmethods':1270144
+---------------------------------------------------------------------------------
+time:420 totalGC:13931 maxGC:219 meanGC: 140,72 Name:ZGC action:end of major GC gcCause:High Usage(127 ms)
+ ZHeap:2090860544 CodeHeap 'profiled nmethods':2021888 CodeHeap 'non-profiled nmethods':385408 Compressed Class Space:442792 Metaspace:4214560 CodeHeap 'non-nmethods':1270144
+ ZHeap:2090860544 CodeHeap 'profiled nmethods':2021888 CodeHeap 'non-profiled nmethods':385408 Compressed Class Space:442792 Metaspace:4214560 CodeHeap 'non-nmethods':1270144
+---------------------------------------------------------------------------------
+time:420 totalGC:14066 maxGC:219 meanGC: 140,66 Name:ZGC action:end of major GC gcCause:High Usage(135 ms)
+ ZHeap:2092957696 CodeHeap 'profiled nmethods':2021888 CodeHeap 'non-profiled nmethods':386176 Compressed Class Space:442792 Metaspace:4214560 CodeHeap 'non-nmethods':1270144
+ ZHeap:2095054848 CodeHeap 'profiled nmethods':2021888 CodeHeap 'non-profiled nmethods':386176 Compressed Class Space:442792 Metaspace:4214560 CodeHeap 'non-nmethods':1270144
+---------------------------------------------------------------------------------
+time:420 totalGC:14202 maxGC:219 meanGC: 140,61 Name:ZGC action:end of major GC gcCause:Allocation Rate(136 ms)
+ ZHeap:2095054848 CodeHeap 'profiled nmethods':2024192 CodeHeap 'non-profiled nmethods':386176 Compressed Class Space:442792 Metaspace:4215080 CodeHeap 'non-nmethods':1270144
+ ZHeap:2097152000 CodeHeap 'profiled nmethods':2024192 CodeHeap 'non-profiled nmethods':386176 Compressed Class Space:442792 Metaspace:4215080 CodeHeap 'non-nmethods':1270144
+---------------------------------------------------------------------------------
+time:421 totalGC:14340 maxGC:219 meanGC: 140,59 Name:ZGC action:end of major GC gcCause:Allocation Rate(138 ms)
+ ZHeap:2099249152 CodeHeap 'profiled nmethods':2024192 CodeHeap 'non-profiled nmethods':386176 Compressed Class Space:442792 Metaspace:4215080 CodeHeap 'non-nmethods':1270144
+ ZHeap:2099249152 CodeHeap 'profiled nmethods':2024192 CodeHeap 'non-profiled nmethods':386176 Compressed Class Space:442792 Metaspace:4215080 CodeHeap 'non-nmethods':1270144
+---------------------------------------------------------------------------------
+time:421 totalGC:14478 maxGC:219 meanGC: 140,56 Name:ZGC action:end of major GC gcCause:Allocation Rate(138 ms)
+ ZHeap:2099249152 CodeHeap 'profiled nmethods':2024960 CodeHeap 'non-profiled nmethods':386944 Compressed Class Space:442792 Metaspace:4215480 CodeHeap 'non-nmethods':1270144
+ ZHeap:2097152000 CodeHeap 'profiled nmethods':2024960 CodeHeap 'non-profiled nmethods':386944 Compressed Class Space:442792 Metaspace:4215480 CodeHeap 'non-nmethods':1270144
+---------------------------------------------------------------------------------
+time:421 totalGC:14619 maxGC:219 meanGC: 140,57 Name:ZGC action:end of major GC gcCause:Allocation Rate(141 ms)
+ ZHeap:2101346304 CodeHeap 'profiled nmethods':2050432 CodeHeap 'non-profiled nmethods':386944 Compressed Class Space:442792 Metaspace:4220824 CodeHeap 'non-nmethods':1270144
+ ZHeap:2099249152 CodeHeap 'profiled nmethods':2050432 CodeHeap 'non-profiled nmethods':386944 Compressed Class Space:442792 Metaspace:4220824 CodeHeap 'non-nmethods':1270144
+---------------------------------------------------------------------------------
+time:421 totalGC:14751 maxGC:219 meanGC: 140,49 Name:ZGC action:end of major GC gcCause:Allocation Rate(132 ms)
+ ZHeap:2101346304 CodeHeap 'profiled nmethods':2057344 CodeHeap 'non-profiled nmethods':386944 Compressed Class Space:442792 Metaspace:4222152 CodeHeap 'non-nmethods':1270144
+ ZHeap:2101346304 CodeHeap 'profiled nmethods':2057344 CodeHeap 'non-profiled nmethods':386944 Compressed Class Space:442792 Metaspace:4222152 CodeHeap 'non-nmethods':1270144
+---------------------------------------------------------------------------------
+time:421 totalGC:14888 maxGC:219 meanGC: 140,45 Name:ZGC action:end of major GC gcCause:Allocation Rate(137 ms)
+ ZHeap:2103443456 CodeHeap 'profiled nmethods':2057344 CodeHeap 'non-profiled nmethods':386944 Compressed Class Space:442792 Metaspace:4222152 CodeHeap 'non-nmethods':1270144
+ ZHeap:2103443456 CodeHeap 'profiled nmethods':2057344 CodeHeap 'non-profiled nmethods':386944 Compressed Class Space:442792 Metaspace:4222152 CodeHeap 'non-nmethods':1270144
+---------------------------------------------------------------------------------
+time:421 totalGC:15015 maxGC:219 meanGC: 140,33 Name:ZGC action:end of major GC gcCause:Allocation Rate(127 ms)
+ ZHeap:2105540608 CodeHeap 'profiled nmethods':2057344 CodeHeap 'non-profiled nmethods':386944 Compressed Class Space:442792 Metaspace:4222152 CodeHeap 'non-nmethods':1270144
+ ZHeap:2105540608 CodeHeap 'profiled nmethods':2057344 CodeHeap 'non-profiled nmethods':386944 Compressed Class Space:442792 Metaspace:4222152 CodeHeap 'non-nmethods':1270144
+---------------------------------------------------------------------------------
+time:422 totalGC:15140 maxGC:219 meanGC: 140,19 Name:ZGC action:end of major GC gcCause:Allocation Rate(125 ms)
+ ZHeap:2107637760 CodeHeap 'profiled nmethods':2057344 CodeHeap 'non-profiled nmethods':386944 Compressed Class Space:442792 Metaspace:4222152 CodeHeap 'non-nmethods':1270144
+ ZHeap:2107637760 CodeHeap 'profiled nmethods':2057344 CodeHeap 'non-profiled nmethods':386944 Compressed Class Space:442792 Metaspace:4222152 CodeHeap 'non-nmethods':1270144
+---------------------------------------------------------------------------------
+time:422 totalGC:15212 maxGC:219 meanGC: 139,56 Name:ZGC action:end of major GC gcCause:Allocation Stall(72 ms)
+ ZHeap:2107637760 CodeHeap 'profiled nmethods':2057344 CodeHeap 'non-profiled nmethods':386944 Compressed Class Space:442792 Metaspace:4222152 CodeHeap 'non-nmethods':1270144
+ ZHeap:2107637760 CodeHeap 'profiled nmethods':2057344 CodeHeap 'non-profiled nmethods':386944 Compressed Class Space:442792 Metaspace:4222152 CodeHeap 'non-nmethods':1270144
+---------------------------------------------------------------------------------
+time:422 totalGC:15278 maxGC:219 meanGC: 138,89 Name:ZGC action:end of major GC gcCause:Allocation Stall(66 ms)
+ ZHeap:2107637760 CodeHeap 'profiled nmethods':2057344 CodeHeap 'non-profiled nmethods':386944 Compressed Class Space:442792 Metaspace:4222152 CodeHeap 'non-nmethods':1270144
+ ZHeap:2107637760 CodeHeap 'profiled nmethods':2059776 CodeHeap 'non-profiled nmethods':386944 Compressed Class Space:442792 Metaspace:4224112 CodeHeap 'non-nmethods':1270144
+---------------------------------------------------------------------------------
+time:422 totalGC:15359 maxGC:219 meanGC: 138,37 Name:ZGC action:end of major GC gcCause:Allocation Stall(81 ms)
+ ZHeap:2107637760 CodeHeap 'profiled nmethods':2059776 CodeHeap 'non-profiled nmethods':386944 Compressed Class Space:442792 Metaspace:4224112 CodeHeap 'non-nmethods':1270144
+ ZHeap:2107637760 CodeHeap 'profiled nmethods':2059776 CodeHeap 'non-profiled nmethods':386944 Compressed Class Space:442792 Metaspace:4224112 CodeHeap 'non-nmethods':1270144
+---------------------------------------------------------------------------------
+time:422 totalGC:15421 maxGC:219 meanGC: 137,69 Name:ZGC action:end of major GC gcCause:Allocation Stall(62 ms)
+ ZHeap:2107637760 CodeHeap 'profiled nmethods':2059776 CodeHeap 'non-profiled nmethods':386944 Compressed Class Space:442792 Metaspace:4224112 CodeHeap 'non-nmethods':1270144
+ ZHeap:2107637760 CodeHeap 'profiled nmethods':2059776 CodeHeap 'non-profiled nmethods':386944 Compressed Class Space:442792 Metaspace:4224112 CodeHeap 'non-nmethods':1270144
+---------------------------------------------------------------------------------
+time:422 totalGC:15480 maxGC:219 meanGC: 136,99 Name:ZGC action:end of major GC gcCause:Allocation Stall(59 ms)
+ ZHeap:2107637760 CodeHeap 'profiled nmethods':2059776 CodeHeap 'non-profiled nmethods':386944 Compressed Class Space:442792 Metaspace:4224112 CodeHeap 'non-nmethods':1270144
+ ZHeap:2107637760 CodeHeap 'profiled nmethods':2059776 CodeHeap 'non-profiled nmethods':386944 Compressed Class Space:442792 Metaspace:4224112 CodeHeap 'non-nmethods':1270144
+---------------------------------------------------------------------------------
+time:422 totalGC:15540 maxGC:219 meanGC: 136,32 Name:ZGC action:end of major GC gcCause:Allocation Stall(60 ms)
+ ZHeap:2107637760 CodeHeap 'profiled nmethods':2059776 CodeHeap 'non-profiled nmethods':386944 Compressed Class Space:442792 Metaspace:4224112 CodeHeap 'non-nmethods':1270144
+ ZHeap:2107637760 CodeHeap 'profiled nmethods':2059776 CodeHeap 'non-profiled nmethods':386944 Compressed Class Space:442792 Metaspace:4224112 CodeHeap 'non-nmethods':1270144
+---------------------------------------------------------------------------------
+time:422 totalGC:15602 maxGC:219 meanGC: 135,67 Name:ZGC action:end of major GC gcCause:Allocation Stall(62 ms)
+ ZHeap:2107637760 CodeHeap 'profiled nmethods':2059776 CodeHeap 'non-profiled nmethods':386944 Compressed Class Space:442792 Metaspace:4224112 CodeHeap 'non-nmethods':1270144
+ ZHeap:2107637760 CodeHeap 'profiled nmethods':2059776 CodeHeap 'non-profiled nmethods':386944 Compressed Class Space:442792 Metaspace:4224112 CodeHeap 'non-nmethods':1270144
+---------------------------------------------------------------------------------
+time:422 totalGC:15670 maxGC:219 meanGC: 135,09 Name:ZGC action:end of major GC gcCause:Allocation Stall(68 ms)
+ ZHeap:2107637760 CodeHeap 'profiled nmethods':2059776 CodeHeap 'non-profiled nmethods':386944 Compressed Class Space:442792 Metaspace:4224112 CodeHeap 'non-nmethods':1270144
+ ZHeap:2105540608 CodeHeap 'profiled nmethods':2059776 CodeHeap 'non-profiled nmethods':386944 Compressed Class Space:442792 Metaspace:4224112 CodeHeap 'non-nmethods':1270144
+---------------------------------------------------------------------------------
+time:422 totalGC:15794 maxGC:219 meanGC: 134,99 Name:ZGC action:end of major GC gcCause:Allocation Rate(124 ms)
+ ZHeap:2107637760 CodeHeap 'profiled nmethods':2059776 CodeHeap 'non-profiled nmethods':392192 Compressed Class Space:442792 Metaspace:4224272 CodeHeap 'non-nmethods':1270144
+ ZHeap:2105540608 CodeHeap 'profiled nmethods':2059776 CodeHeap 'non-profiled nmethods':392192 Compressed Class Space:442792 Metaspace:4224272 CodeHeap 'non-nmethods':1270144
+---------------------------------------------------------------------------------
+time:423 totalGC:15929 maxGC:219 meanGC: 134,99 Name:ZGC action:end of major GC gcCause:Allocation Rate(135 ms)
+ ZHeap:2107637760 CodeHeap 'profiled nmethods':2059776 CodeHeap 'non-profiled nmethods':392192 Compressed Class Space:442792 Metaspace:4224272 CodeHeap 'non-nmethods':1270144
+ ZHeap:2105540608 CodeHeap 'profiled nmethods':2059776 CodeHeap 'non-profiled nmethods':392192 Compressed Class Space:442792 Metaspace:4224272 CodeHeap 'non-nmethods':1270144
+---------------------------------------------------------------------------------
+time:423 totalGC:16049 maxGC:219 meanGC: 134,87 Name:ZGC action:end of major GC gcCause:Allocation Rate(120 ms)
+ ZHeap:2107637760 CodeHeap 'profiled nmethods':2059776 CodeHeap 'non-profiled nmethods':394496 Compressed Class Space:442792 Metaspace:4224272 CodeHeap 'non-nmethods':1270144
+ ZHeap:2105540608 CodeHeap 'profiled nmethods':2059776 CodeHeap 'non-profiled nmethods':394496 Compressed Class Space:442792 Metaspace:4224272 CodeHeap 'non-nmethods':1270144
+---------------------------------------------------------------------------------
+
 Exception: java.lang.OutOfMemoryError thrown from the UncaughtExceptionHandler in thread "main"
 
 > Task :hw04-gc:GCMonitor.main() FAILED
@@ -493,6 +513,5 @@ Run with --stacktrace option to get the stack trace. Run with --info or --debug 
 
 * Get more help at https://help.gradle.org
 
-BUILD FAILED in 7m 5s
-18:44:16: Task execution finished 'GCMonitor.main()'.
-
+BUILD FAILED in 7m 18s
+14:13:30: Task execution finished 'GCMonitor.main()'.

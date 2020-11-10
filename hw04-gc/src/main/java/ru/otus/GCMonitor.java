@@ -28,6 +28,9 @@ public class GCMonitor {
     }
 
     private static long totalDuration;
+    private static long iCaseCount;
+    private static long maxDuration;
+
     private static long beginTime;
 
     private static NotificationListener listener = (notification, handback) -> {
@@ -40,9 +43,13 @@ public class GCMonitor {
             long startTime = info.getGcInfo().getStartTime();
             long duration = info.getGcInfo().getDuration();
             totalDuration += duration;
+            maxDuration = (maxDuration<duration)?duration:maxDuration;
+            iCaseCount++;
             System.out.println(
                     "time:" + (System.currentTimeMillis() - beginTime) / 1000
                     + " totalGC:" + totalDuration
+                            + " maxGC:" + maxDuration
+                            + String.format(" meanGC: %.2f", 1.0*totalDuration/iCaseCount)
                     + " Name:" + gcName
                     + " action:" + gcAction
                     + " gcCause:" + gcCause
@@ -66,6 +73,8 @@ public class GCMonitor {
             System.out.println("GC name:" + gcBean.getName());
             NotificationEmitter emitter = (NotificationEmitter) gcBean;
             totalDuration = 0;
+            maxDuration = 0;
+            iCaseCount = 0;
             emitter.addNotificationListener(listener, null, null);
         }
     }
