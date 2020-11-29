@@ -1,4 +1,4 @@
-18:22:27: Executing task 'GCMonitor.main()'...
+13:32:39: Executing task 'GCMonitor.main()'...
 
 > Task :buildSrc:compileJava UP-TO-DATE
 > Task :buildSrc:compileGroovy NO-SOURCE
@@ -18,260 +18,226 @@
 > Task :hw04-gc:classes
 
 > Task :hw04-gc:GCMonitor.main()
-Starting pid: 4638@blackbox
+Starting pid: 8026@blackbox
 GC name:G1 Young Generation
 GC name:G1 Old Generation
-time:1 totalGC:9 Name:G1 Young Generation action:end of minor GC gcCause:G1 Evacuation Pause(9 ms)
- CodeHeap 'profiled nmethods':865920 G1 Old Gen:843776 CodeHeap 'non-profiled nmethods':154240 G1 Survivor Space:0 Compressed Class Space:385760 Metaspace:3349640 G1 Eden Space:12582912 CodeHeap 'non-nmethods':1188224
- CodeHeap 'profiled nmethods':865920 G1 Old Gen:4670464 CodeHeap 'non-profiled nmethods':154240 G1 Survivor Space:2097152 Compressed Class Space:385760 Metaspace:3349640 G1 Eden Space:0 CodeHeap 'non-nmethods':1188224
+time:1 totalGC:9 maxGC:9 meanGC: 9,00 Name:G1 Young Generation action:end of minor GC gcCause:G1 Evacuation Pause(9 ms)
+ CodeHeap 'profiled nmethods':848000 G1 Old Gen:843776 CodeHeap 'non-profiled nmethods':153344 G1 Survivor Space:0 Compressed Class Space:385760 Metaspace:3357952 G1 Eden Space:12582912 CodeHeap 'non-nmethods':1188736
+ CodeHeap 'profiled nmethods':848000 G1 Old Gen:4833792 CodeHeap 'non-profiled nmethods':153344 G1 Survivor Space:2097152 Compressed Class Space:385760 Metaspace:3357952 G1 Eden Space:0 CodeHeap 'non-nmethods':1188736
 ---------------------------------------------------------------------------------
-time:2 totalGC:24 Name:G1 Young Generation action:end of minor GC gcCause:G1 Evacuation Pause(15 ms)
- CodeHeap 'profiled nmethods':1018112 G1 Old Gen:4670464 CodeHeap 'non-profiled nmethods':205952 G1 Survivor Space:2097152 Compressed Class Space:456840 Metaspace:3871848 G1 Eden Space:10485760 CodeHeap 'non-nmethods':1200256
- CodeHeap 'profiled nmethods':1018112 G1 Old Gen:12202496 CodeHeap 'non-profiled nmethods':205952 G1 Survivor Space:2097152 Compressed Class Space:456840 Metaspace:3871848 G1 Eden Space:0 CodeHeap 'non-nmethods':1200256
+time:2 totalGC:21 maxGC:12 meanGC: 10,50 Name:G1 Young Generation action:end of minor GC gcCause:G1 Evacuation Pause(12 ms)
+ CodeHeap 'profiled nmethods':1037056 G1 Old Gen:4833792 CodeHeap 'non-profiled nmethods':205440 G1 Survivor Space:2097152 Compressed Class Space:462584 Metaspace:3913952 G1 Eden Space:10485760 CodeHeap 'non-nmethods':1205504
+ CodeHeap 'profiled nmethods':1037056 G1 Old Gen:12397568 CodeHeap 'non-profiled nmethods':205440 G1 Survivor Space:2097152 Compressed Class Space:462584 Metaspace:3913952 G1 Eden Space:0 CodeHeap 'non-nmethods':1205504
 ---------------------------------------------------------------------------------
-time:4 totalGC:60 Name:G1 Young Generation action:end of minor GC gcCause:G1 Evacuation Pause(36 ms)
- CodeHeap 'profiled nmethods':1285120 G1 Old Gen:12202496 CodeHeap 'non-profiled nmethods':262272 G1 Survivor Space:2097152 Compressed Class Space:691328 Metaspace:5995584 G1 Eden Space:17825792 CodeHeap 'non-nmethods':1211392
- CodeHeap 'profiled nmethods':1285120 G1 Old Gen:23605248 CodeHeap 'non-profiled nmethods':262272 G1 Survivor Space:3145728 Compressed Class Space:691328 Metaspace:5995584 G1 Eden Space:0 CodeHeap 'non-nmethods':1211392
+time:4 totalGC:34 maxGC:13 meanGC: 11,33 Name:G1 Young Generation action:end of minor GC gcCause:G1 Evacuation Pause(13 ms)
+ CodeHeap 'profiled nmethods':1069184 G1 Old Gen:12397568 CodeHeap 'non-profiled nmethods':214272 G1 Survivor Space:2097152 Compressed Class Space:462584 Metaspace:3924576 G1 Eden Space:16777216 CodeHeap 'non-nmethods':1205504
+ CodeHeap 'profiled nmethods':1069184 G1 Old Gen:24093696 CodeHeap 'non-profiled nmethods':214272 G1 Survivor Space:3145728 Compressed Class Space:462584 Metaspace:3924576 G1 Eden Space:0 CodeHeap 'non-nmethods':1205504
 ---------------------------------------------------------------------------------
-time:7 totalGC:96 Name:G1 Young Generation action:end of minor GC gcCause:G1 Evacuation Pause(36 ms)
- CodeHeap 'profiled nmethods':1571328 G1 Old Gen:23605248 CodeHeap 'non-profiled nmethods':326656 G1 Survivor Space:3145728 Compressed Class Space:765216 Metaspace:6588304 G1 Eden Space:22020096 CodeHeap 'non-nmethods':1213696
- CodeHeap 'profiled nmethods':1571328 G1 Old Gen:38935040 CodeHeap 'non-profiled nmethods':326656 G1 Survivor Space:4194304 Compressed Class Space:765216 Metaspace:6588304 G1 Eden Space:0 CodeHeap 'non-nmethods':1213696
+time:7 totalGC:52 maxGC:18 meanGC: 13,00 Name:G1 Young Generation action:end of minor GC gcCause:G1 Evacuation Pause(18 ms)
+ CodeHeap 'profiled nmethods':1086208 G1 Old Gen:24093696 CodeHeap 'non-profiled nmethods':219776 G1 Survivor Space:3145728 Compressed Class Space:462584 Metaspace:3932592 G1 Eden Space:20971520 CodeHeap 'non-nmethods':1205504
+ CodeHeap 'profiled nmethods':1086208 G1 Old Gen:40320000 CodeHeap 'non-profiled nmethods':219776 G1 Survivor Space:3145728 Compressed Class Space:462584 Metaspace:3932592 G1 Eden Space:0 CodeHeap 'non-nmethods':1205504
 ---------------------------------------------------------------------------------
-time:10 totalGC:119 Name:G1 Young Generation action:end of minor GC gcCause:G1 Evacuation Pause(23 ms)
- CodeHeap 'profiled nmethods':1782144 G1 Old Gen:38935040 CodeHeap 'non-profiled nmethods':359680 G1 Survivor Space:4194304 Compressed Class Space:781776 Metaspace:6808848 G1 Eden Space:28311552 CodeHeap 'non-nmethods':1213696
- CodeHeap 'profiled nmethods':1782144 G1 Old Gen:61225472 CodeHeap 'non-profiled nmethods':359680 G1 Survivor Space:4194304 Compressed Class Space:781776 Metaspace:6808848 G1 Eden Space:0 CodeHeap 'non-nmethods':1213696
+time:10 totalGC:76 maxGC:24 meanGC: 15,20 Name:G1 Young Generation action:end of minor GC gcCause:G1 Evacuation Pause(24 ms)
+ CodeHeap 'profiled nmethods':1122176 G1 Old Gen:40320000 CodeHeap 'non-profiled nmethods':229120 G1 Survivor Space:3145728 Compressed Class Space:462584 Metaspace:3944264 G1 Eden Space:27262976 CodeHeap 'non-nmethods':1205504
+ CodeHeap 'profiled nmethods':1122176 G1 Old Gen:61008384 CodeHeap 'non-profiled nmethods':229120 G1 Survivor Space:4194304 Compressed Class Space:462584 Metaspace:3944264 G1 Eden Space:0 CodeHeap 'non-nmethods':1205504
 ---------------------------------------------------------------------------------
-time:14 totalGC:145 Name:G1 Young Generation action:end of minor GC gcCause:G1 Evacuation Pause(26 ms)
- CodeHeap 'profiled nmethods':1949952 G1 Old Gen:61225472 CodeHeap 'non-profiled nmethods':410880 G1 Survivor Space:4194304 Compressed Class Space:782328 Metaspace:6881272 G1 Eden Space:32505856 CodeHeap 'non-nmethods':1213696
- CodeHeap 'profiled nmethods':1949952 G1 Old Gen:87172096 CodeHeap 'non-profiled nmethods':410880 G1 Survivor Space:5242880 Compressed Class Space:782328 Metaspace:6881272 G1 Eden Space:0 CodeHeap 'non-nmethods':1213696
+time:14 totalGC:106 maxGC:30 meanGC: 17,67 Name:G1 Young Generation action:end of minor GC gcCause:G1 Evacuation Pause(30 ms)
+ CodeHeap 'profiled nmethods':1144576 G1 Old Gen:61008384 CodeHeap 'non-profiled nmethods':231168 G1 Survivor Space:4194304 Compressed Class Space:462584 Metaspace:3954160 G1 Eden Space:34603008 CodeHeap 'non-nmethods':1205504
+ CodeHeap 'profiled nmethods':1144576 G1 Old Gen:89772544 CodeHeap 'non-profiled nmethods':231168 G1 Survivor Space:5242880 Compressed Class Space:462584 Metaspace:3954160 G1 Eden Space:0 CodeHeap 'non-nmethods':1205504
 ---------------------------------------------------------------------------------
-time:19 totalGC:178 Name:G1 Young Generation action:end of minor GC gcCause:G1 Evacuation Pause(33 ms)
- CodeHeap 'profiled nmethods':2094848 G1 Old Gen:87172096 CodeHeap 'non-profiled nmethods':432640 G1 Survivor Space:5242880 Compressed Class Space:785088 Metaspace:6945824 G1 Eden Space:39845888 CodeHeap 'non-nmethods':1213696
- CodeHeap 'profiled nmethods':2094848 G1 Old Gen:121460224 CodeHeap 'non-profiled nmethods':432640 G1 Survivor Space:6291456 Compressed Class Space:785088 Metaspace:6945824 G1 Eden Space:0 CodeHeap 'non-nmethods':1213696
+time:19 totalGC:141 maxGC:35 meanGC: 20,14 Name:G1 Young Generation action:end of minor GC gcCause:G1 Evacuation Pause(35 ms)
+ CodeHeap 'profiled nmethods':1159296 G1 Old Gen:89772544 CodeHeap 'non-profiled nmethods':231168 G1 Survivor Space:5242880 Compressed Class Space:462584 Metaspace:3959592 G1 Eden Space:41943040 CodeHeap 'non-nmethods':1205504
+ CodeHeap 'profiled nmethods':1159296 G1 Old Gen:123840512 CodeHeap 'non-profiled nmethods':231168 G1 Survivor Space:6291456 Compressed Class Space:462584 Metaspace:3959592 G1 Eden Space:0 CodeHeap 'non-nmethods':1205504
 ---------------------------------------------------------------------------------
-time:23 totalGC:210 Name:G1 Young Generation action:end of minor GC gcCause:G1 Evacuation Pause(32 ms)
- CodeHeap 'profiled nmethods':2248192 G1 Old Gen:121460224 CodeHeap 'non-profiled nmethods':455552 G1 Survivor Space:6291456 Compressed Class Space:787848 Metaspace:7035896 G1 Eden Space:34603008 CodeHeap 'non-nmethods':1213696
- CodeHeap 'profiled nmethods':2248192 G1 Old Gen:153549824 CodeHeap 'non-profiled nmethods':455552 G1 Survivor Space:5242880 Compressed Class Space:787848 Metaspace:7035896 G1 Eden Space:0 CodeHeap 'non-nmethods':1213696
+time:23 totalGC:172 maxGC:35 meanGC: 21,50 Name:G1 Young Generation action:end of minor GC gcCause:G1 Evacuation Pause(31 ms)
+ CodeHeap 'profiled nmethods':1182464 G1 Old Gen:123840512 CodeHeap 'non-profiled nmethods':233472 G1 Survivor Space:6291456 Compressed Class Space:462584 Metaspace:3969304 G1 Eden Space:33554432 CodeHeap 'non-nmethods':1205504
+ CodeHeap 'profiled nmethods':1182464 G1 Old Gen:157521408 CodeHeap 'non-profiled nmethods':233472 G1 Survivor Space:5242880 Compressed Class Space:462584 Metaspace:3969304 G1 Eden Space:0 CodeHeap 'non-nmethods':1205504
 ---------------------------------------------------------------------------------
-time:26 totalGC:232 Name:G1 Young Generation action:end of minor GC gcCause:G1 Evacuation Pause(22 ms)
- CodeHeap 'profiled nmethods':2299904 G1 Old Gen:153549824 CodeHeap 'non-profiled nmethods':478080 G1 Survivor Space:5242880 Compressed Class Space:787848 Metaspace:7063544 G1 Eden Space:25165824 CodeHeap 'non-nmethods':1213696
- CodeHeap 'profiled nmethods':2299904 G1 Old Gen:178429440 CodeHeap 'non-profiled nmethods':478080 G1 Survivor Space:4194304 Compressed Class Space:787848 Metaspace:7063544 G1 Eden Space:0 CodeHeap 'non-nmethods':1213696
+time:26 totalGC:195 maxGC:35 meanGC: 21,67 Name:G1 Young Generation action:end of minor GC gcCause:G1 Evacuation Pause(23 ms)
+ CodeHeap 'profiled nmethods':1205888 G1 Old Gen:156472832 CodeHeap 'non-profiled nmethods':237312 G1 Survivor Space:5242880 Compressed Class Space:462584 Metaspace:3981152 G1 Eden Space:23068672 CodeHeap 'non-nmethods':1205504
+ CodeHeap 'profiled nmethods':1205888 G1 Old Gen:179553280 CodeHeap 'non-profiled nmethods':237312 G1 Survivor Space:4194304 Compressed Class Space:462584 Metaspace:3981152 G1 Eden Space:0 CodeHeap 'non-nmethods':1205504
 ---------------------------------------------------------------------------------
-time:28 totalGC:248 Name:G1 Young Generation action:end of minor GC gcCause:G1 Evacuation Pause(16 ms)
- CodeHeap 'profiled nmethods':2324864 G1 Old Gen:178429440 CodeHeap 'non-profiled nmethods':480768 G1 Survivor Space:4194304 Compressed Class Space:787848 Metaspace:7074864 G1 Eden Space:7340032 CodeHeap 'non-nmethods':1220096
- CodeHeap 'profiled nmethods':2324864 G1 Old Gen:165548552 CodeHeap 'non-profiled nmethods':480768 G1 Survivor Space:2097152 Compressed Class Space:787848 Metaspace:7074864 G1 Eden Space:0 CodeHeap 'non-nmethods':1220096
+time:27 totalGC:209 maxGC:35 meanGC: 20,90 Name:G1 Young Generation action:end of minor GC gcCause:G1 Evacuation Pause(14 ms)
+ CodeHeap 'profiled nmethods':1213696 G1 Old Gen:179553280 CodeHeap 'non-profiled nmethods':238208 G1 Survivor Space:4194304 Compressed Class Space:462584 Metaspace:3984256 G1 Eden Space:7340032 CodeHeap 'non-nmethods':1205504
+ CodeHeap 'profiled nmethods':1213696 G1 Old Gen:167354880 CodeHeap 'non-profiled nmethods':238208 G1 Survivor Space:2097152 Compressed Class Space:462584 Metaspace:3984256 G1 Eden Space:0 CodeHeap 'non-nmethods':1205504
 ---------------------------------------------------------------------------------
-time:29 totalGC:259 Name:G1 Young Generation action:end of minor GC gcCause:G1 Evacuation Pause(11 ms)
- CodeHeap 'profiled nmethods':2362880 G1 Old Gen:165548552 CodeHeap 'non-profiled nmethods':488064 G1 Survivor Space:2097152 Compressed Class Space:787848 Metaspace:7092936 G1 Eden Space:9437184 CodeHeap 'non-nmethods':1220096
- CodeHeap 'profiled nmethods':2362880 G1 Old Gen:158990848 CodeHeap 'non-profiled nmethods':488064 G1 Survivor Space:2097152 Compressed Class Space:787848 Metaspace:7092936 G1 Eden Space:0 CodeHeap 'non-nmethods':1220096
+time:29 totalGC:222 maxGC:35 meanGC: 20,18 Name:G1 Young Generation action:end of minor GC gcCause:G1 Evacuation Pause(13 ms)
+ CodeHeap 'profiled nmethods':1234560 G1 Old Gen:167354880 CodeHeap 'non-profiled nmethods':242176 G1 Survivor Space:2097152 Compressed Class Space:462584 Metaspace:3997360 G1 Eden Space:9437184 CodeHeap 'non-nmethods':1205504
+ CodeHeap 'profiled nmethods':1234560 G1 Old Gen:158525440 CodeHeap 'non-profiled nmethods':242176 G1 Survivor Space:2097152 Compressed Class Space:462584 Metaspace:3997360 G1 Eden Space:0 CodeHeap 'non-nmethods':1205504
 ---------------------------------------------------------------------------------
-time:30 totalGC:277 Name:G1 Young Generation action:end of minor GC gcCause:G1 Evacuation Pause(18 ms)
- CodeHeap 'profiled nmethods':2422272 G1 Old Gen:158990848 CodeHeap 'non-profiled nmethods':490240 G1 Survivor Space:2097152 Compressed Class Space:787848 Metaspace:7118640 G1 Eden Space:9437184 CodeHeap 'non-nmethods':1220096
- CodeHeap 'profiled nmethods':2422272 G1 Old Gen:156387328 CodeHeap 'non-profiled nmethods':490240 G1 Survivor Space:2097152 Compressed Class Space:787848 Metaspace:7118640 G1 Eden Space:0 CodeHeap 'non-nmethods':1220096
+time:30 totalGC:232 maxGC:35 meanGC: 19,33 Name:G1 Young Generation action:end of minor GC gcCause:G1 Evacuation Pause(10 ms)
+ CodeHeap 'profiled nmethods':1262336 G1 Old Gen:158525440 CodeHeap 'non-profiled nmethods':243200 G1 Survivor Space:2097152 Compressed Class Space:462584 Metaspace:4010528 G1 Eden Space:9437184 CodeHeap 'non-nmethods':1205504
+ CodeHeap 'profiled nmethods':1262336 G1 Old Gen:155171328 CodeHeap 'non-profiled nmethods':243200 G1 Survivor Space:2097152 Compressed Class Space:462584 Metaspace:4010528 G1 Eden Space:0 CodeHeap 'non-nmethods':1205504
 ---------------------------------------------------------------------------------
-time:33 totalGC:288 Name:G1 Young Generation action:end of minor GC gcCause:G1 Evacuation Pause(11 ms)
- CodeHeap 'profiled nmethods':2492288 G1 Old Gen:156387328 CodeHeap 'non-profiled nmethods':491264 G1 Survivor Space:2097152 Compressed Class Space:787848 Metaspace:7140888 G1 Eden Space:26214400 CodeHeap 'non-nmethods':1220096
- CodeHeap 'profiled nmethods':2492288 G1 Old Gen:179049472 CodeHeap 'non-profiled nmethods':491264 G1 Survivor Space:4194304 Compressed Class Space:787848 Metaspace:7140888 G1 Eden Space:0 CodeHeap 'non-nmethods':1220096
+time:33 totalGC:242 maxGC:35 meanGC: 18,62 Name:G1 Young Generation action:end of minor GC gcCause:G1 Evacuation Pause(10 ms)
+ CodeHeap 'profiled nmethods':1311744 G1 Old Gen:155171328 CodeHeap 'non-profiled nmethods':243200 G1 Survivor Space:2097152 Compressed Class Space:462584 Metaspace:4024512 G1 Eden Space:24117248 CodeHeap 'non-nmethods':1205504
+ CodeHeap 'profiled nmethods':1311744 G1 Old Gen:177284096 CodeHeap 'non-profiled nmethods':243200 G1 Survivor Space:4194304 Compressed Class Space:462584 Metaspace:4024512 G1 Eden Space:0 CodeHeap 'non-nmethods':1205504
 ---------------------------------------------------------------------------------
-time:35 totalGC:308 Name:G1 Young Generation action:end of minor GC gcCause:G1 Evacuation Pause(20 ms)
- CodeHeap 'profiled nmethods':2511488 G1 Old Gen:179049472 CodeHeap 'non-profiled nmethods':494464 G1 Survivor Space:4194304 Compressed Class Space:787848 Metaspace:7151128 G1 Eden Space:15728640 CodeHeap 'non-nmethods':1220096
- CodeHeap 'profiled nmethods':2511488 G1 Old Gen:195843584 CodeHeap 'non-profiled nmethods':494464 G1 Survivor Space:3145728 Compressed Class Space:787848 Metaspace:7151128 G1 Eden Space:0 CodeHeap 'non-nmethods':1220096
+time:35 totalGC:253 maxGC:35 meanGC: 18,07 Name:G1 Young Generation action:end of minor GC gcCause:G1 Evacuation Pause(11 ms)
+ CodeHeap 'profiled nmethods':1329536 G1 Old Gen:177284096 CodeHeap 'non-profiled nmethods':243968 G1 Survivor Space:4194304 Compressed Class Space:462584 Metaspace:4036296 G1 Eden Space:15728640 CodeHeap 'non-nmethods':1205504
+ CodeHeap 'profiled nmethods':1329536 G1 Old Gen:194539008 CodeHeap 'non-profiled nmethods':243968 G1 Survivor Space:3145728 Compressed Class Space:462584 Metaspace:4036296 G1 Eden Space:0 CodeHeap 'non-nmethods':1205504
 ---------------------------------------------------------------------------------
-time:36 totalGC:326 Name:G1 Young Generation action:end of minor GC gcCause:G1 Evacuation Pause(18 ms)
- CodeHeap 'profiled nmethods':2577024 G1 Old Gen:195843584 CodeHeap 'non-profiled nmethods':502656 G1 Survivor Space:3145728 Compressed Class Space:787848 Metaspace:7173016 G1 Eden Space:8388608 CodeHeap 'non-nmethods':1220096
- CodeHeap 'profiled nmethods':2577024 G1 Old Gen:191949312 CodeHeap 'non-profiled nmethods':502656 G1 Survivor Space:2097152 Compressed Class Space:787848 Metaspace:7173016 G1 Eden Space:0 CodeHeap 'non-nmethods':1220096
+time:36 totalGC:272 maxGC:35 meanGC: 18,13 Name:G1 Young Generation action:end of minor GC gcCause:G1 Evacuation Pause(19 ms)
+ CodeHeap 'profiled nmethods':1342848 G1 Old Gen:194539008 CodeHeap 'non-profiled nmethods':246912 G1 Survivor Space:3145728 Compressed Class Space:462584 Metaspace:4043104 G1 Eden Space:8388608 CodeHeap 'non-nmethods':1205504
+ CodeHeap 'profiled nmethods':1342848 G1 Old Gen:192137728 CodeHeap 'non-profiled nmethods':246912 G1 Survivor Space:2097152 Compressed Class Space:462584 Metaspace:4043104 G1 Eden Space:0 CodeHeap 'non-nmethods':1205504
 ---------------------------------------------------------------------------------
-time:37 totalGC:337 Name:G1 Young Generation action:end of minor GC gcCause:G1 Evacuation Pause(11 ms)
- CodeHeap 'profiled nmethods':2598272 G1 Old Gen:191949312 CodeHeap 'non-profiled nmethods':503552 G1 Survivor Space:2097152 Compressed Class Space:787848 Metaspace:7177704 G1 Eden Space:9437184 CodeHeap 'non-nmethods':1220096
- CodeHeap 'profiled nmethods':2598272 G1 Old Gen:190898688 CodeHeap 'non-profiled nmethods':503552 G1 Survivor Space:2097152 Compressed Class Space:787848 Metaspace:7177704 G1 Eden Space:0 CodeHeap 'non-nmethods':1220096
+time:37 totalGC:284 maxGC:35 meanGC: 17,75 Name:G1 Young Generation action:end of minor GC gcCause:G1 Evacuation Pause(12 ms)
+ CodeHeap 'profiled nmethods':1364608 G1 Old Gen:192137728 CodeHeap 'non-profiled nmethods':248576 G1 Survivor Space:2097152 Compressed Class Space:462584 Metaspace:4051704 G1 Eden Space:9437184 CodeHeap 'non-nmethods':1205504
+ CodeHeap 'profiled nmethods':1364608 G1 Old Gen:191229440 CodeHeap 'non-profiled nmethods':248576 G1 Survivor Space:2097152 Compressed Class Space:462584 Metaspace:4051704 G1 Eden Space:0 CodeHeap 'non-nmethods':1205504
 ---------------------------------------------------------------------------------
-time:39 totalGC:349 Name:G1 Young Generation action:end of minor GC gcCause:G1 Evacuation Pause(12 ms)
- CodeHeap 'profiled nmethods':2681216 G1 Old Gen:190898688 CodeHeap 'non-profiled nmethods':506880 G1 Survivor Space:2097152 Compressed Class Space:787848 Metaspace:7231328 G1 Eden Space:9437184 CodeHeap 'non-nmethods':1220096
- CodeHeap 'profiled nmethods':2681216 G1 Old Gen:192381440 CodeHeap 'non-profiled nmethods':506880 G1 Survivor Space:2097152 Compressed Class Space:787848 Metaspace:7231328 G1 Eden Space:0 CodeHeap 'non-nmethods':1220096
+time:39 totalGC:300 maxGC:35 meanGC: 17,65 Name:G1 Young Generation action:end of minor GC gcCause:G1 Evacuation Pause(16 ms)
+ CodeHeap 'profiled nmethods':1409664 G1 Old Gen:191229440 CodeHeap 'non-profiled nmethods':248576 G1 Survivor Space:2097152 Compressed Class Space:462584 Metaspace:4091688 G1 Eden Space:9437184 CodeHeap 'non-nmethods':1205504
+ CodeHeap 'profiled nmethods':1409664 G1 Old Gen:192614912 CodeHeap 'non-profiled nmethods':248576 G1 Survivor Space:2097152 Compressed Class Space:462584 Metaspace:4091688 G1 Eden Space:0 CodeHeap 'non-nmethods':1205504
 ---------------------------------------------------------------------------------
-time:40 totalGC:356 Name:G1 Young Generation action:end of minor GC gcCause:G1 Evacuation Pause(7 ms)
- CodeHeap 'profiled nmethods':2751616 G1 Old Gen:192381440 CodeHeap 'non-profiled nmethods':520960 G1 Survivor Space:2097152 Compressed Class Space:787848 Metaspace:7256152 G1 Eden Space:12582912 CodeHeap 'non-nmethods':1220096
- CodeHeap 'profiled nmethods':2751616 G1 Old Gen:205312000 CodeHeap 'non-profiled nmethods':520960 G1 Survivor Space:2097152 Compressed Class Space:787848 Metaspace:7256152 G1 Eden Space:0 CodeHeap 'non-nmethods':1220096
+time:40 totalGC:306 maxGC:35 meanGC: 17,00 Name:G1 Young Generation action:end of minor GC gcCause:G1 Evacuation Pause(6 ms)
+ CodeHeap 'profiled nmethods':1415296 G1 Old Gen:192614912 CodeHeap 'non-profiled nmethods':249344 G1 Survivor Space:2097152 Compressed Class Space:462584 Metaspace:4095752 G1 Eden Space:11534336 CodeHeap 'non-nmethods':1205504
+ CodeHeap 'profiled nmethods':1415296 G1 Old Gen:204890112 CodeHeap 'non-profiled nmethods':249344 G1 Survivor Space:2097152 Compressed Class Space:462584 Metaspace:4095752 G1 Eden Space:0 CodeHeap 'non-nmethods':1205504
 ---------------------------------------------------------------------------------
-time:41 totalGC:361 Name:G1 Young Generation action:end of minor GC gcCause:G1 Evacuation Pause(5 ms)
- CodeHeap 'profiled nmethods':2767744 G1 Old Gen:205312000 CodeHeap 'non-profiled nmethods':525056 G1 Survivor Space:2097152 Compressed Class Space:787848 Metaspace:7264480 G1 Eden Space:9437184 CodeHeap 'non-nmethods':1220096
- CodeHeap 'profiled nmethods':2767744 G1 Old Gen:215392768 CodeHeap 'non-profiled nmethods':525056 G1 Survivor Space:2097152 Compressed Class Space:787848 Metaspace:7264480 G1 Eden Space:0 CodeHeap 'non-nmethods':1220096
+time:41 totalGC:312 maxGC:35 meanGC: 16,42 Name:G1 Young Generation action:end of minor GC gcCause:G1 Evacuation Pause(6 ms)
+ CodeHeap 'profiled nmethods':1424000 G1 Old Gen:204890112 CodeHeap 'non-profiled nmethods':252288 G1 Survivor Space:2097152 Compressed Class Space:462584 Metaspace:4101384 G1 Eden Space:9437184 CodeHeap 'non-nmethods':1205504
+ CodeHeap 'profiled nmethods':1424000 G1 Old Gen:215221248 CodeHeap 'non-profiled nmethods':252288 G1 Survivor Space:2097152 Compressed Class Space:462584 Metaspace:4101384 G1 Eden Space:0 CodeHeap 'non-nmethods':1205504
 ---------------------------------------------------------------------------------
-time:43 totalGC:373 Name:G1 Young Generation action:end of minor GC gcCause:G1 Evacuation Pause(12 ms)
- CodeHeap 'profiled nmethods':2803456 G1 Old Gen:215392768 CodeHeap 'non-profiled nmethods':528128 G1 Survivor Space:2097152 Compressed Class Space:787848 Metaspace:7288064 G1 Eden Space:9437184 CodeHeap 'non-nmethods':1220096
- CodeHeap 'profiled nmethods':2803456 G1 Old Gen:215557120 CodeHeap 'non-profiled nmethods':528128 G1 Survivor Space:2097152 Compressed Class Space:787848 Metaspace:7288064 G1 Eden Space:0 CodeHeap 'non-nmethods':1220096
+time:43 totalGC:324 maxGC:35 meanGC: 16,20 Name:G1 Young Generation action:end of minor GC gcCause:G1 Evacuation Pause(12 ms)
+ CodeHeap 'profiled nmethods':1424768 G1 Old Gen:215221248 CodeHeap 'non-profiled nmethods':260736 G1 Survivor Space:2097152 Compressed Class Space:462584 Metaspace:4101384 G1 Eden Space:9437184 CodeHeap 'non-nmethods':1205504
+ CodeHeap 'profiled nmethods':1424768 G1 Old Gen:215309824 CodeHeap 'non-profiled nmethods':260736 G1 Survivor Space:2097152 Compressed Class Space:462584 Metaspace:4101384 G1 Eden Space:0 CodeHeap 'non-nmethods':1205504
 ---------------------------------------------------------------------------------
-time:44 totalGC:390 Name:G1 Young Generation action:end of minor GC gcCause:G1 Evacuation Pause(17 ms)
- CodeHeap 'profiled nmethods':2918272 G1 Old Gen:215557120 CodeHeap 'non-profiled nmethods':541184 G1 Survivor Space:2097152 Compressed Class Space:787848 Metaspace:7328448 G1 Eden Space:9437184 CodeHeap 'non-nmethods':1220096
- CodeHeap 'profiled nmethods':2918272 G1 Old Gen:217033728 CodeHeap 'non-profiled nmethods':541184 G1 Survivor Space:2097152 Compressed Class Space:787848 Metaspace:7328448 G1 Eden Space:0 CodeHeap 'non-nmethods':1220096
+time:44 totalGC:335 maxGC:35 meanGC: 15,95 Name:G1 Young Generation action:end of minor GC gcCause:G1 Evacuation Pause(11 ms)
+ CodeHeap 'profiled nmethods':1452416 G1 Old Gen:215309824 CodeHeap 'non-profiled nmethods':260736 G1 Survivor Space:2097152 Compressed Class Space:462584 Metaspace:4114520 G1 Eden Space:9437184 CodeHeap 'non-nmethods':1205504
+ CodeHeap 'profiled nmethods':1452416 G1 Old Gen:217222144 CodeHeap 'non-profiled nmethods':260736 G1 Survivor Space:2097152 Compressed Class Space:462584 Metaspace:4114520 G1 Eden Space:0 CodeHeap 'non-nmethods':1205504
 ---------------------------------------------------------------------------------
-time:45 totalGC:396 Name:G1 Young Generation action:end of minor GC gcCause:G1 Evacuation Pause(6 ms)
- CodeHeap 'profiled nmethods':2918272 G1 Old Gen:217033728 CodeHeap 'non-profiled nmethods':541184 G1 Survivor Space:2097152 Compressed Class Space:787848 Metaspace:7328448 G1 Eden Space:9437184 CodeHeap 'non-nmethods':1220096
- CodeHeap 'profiled nmethods':2918272 G1 Old Gen:227052032 CodeHeap 'non-profiled nmethods':541184 G1 Survivor Space:2097152 Compressed Class Space:787848 Metaspace:7328448 G1 Eden Space:0 CodeHeap 'non-nmethods':1220096
+time:45 totalGC:341 maxGC:35 meanGC: 15,50 Name:G1 Young Generation action:end of minor GC gcCause:G1 Evacuation Pause(6 ms)
+ CodeHeap 'profiled nmethods':1452416 G1 Old Gen:217222144 CodeHeap 'non-profiled nmethods':260736 G1 Survivor Space:2097152 Compressed Class Space:462584 Metaspace:4114520 G1 Eden Space:9437184 CodeHeap 'non-nmethods':1205504
+ CodeHeap 'profiled nmethods':1452416 G1 Old Gen:227504128 CodeHeap 'non-profiled nmethods':260736 G1 Survivor Space:2097152 Compressed Class Space:462584 Metaspace:4114520 G1 Eden Space:0 CodeHeap 'non-nmethods':1205504
 ---------------------------------------------------------------------------------
-time:46 totalGC:402 Name:G1 Young Generation action:end of minor GC gcCause:G1 Evacuation Pause(6 ms)
- CodeHeap 'profiled nmethods':2918272 G1 Old Gen:227052032 CodeHeap 'non-profiled nmethods':546816 G1 Survivor Space:2097152 Compressed Class Space:787848 Metaspace:7328448 G1 Eden Space:9437184 CodeHeap 'non-nmethods':1220096
- CodeHeap 'profiled nmethods':2918272 G1 Old Gen:237199360 CodeHeap 'non-profiled nmethods':546816 G1 Survivor Space:2097152 Compressed Class Space:787848 Metaspace:7328448 G1 Eden Space:0 CodeHeap 'non-nmethods':1220096
+time:47 totalGC:348 maxGC:35 meanGC: 15,13 Name:G1 Young Generation action:end of minor GC gcCause:G1 Evacuation Pause(7 ms)
+ CodeHeap 'profiled nmethods':1486720 G1 Old Gen:227504128 CodeHeap 'non-profiled nmethods':263808 G1 Survivor Space:2097152 Compressed Class Space:462584 Metaspace:4139616 G1 Eden Space:9437184 CodeHeap 'non-nmethods':1205504
+ CodeHeap 'profiled nmethods':1486720 G1 Old Gen:237819904 CodeHeap 'non-profiled nmethods':263808 G1 Survivor Space:2097152 Compressed Class Space:462584 Metaspace:4139616 G1 Eden Space:0 CodeHeap 'non-nmethods':1205504
 ---------------------------------------------------------------------------------
-time:48 totalGC:407 Name:G1 Young Generation action:end of minor GC gcCause:G1 Evacuation Pause(5 ms)
- CodeHeap 'profiled nmethods':2919424 G1 Old Gen:237199360 CodeHeap 'non-profiled nmethods':546816 G1 Survivor Space:2097152 Compressed Class Space:757176 Metaspace:7171976 G1 Eden Space:9437184 CodeHeap 'non-nmethods':1220096
- CodeHeap 'profiled nmethods':2919424 G1 Old Gen:247293440 CodeHeap 'non-profiled nmethods':546816 G1 Survivor Space:2097152 Compressed Class Space:757176 Metaspace:7171976 G1 Eden Space:0 CodeHeap 'non-nmethods':1220096
+time:48 totalGC:354 maxGC:35 meanGC: 14,75 Name:G1 Young Generation action:end of minor GC gcCause:G1 Evacuation Pause(6 ms)
+ CodeHeap 'profiled nmethods':1526528 G1 Old Gen:237819904 CodeHeap 'non-profiled nmethods':269440 G1 Survivor Space:2097152 Compressed Class Space:442792 Metaspace:4059376 G1 Eden Space:9437184 CodeHeap 'non-nmethods':1205504
+ CodeHeap 'profiled nmethods':1526528 G1 Old Gen:248104960 CodeHeap 'non-profiled nmethods':269440 G1 Survivor Space:2097152 Compressed Class Space:442792 Metaspace:4059376 G1 Eden Space:0 CodeHeap 'non-nmethods':1205504
 ---------------------------------------------------------------------------------
-time:49 totalGC:414 Name:G1 Young Generation action:end of minor GC gcCause:G1 Evacuation Pause(7 ms)
- CodeHeap 'profiled nmethods':3022848 G1 Old Gen:247293440 CodeHeap 'non-profiled nmethods':547584 G1 Survivor Space:2097152 Compressed Class Space:757176 Metaspace:7208496 G1 Eden Space:9437184 CodeHeap 'non-nmethods':1220096
- CodeHeap 'profiled nmethods':3022848 G1 Old Gen:262987776 CodeHeap 'non-profiled nmethods':547584 G1 Survivor Space:2097152 Compressed Class Space:757176 Metaspace:7208496 G1 Eden Space:0 CodeHeap 'non-nmethods':1220096
+time:49 totalGC:363 maxGC:35 meanGC: 14,52 Name:G1 Young Generation action:end of minor GC gcCause:G1 Evacuation Pause(9 ms)
+ CodeHeap 'profiled nmethods':1561088 G1 Old Gen:248104960 CodeHeap 'non-profiled nmethods':269440 G1 Survivor Space:2097152 Compressed Class Space:442792 Metaspace:4074968 G1 Eden Space:9437184 CodeHeap 'non-nmethods':1205504
+ CodeHeap 'profiled nmethods':1561088 G1 Old Gen:266122424 CodeHeap 'non-profiled nmethods':269440 G1 Survivor Space:1048576 Compressed Class Space:442792 Metaspace:4074968 G1 Eden Space:0 CodeHeap 'non-nmethods':1205504
 ---------------------------------------------------------------------------------
-time:49 totalGC:422 Name:G1 Young Generation action:end of minor GC gcCause:G1 Evacuation Pause(8 ms)
- CodeHeap 'profiled nmethods':3031040 G1 Old Gen:262987776 CodeHeap 'non-profiled nmethods':549888 G1 Survivor Space:2097152 Compressed Class Space:757176 Metaspace:7210888 G1 Eden Space:1048576 CodeHeap 'non-nmethods':1220096
- CodeHeap 'profiled nmethods':3031040 G1 Old Gen:267162864 CodeHeap 'non-profiled nmethods':549888 G1 Survivor Space:0 Compressed Class Space:757176 Metaspace:7210888 G1 Eden Space:0 CodeHeap 'non-nmethods':1220096
+time:49 totalGC:488 maxGC:125 meanGC: 18,77 Name:G1 Old Generation action:end of major GC gcCause:G1 Evacuation Pause(125 ms)
+ CodeHeap 'profiled nmethods':1561088 G1 Old Gen:266122424 CodeHeap 'non-profiled nmethods':269440 G1 Survivor Space:1048576 Compressed Class Space:442792 Metaspace:4074968 G1 Eden Space:0 CodeHeap 'non-nmethods':1205504
+ CodeHeap 'profiled nmethods':1561088 G1 Old Gen:204479320 CodeHeap 'non-profiled nmethods':269440 G1 Survivor Space:0 Compressed Class Space:442792 Metaspace:4074968 G1 Eden Space:0 CodeHeap 'non-nmethods':1205504
 ---------------------------------------------------------------------------------
-time:49 totalGC:560 Name:G1 Old Generation action:end of major GC gcCause:G1 Evacuation Pause(138 ms)
- CodeHeap 'profiled nmethods':3031040 G1 Old Gen:267162864 CodeHeap 'non-profiled nmethods':549888 G1 Survivor Space:0 Compressed Class Space:757176 Metaspace:7210888 G1 Eden Space:0 CodeHeap 'non-nmethods':1220096
- CodeHeap 'profiled nmethods':3031040 G1 Old Gen:205296640 CodeHeap 'non-profiled nmethods':549888 G1 Survivor Space:0 Compressed Class Space:745584 Metaspace:7129480 G1 Eden Space:0 CodeHeap 'non-nmethods':1220096
+time:51 totalGC:494 maxGC:125 meanGC: 18,30 Name:G1 Young Generation action:end of minor GC gcCause:G1 Evacuation Pause(6 ms)
+ CodeHeap 'profiled nmethods':1577472 G1 Old Gen:204479320 CodeHeap 'non-profiled nmethods':284800 G1 Survivor Space:0 Compressed Class Space:442792 Metaspace:4081392 G1 Eden Space:11534336 CodeHeap 'non-nmethods':1207296
+ CodeHeap 'profiled nmethods':1577472 G1 Old Gen:214700888 CodeHeap 'non-profiled nmethods':284800 G1 Survivor Space:2097152 Compressed Class Space:442792 Metaspace:4081392 G1 Eden Space:0 CodeHeap 'non-nmethods':1207296
 ---------------------------------------------------------------------------------
-time:51 totalGC:566 Name:G1 Young Generation action:end of minor GC gcCause:G1 Evacuation Pause(6 ms)
- CodeHeap 'profiled nmethods':3134336 G1 Old Gen:205296640 CodeHeap 'non-profiled nmethods':558080 G1 Survivor Space:0 Compressed Class Space:754968 Metaspace:7227728 G1 Eden Space:11534336 CodeHeap 'non-nmethods':1220096
- CodeHeap 'profiled nmethods':3134336 G1 Old Gen:214903808 CodeHeap 'non-profiled nmethods':558080 G1 Survivor Space:2097152 Compressed Class Space:754968 Metaspace:7227728 G1 Eden Space:0 CodeHeap 'non-nmethods':1220096
+time:52 totalGC:500 maxGC:125 meanGC: 17,86 Name:G1 Young Generation action:end of minor GC gcCause:G1 Evacuation Pause(6 ms)
+ CodeHeap 'profiled nmethods':1591808 G1 Old Gen:214700888 CodeHeap 'non-profiled nmethods':286848 G1 Survivor Space:2097152 Compressed Class Space:442792 Metaspace:4082960 G1 Eden Space:9437184 CodeHeap 'non-nmethods':1207296
+ CodeHeap 'profiled nmethods':1591808 G1 Old Gen:225007448 CodeHeap 'non-profiled nmethods':286848 G1 Survivor Space:2097152 Compressed Class Space:442792 Metaspace:4082960 G1 Eden Space:0 CodeHeap 'non-nmethods':1207296
 ---------------------------------------------------------------------------------
-time:52 totalGC:572 Name:G1 Young Generation action:end of minor GC gcCause:G1 Evacuation Pause(6 ms)
- CodeHeap 'profiled nmethods':3166464 G1 Old Gen:214903808 CodeHeap 'non-profiled nmethods':560128 G1 Survivor Space:2097152 Compressed Class Space:754968 Metaspace:7240464 G1 Eden Space:9437184 CodeHeap 'non-nmethods':1220096
- CodeHeap 'profiled nmethods':3166464 G1 Old Gen:225085440 CodeHeap 'non-profiled nmethods':560128 G1 Survivor Space:2097152 Compressed Class Space:754968 Metaspace:7240464 G1 Eden Space:0 CodeHeap 'non-nmethods':1220096
+time:53 totalGC:506 maxGC:125 meanGC: 17,45 Name:G1 Young Generation action:end of minor GC gcCause:G1 Evacuation Pause(6 ms)
+ CodeHeap 'profiled nmethods':1591808 G1 Old Gen:225007448 CodeHeap 'non-profiled nmethods':294272 G1 Survivor Space:2097152 Compressed Class Space:442792 Metaspace:4082960 G1 Eden Space:9437184 CodeHeap 'non-nmethods':1207296
+ CodeHeap 'profiled nmethods':1591808 G1 Old Gen:235265880 CodeHeap 'non-profiled nmethods':294272 G1 Survivor Space:2097152 Compressed Class Space:442792 Metaspace:4082960 G1 Eden Space:0 CodeHeap 'non-nmethods':1207296
 ---------------------------------------------------------------------------------
-time:53 totalGC:579 Name:G1 Young Generation action:end of minor GC gcCause:G1 Evacuation Pause(7 ms)
- CodeHeap 'profiled nmethods':3173760 G1 Old Gen:225085440 CodeHeap 'non-profiled nmethods':604160 G1 Survivor Space:2097152 Compressed Class Space:755520 Metaspace:7247472 G1 Eden Space:9437184 CodeHeap 'non-nmethods':1220096
- CodeHeap 'profiled nmethods':3173760 G1 Old Gen:235210240 CodeHeap 'non-profiled nmethods':604160 G1 Survivor Space:2097152 Compressed Class Space:755520 Metaspace:7247472 G1 Eden Space:0 CodeHeap 'non-nmethods':1220096
+time:55 totalGC:513 maxGC:125 meanGC: 17,10 Name:G1 Young Generation action:end of minor GC gcCause:G1 Evacuation Pause(7 ms)
+ CodeHeap 'profiled nmethods':1597056 G1 Old Gen:235265880 CodeHeap 'non-profiled nmethods':294272 G1 Survivor Space:2097152 Compressed Class Space:442792 Metaspace:4084920 G1 Eden Space:9437184 CodeHeap 'non-nmethods':1207296
+ CodeHeap 'profiled nmethods':1597056 G1 Old Gen:245585752 CodeHeap 'non-profiled nmethods':294272 G1 Survivor Space:2097152 Compressed Class Space:442792 Metaspace:4084920 G1 Eden Space:0 CodeHeap 'non-nmethods':1207296
 ---------------------------------------------------------------------------------
-time:54 totalGC:585 Name:G1 Young Generation action:end of minor GC gcCause:G1 Evacuation Pause(6 ms)
- CodeHeap 'profiled nmethods':3173760 G1 Old Gen:235210240 CodeHeap 'non-profiled nmethods':637440 G1 Survivor Space:2097152 Compressed Class Space:755520 Metaspace:7247472 G1 Eden Space:9437184 CodeHeap 'non-nmethods':1220096
- CodeHeap 'profiled nmethods':3173760 G1 Old Gen:245423616 CodeHeap 'non-profiled nmethods':637440 G1 Survivor Space:2097152 Compressed Class Space:755520 Metaspace:7247472 G1 Eden Space:0 CodeHeap 'non-nmethods':1220096
+time:56 totalGC:516 maxGC:125 meanGC: 16,65 Name:G1 Young Generation action:end of minor GC gcCause:G1 Evacuation Pause(3 ms)
+ CodeHeap 'profiled nmethods':1597056 G1 Old Gen:245585752 CodeHeap 'non-profiled nmethods':297728 G1 Survivor Space:2097152 Compressed Class Space:442792 Metaspace:4084920 G1 Eden Space:9437184 CodeHeap 'non-nmethods':1207296
+ CodeHeap 'profiled nmethods':1597056 G1 Old Gen:257956696 CodeHeap 'non-profiled nmethods':297728 G1 Survivor Space:2097144 Compressed Class Space:442792 Metaspace:4084920 G1 Eden Space:0 CodeHeap 'non-nmethods':1207296
 ---------------------------------------------------------------------------------
-time:56 totalGC:589 Name:G1 Young Generation action:end of minor GC gcCause:G1 Evacuation Pause(4 ms)
- CodeHeap 'profiled nmethods':3191552 G1 Old Gen:245423616 CodeHeap 'non-profiled nmethods':650112 G1 Survivor Space:2097152 Compressed Class Space:756072 Metaspace:7253248 G1 Eden Space:9437184 CodeHeap 'non-nmethods':1220096
- CodeHeap 'profiled nmethods':3191552 G1 Old Gen:256676864 CodeHeap 'non-profiled nmethods':650112 G1 Survivor Space:2097152 Compressed Class Space:756072 Metaspace:7253248 G1 Eden Space:0 CodeHeap 'non-nmethods':1220096
+time:56 totalGC:518 maxGC:125 meanGC: 16,19 Name:G1 Young Generation action:end of minor GC gcCause:G1 Evacuation Pause(2 ms)
+ CodeHeap 'profiled nmethods':1631744 G1 Old Gen:257956696 CodeHeap 'non-profiled nmethods':298880 G1 Survivor Space:2097144 Compressed Class Space:442792 Metaspace:4092184 G1 Eden Space:1048576 CodeHeap 'non-nmethods':1207296
+ CodeHeap 'profiled nmethods':1631744 G1 Old Gen:262146816 CodeHeap 'non-profiled nmethods':298880 G1 Survivor Space:0 Compressed Class Space:442792 Metaspace:4092184 G1 Eden Space:0 CodeHeap 'non-nmethods':1207296
 ---------------------------------------------------------------------------------
-time:57 totalGC:591 Name:G1 Young Generation action:end of minor GC gcCause:G1 Evacuation Pause(2 ms)
- CodeHeap 'profiled nmethods':3256576 G1 Old Gen:256620576 CodeHeap 'non-profiled nmethods':650880 G1 Survivor Space:2097152 Compressed Class Space:756072 Metaspace:7280272 G1 Eden Space:4194304 CodeHeap 'non-nmethods':1220096
- CodeHeap 'profiled nmethods':3256576 G1 Old Gen:263948344 CodeHeap 'non-profiled nmethods':650880 G1 Survivor Space:0 Compressed Class Space:756072 Metaspace:7280272 G1 Eden Space:0 CodeHeap 'non-nmethods':1220096
+time:56 totalGC:675 maxGC:157 meanGC: 20,45 Name:G1 Old Generation action:end of major GC gcCause:G1 Evacuation Pause(157 ms)
+ CodeHeap 'profiled nmethods':1631744 G1 Old Gen:262146816 CodeHeap 'non-profiled nmethods':298880 G1 Survivor Space:0 Compressed Class Space:442792 Metaspace:4092184 G1 Eden Space:0 CodeHeap 'non-nmethods':1207296
+ CodeHeap 'profiled nmethods':1631744 G1 Old Gen:232113504 CodeHeap 'non-profiled nmethods':298880 G1 Survivor Space:0 Compressed Class Space:442792 Metaspace:4092184 G1 Eden Space:0 CodeHeap 'non-nmethods':1207296
 ---------------------------------------------------------------------------------
-time:57 totalGC:731 Name:G1 Old Generation action:end of major GC gcCause:G1 Evacuation Pause(140 ms)
- CodeHeap 'profiled nmethods':3256576 G1 Old Gen:263948344 CodeHeap 'non-profiled nmethods':650880 G1 Survivor Space:0 Compressed Class Space:756072 Metaspace:7280272 G1 Eden Space:0 CodeHeap 'non-nmethods':1220096
- CodeHeap 'profiled nmethods':3256576 G1 Old Gen:233954248 CodeHeap 'non-profiled nmethods':650880 G1 Survivor Space:0 Compressed Class Space:745584 Metaspace:7207816 G1 Eden Space:0 CodeHeap 'non-nmethods':1220096
+time:58 totalGC:680 maxGC:157 meanGC: 20,00 Name:G1 Young Generation action:end of minor GC gcCause:G1 Evacuation Pause(5 ms)
+ CodeHeap 'profiled nmethods':1689216 G1 Old Gen:232113504 CodeHeap 'non-profiled nmethods':303872 G1 Survivor Space:0 Compressed Class Space:442792 Metaspace:4114016 G1 Eden Space:11534336 CodeHeap 'non-nmethods':1207296
+ CodeHeap 'profiled nmethods':1689216 G1 Old Gen:242241888 CodeHeap 'non-profiled nmethods':303872 G1 Survivor Space:2097152 Compressed Class Space:442792 Metaspace:4114016 G1 Eden Space:0 CodeHeap 'non-nmethods':1207296
 ---------------------------------------------------------------------------------
-time:58 totalGC:737 Name:G1 Young Generation action:end of minor GC gcCause:G1 Evacuation Pause(6 ms)
- CodeHeap 'profiled nmethods':3328128 G1 Old Gen:233954248 CodeHeap 'non-profiled nmethods':652800 G1 Survivor Space:0 Compressed Class Space:754968 Metaspace:7298096 G1 Eden Space:11534336 CodeHeap 'non-nmethods':1220096
- CodeHeap 'profiled nmethods':3328128 G1 Old Gen:243574216 CodeHeap 'non-profiled nmethods':652800 G1 Survivor Space:2097152 Compressed Class Space:754968 Metaspace:7298096 G1 Eden Space:0 CodeHeap 'non-nmethods':1220096
+time:59 totalGC:684 maxGC:157 meanGC: 19,54 Name:G1 Young Generation action:end of minor GC gcCause:G1 Evacuation Pause(4 ms)
+ CodeHeap 'profiled nmethods':1696128 G1 Old Gen:242241888 CodeHeap 'non-profiled nmethods':305152 G1 Survivor Space:2097152 Compressed Class Space:442792 Metaspace:4116984 G1 Eden Space:9437184 CodeHeap 'non-nmethods':1207296
+ CodeHeap 'profiled nmethods':1696128 G1 Old Gen:253085024 CodeHeap 'non-profiled nmethods':305152 G1 Survivor Space:2097152 Compressed Class Space:442792 Metaspace:4116984 G1 Eden Space:0 CodeHeap 'non-nmethods':1207296
 ---------------------------------------------------------------------------------
-time:59 totalGC:741 Name:G1 Young Generation action:end of minor GC gcCause:G1 Evacuation Pause(4 ms)
- CodeHeap 'profiled nmethods':3349376 G1 Old Gen:243574216 CodeHeap 'non-profiled nmethods':655616 G1 Survivor Space:2097152 Compressed Class Space:754968 Metaspace:7306600 G1 Eden Space:9437184 CodeHeap 'non-nmethods':1226880
- CodeHeap 'profiled nmethods':3349376 G1 Old Gen:253877192 CodeHeap 'non-profiled nmethods':655616 G1 Survivor Space:2097152 Compressed Class Space:754968 Metaspace:7306600 G1 Eden Space:0 CodeHeap 'non-nmethods':1226880
+time:60 totalGC:686 maxGC:157 meanGC: 19,06 Name:G1 Young Generation action:end of minor GC gcCause:G1 Evacuation Pause(2 ms)
+ CodeHeap 'profiled nmethods':1700352 G1 Old Gen:253085024 CodeHeap 'non-profiled nmethods':306304 G1 Survivor Space:2097152 Compressed Class Space:442792 Metaspace:4117928 G1 Eden Space:7340032 CodeHeap 'non-nmethods':1207296
+ CodeHeap 'profiled nmethods':1700352 G1 Old Gen:263558760 CodeHeap 'non-profiled nmethods':306304 G1 Survivor Space:0 Compressed Class Space:442792 Metaspace:4117928 G1 Eden Space:0 CodeHeap 'non-nmethods':1207296
 ---------------------------------------------------------------------------------
-time:60 totalGC:743 Name:G1 Young Generation action:end of minor GC gcCause:G1 Evacuation Pause(2 ms)
- CodeHeap 'profiled nmethods':3351808 G1 Old Gen:253877192 CodeHeap 'non-profiled nmethods':666496 G1 Survivor Space:2097152 Compressed Class Space:755520 Metaspace:7310656 G1 Eden Space:5242880 CodeHeap 'non-nmethods':1220096
- CodeHeap 'profiled nmethods':3351808 G1 Old Gen:262265800 CodeHeap 'non-profiled nmethods':666496 G1 Survivor Space:0 Compressed Class Space:755520 Metaspace:7310656 G1 Eden Space:0 CodeHeap 'non-nmethods':1220096
+time:60 totalGC:841 maxGC:157 meanGC: 22,73 Name:G1 Old Generation action:end of major GC gcCause:G1 Evacuation Pause(155 ms)
+ CodeHeap 'profiled nmethods':1700352 G1 Old Gen:263558760 CodeHeap 'non-profiled nmethods':306304 G1 Survivor Space:0 Compressed Class Space:442792 Metaspace:4117928 G1 Eden Space:0 CodeHeap 'non-nmethods':1207296
+ CodeHeap 'profiled nmethods':1700352 G1 Old Gen:247781768 CodeHeap 'non-profiled nmethods':306304 G1 Survivor Space:0 Compressed Class Space:442792 Metaspace:4117928 G1 Eden Space:0 CodeHeap 'non-nmethods':1207296
 ---------------------------------------------------------------------------------
-time:60 totalGC:904 Name:G1 Old Generation action:end of major GC gcCause:G1 Evacuation Pause(161 ms)
- CodeHeap 'profiled nmethods':3351808 G1 Old Gen:262265800 CodeHeap 'non-profiled nmethods':666496 G1 Survivor Space:0 Compressed Class Space:755520 Metaspace:7310656 G1 Eden Space:0 CodeHeap 'non-nmethods':1220096
- CodeHeap 'profiled nmethods':3351808 G1 Old Gen:247888776 CodeHeap 'non-profiled nmethods':666496 G1 Survivor Space:0 Compressed Class Space:745584 Metaspace:7240224 G1 Eden Space:0 CodeHeap 'non-nmethods':1220096
+time:62 totalGC:844 maxGC:157 meanGC: 22,21 Name:G1 Young Generation action:end of minor GC gcCause:G1 Evacuation Pause(3 ms)
+ CodeHeap 'profiled nmethods':1707264 G1 Old Gen:247781768 CodeHeap 'non-profiled nmethods':308736 G1 Survivor Space:0 Compressed Class Space:442792 Metaspace:4118800 G1 Eden Space:11534336 CodeHeap 'non-nmethods':1207296
+ CodeHeap 'profiled nmethods':1707264 G1 Old Gen:260361288 CodeHeap 'non-profiled nmethods':308736 G1 Survivor Space:2097152 Compressed Class Space:442792 Metaspace:4118800 G1 Eden Space:0 CodeHeap 'non-nmethods':1207296
 ---------------------------------------------------------------------------------
-time:62 totalGC:908 Name:G1 Young Generation action:end of minor GC gcCause:G1 Evacuation Pause(4 ms)
- CodeHeap 'profiled nmethods':3418624 G1 Old Gen:247888776 CodeHeap 'non-profiled nmethods':671872 G1 Survivor Space:0 Compressed Class Space:754968 Metaspace:7319840 G1 Eden Space:11534336 CodeHeap 'non-nmethods':1220096
- CodeHeap 'profiled nmethods':3418624 G1 Old Gen:260463144 CodeHeap 'non-profiled nmethods':671872 G1 Survivor Space:2097152 Compressed Class Space:754968 Metaspace:7319840 G1 Eden Space:0 CodeHeap 'non-nmethods':1220096
+time:62 totalGC:989 maxGC:157 meanGC: 25,36 Name:G1 Old Generation action:end of major GC gcCause:G1 Evacuation Pause(145 ms)
+ CodeHeap 'profiled nmethods':1707264 G1 Old Gen:260361288 CodeHeap 'non-profiled nmethods':308736 G1 Survivor Space:2097152 Compressed Class Space:442792 Metaspace:4118800 G1 Eden Space:0 CodeHeap 'non-nmethods':1207296
+ CodeHeap 'profiled nmethods':1707264 G1 Old Gen:253860416 CodeHeap 'non-profiled nmethods':308736 G1 Survivor Space:0 Compressed Class Space:442792 Metaspace:4118800 G1 Eden Space:0 CodeHeap 'non-nmethods':1207296
 ---------------------------------------------------------------------------------
-time:62 totalGC:1076 Name:G1 Old Generation action:end of major GC gcCause:G1 Evacuation Pause(168 ms)
- CodeHeap 'profiled nmethods':3418624 G1 Old Gen:260463144 CodeHeap 'non-profiled nmethods':671872 G1 Survivor Space:2097152 Compressed Class Space:754968 Metaspace:7319840 G1 Eden Space:0 CodeHeap 'non-nmethods':1220096
- CodeHeap 'profiled nmethods':3418624 G1 Old Gen:253734136 CodeHeap 'non-profiled nmethods':671872 G1 Survivor Space:0 Compressed Class Space:745584 Metaspace:7253464 G1 Eden Space:0 CodeHeap 'non-nmethods':1220096
+time:63 totalGC:991 maxGC:157 meanGC: 24,78 Name:G1 Young Generation action:end of minor GC gcCause:G1 Evacuation Pause(2 ms)
+ CodeHeap 'profiled nmethods':1707264 G1 Old Gen:253860416 CodeHeap 'non-profiled nmethods':314112 G1 Survivor Space:0 Compressed Class Space:442792 Metaspace:4118800 G1 Eden Space:7340032 CodeHeap 'non-nmethods':1207296
+ CodeHeap 'profiled nmethods':1707264 G1 Old Gen:262248440 CodeHeap 'non-profiled nmethods':314112 G1 Survivor Space:0 Compressed Class Space:442792 Metaspace:4118800 G1 Eden Space:0 CodeHeap 'non-nmethods':1207296
 ---------------------------------------------------------------------------------
-time:62 totalGC:1080 Name:G1 Young Generation action:end of minor GC gcCause:G1 Evacuation Pause(4 ms)
- CodeHeap 'profiled nmethods':3500928 G1 Old Gen:253734136 CodeHeap 'non-profiled nmethods':676224 G1 Survivor Space:0 Compressed Class Space:754968 Metaspace:7335152 G1 Eden Space:6291456 CodeHeap 'non-nmethods':1220096
- CodeHeap 'profiled nmethods':3500928 G1 Old Gen:261056576 CodeHeap 'non-profiled nmethods':676224 G1 Survivor Space:0 Compressed Class Space:754968 Metaspace:7335152 G1 Eden Space:0 CodeHeap 'non-nmethods':1220096
+time:63 totalGC:1130 maxGC:157 meanGC: 27,56 Name:G1 Old Generation action:end of major GC gcCause:G1 Evacuation Pause(139 ms)
+ CodeHeap 'profiled nmethods':1707264 G1 Old Gen:262248440 CodeHeap 'non-profiled nmethods':314112 G1 Survivor Space:0 Compressed Class Space:442792 Metaspace:4118800 G1 Eden Space:0 CodeHeap 'non-nmethods':1207296
+ CodeHeap 'profiled nmethods':1707264 G1 Old Gen:257658192 CodeHeap 'non-profiled nmethods':314112 G1 Survivor Space:0 Compressed Class Space:442792 Metaspace:4118800 G1 Eden Space:0 CodeHeap 'non-nmethods':1207296
 ---------------------------------------------------------------------------------
-time:62 totalGC:1259 Name:G1 Old Generation action:end of major GC gcCause:G1 Evacuation Pause(179 ms)
- CodeHeap 'profiled nmethods':3500928 G1 Old Gen:261056576 CodeHeap 'non-profiled nmethods':676224 G1 Survivor Space:0 Compressed Class Space:754968 Metaspace:7335152 G1 Eden Space:0 CodeHeap 'non-nmethods':1220096
- CodeHeap 'profiled nmethods':3500928 G1 Old Gen:257094424 CodeHeap 'non-profiled nmethods':676224 G1 Survivor Space:0 Compressed Class Space:745584 Metaspace:7268776 G1 Eden Space:0 CodeHeap 'non-nmethods':1220096
+time:64 totalGC:1143 maxGC:157 meanGC: 27,21 Name:G1 Young Generation action:end of minor GC gcCause:G1 Evacuation Pause(13 ms)
+ CodeHeap 'profiled nmethods':1766400 G1 Old Gen:257658192 CodeHeap 'non-profiled nmethods':315904 G1 Survivor Space:0 Compressed Class Space:442792 Metaspace:4128336 G1 Eden Space:4194304 CodeHeap 'non-nmethods':1207296
+ CodeHeap 'profiled nmethods':1766400 G1 Old Gen:262894792 CodeHeap 'non-profiled nmethods':315904 G1 Survivor Space:0 Compressed Class Space:442792 Metaspace:4128336 G1 Eden Space:0 CodeHeap 'non-nmethods':1207296
 ---------------------------------------------------------------------------------
-time:63 totalGC:1264 Name:G1 Young Generation action:end of minor GC gcCause:G1 Evacuation Pause(5 ms)
- CodeHeap 'profiled nmethods':3534848 G1 Old Gen:257094424 CodeHeap 'non-profiled nmethods':687744 G1 Survivor Space:0 Compressed Class Space:754968 Metaspace:7354888 G1 Eden Space:4194304 CodeHeap 'non-nmethods':1220096
- CodeHeap 'profiled nmethods':3534848 G1 Old Gen:262336952 CodeHeap 'non-profiled nmethods':687744 G1 Survivor Space:0 Compressed Class Space:754968 Metaspace:7354888 G1 Eden Space:0 CodeHeap 'non-nmethods':1220096
+time:64 totalGC:1284 maxGC:157 meanGC: 29,86 Name:G1 Old Generation action:end of major GC gcCause:G1 Evacuation Pause(141 ms)
+ CodeHeap 'profiled nmethods':1766400 G1 Old Gen:262894792 CodeHeap 'non-profiled nmethods':315904 G1 Survivor Space:0 Compressed Class Space:442792 Metaspace:4128336 G1 Eden Space:0 CodeHeap 'non-nmethods':1207296
+ CodeHeap 'profiled nmethods':1766400 G1 Old Gen:260116976 CodeHeap 'non-profiled nmethods':315904 G1 Survivor Space:0 Compressed Class Space:442792 Metaspace:4128336 G1 Eden Space:0 CodeHeap 'non-nmethods':1207296
 ---------------------------------------------------------------------------------
-time:63 totalGC:1427 Name:G1 Old Generation action:end of major GC gcCause:G1 Evacuation Pause(163 ms)
- CodeHeap 'profiled nmethods':3534848 G1 Old Gen:262336952 CodeHeap 'non-profiled nmethods':687744 G1 Survivor Space:0 Compressed Class Space:754968 Metaspace:7354888 G1 Eden Space:0 CodeHeap 'non-nmethods':1220096
- CodeHeap 'profiled nmethods':3534848 G1 Old Gen:259118920 CodeHeap 'non-profiled nmethods':687744 G1 Survivor Space:0 Compressed Class Space:745584 Metaspace:7288512 G1 Eden Space:0 CodeHeap 'non-nmethods':1220096
+time:64 totalGC:1297 maxGC:157 meanGC: 29,48 Name:G1 Young Generation action:end of minor GC gcCause:G1 Evacuation Pause(13 ms)
+ CodeHeap 'profiled nmethods':1773824 G1 Old Gen:260116976 CodeHeap 'non-profiled nmethods':321024 G1 Survivor Space:0 Compressed Class Space:442792 Metaspace:4132136 G1 Eden Space:2097152 CodeHeap 'non-nmethods':1207296
+ CodeHeap 'profiled nmethods':1773824 G1 Old Gen:263245632 CodeHeap 'non-profiled nmethods':321024 G1 Survivor Space:0 Compressed Class Space:442792 Metaspace:4132136 G1 Eden Space:0 CodeHeap 'non-nmethods':1207296
 ---------------------------------------------------------------------------------
-time:64 totalGC:1430 Name:G1 Young Generation action:end of minor GC gcCause:G1 Evacuation Pause(3 ms)
- CodeHeap 'profiled nmethods':3542400 G1 Old Gen:259118920 CodeHeap 'non-profiled nmethods':692096 G1 Survivor Space:0 Compressed Class Space:745584 Metaspace:7288976 G1 Eden Space:3145728 CodeHeap 'non-nmethods':1220096
- CodeHeap 'profiled nmethods':3542400 G1 Old Gen:263294632 CodeHeap 'non-profiled nmethods':692096 G1 Survivor Space:0 Compressed Class Space:745584 Metaspace:7288976 G1 Eden Space:0 CodeHeap 'non-nmethods':1220096
+time:64 totalGC:1449 maxGC:157 meanGC: 32,20 Name:G1 Old Generation action:end of major GC gcCause:G1 Evacuation Pause(152 ms)
+ CodeHeap 'profiled nmethods':1773824 G1 Old Gen:263245632 CodeHeap 'non-profiled nmethods':321024 G1 Survivor Space:0 Compressed Class Space:442792 Metaspace:4132136 G1 Eden Space:0 CodeHeap 'non-nmethods':1207296
+ CodeHeap 'profiled nmethods':1773824 G1 Old Gen:261624024 CodeHeap 'non-profiled nmethods':321024 G1 Survivor Space:0 Compressed Class Space:442792 Metaspace:4132136 G1 Eden Space:0 CodeHeap 'non-nmethods':1207296
 ---------------------------------------------------------------------------------
-time:64 totalGC:1582 Name:G1 Old Generation action:end of major GC gcCause:G1 Evacuation Pause(152 ms)
- CodeHeap 'profiled nmethods':3542400 G1 Old Gen:263294632 CodeHeap 'non-profiled nmethods':692096 G1 Survivor Space:0 Compressed Class Space:745584 Metaspace:7288976 G1 Eden Space:0 CodeHeap 'non-nmethods':1220096
- CodeHeap 'profiled nmethods':3542400 G1 Old Gen:261098288 CodeHeap 'non-profiled nmethods':692096 G1 Survivor Space:0 Compressed Class Space:745584 Metaspace:7288976 G1 Eden Space:0 CodeHeap 'non-nmethods':1220096
+time:64 totalGC:1456 maxGC:157 meanGC: 31,65 Name:G1 Young Generation action:end of minor GC gcCause:G1 Evacuation Pause(7 ms)
+ CodeHeap 'profiled nmethods':1773824 G1 Old Gen:261624024 CodeHeap 'non-profiled nmethods':321920 G1 Survivor Space:0 Compressed Class Space:442792 Metaspace:4132136 G1 Eden Space:1048576 CodeHeap 'non-nmethods':1207296
+ CodeHeap 'profiled nmethods':1773824 G1 Old Gen:262672600 CodeHeap 'non-profiled nmethods':321920 G1 Survivor Space:0 Compressed Class Space:442792 Metaspace:4132136 G1 Eden Space:0 CodeHeap 'non-nmethods':1207296
 ---------------------------------------------------------------------------------
-time:64 totalGC:1585 Name:G1 Young Generation action:end of minor GC gcCause:G1 Evacuation Pause(3 ms)
- CodeHeap 'profiled nmethods':3599488 G1 Old Gen:261098288 CodeHeap 'non-profiled nmethods':695680 G1 Survivor Space:0 Compressed Class Space:754968 Metaspace:7370688 G1 Eden Space:1048576 CodeHeap 'non-nmethods':1220096
- CodeHeap 'profiled nmethods':3599488 G1 Old Gen:263189816 CodeHeap 'non-profiled nmethods':695680 G1 Survivor Space:0 Compressed Class Space:754968 Metaspace:7370688 G1 Eden Space:0 CodeHeap 'non-nmethods':1220096
+time:64 totalGC:1579 maxGC:157 meanGC: 33,60 Name:G1 Old Generation action:end of major GC gcCause:G1 Evacuation Pause(123 ms)
+ CodeHeap 'profiled nmethods':1773824 G1 Old Gen:262672600 CodeHeap 'non-profiled nmethods':321920 G1 Survivor Space:0 Compressed Class Space:442792 Metaspace:4132136 G1 Eden Space:0 CodeHeap 'non-nmethods':1207296
+ CodeHeap 'profiled nmethods':1773824 G1 Old Gen:262035896 CodeHeap 'non-profiled nmethods':321920 G1 Survivor Space:0 Compressed Class Space:442792 Metaspace:4132136 G1 Eden Space:0 CodeHeap 'non-nmethods':1207296
 ---------------------------------------------------------------------------------
-time:64 totalGC:1729 Name:G1 Old Generation action:end of major GC gcCause:G1 Evacuation Pause(144 ms)
- CodeHeap 'profiled nmethods':3599488 G1 Old Gen:263189816 CodeHeap 'non-profiled nmethods':695680 G1 Survivor Space:0 Compressed Class Space:754968 Metaspace:7370688 G1 Eden Space:0 CodeHeap 'non-nmethods':1220096
- CodeHeap 'profiled nmethods':3599488 G1 Old Gen:261689720 CodeHeap 'non-profiled nmethods':695680 G1 Survivor Space:0 Compressed Class Space:745584 Metaspace:7304312 G1 Eden Space:0 CodeHeap 'non-nmethods':1220096
+time:65 totalGC:1582 maxGC:157 meanGC: 32,96 Name:G1 Young Generation action:end of minor GC gcCause:G1 Evacuation Pause(3 ms)
+ CodeHeap 'profiled nmethods':1775744 G1 Old Gen:262035896 CodeHeap 'non-profiled nmethods':325376 G1 Survivor Space:0 Compressed Class Space:442792 Metaspace:4132944 G1 Eden Space:1048576 CodeHeap 'non-nmethods':1207296
+ CodeHeap 'profiled nmethods':1775744 G1 Old Gen:263084472 CodeHeap 'non-profiled nmethods':325376 G1 Survivor Space:0 Compressed Class Space:442792 Metaspace:4132944 G1 Eden Space:0 CodeHeap 'non-nmethods':1207296
 ---------------------------------------------------------------------------------
-time:64 totalGC:1740 Name:G1 Young Generation action:end of minor GC gcCause:G1 Evacuation Pause(11 ms)
- CodeHeap 'profiled nmethods':3624192 G1 Old Gen:261689720 CodeHeap 'non-profiled nmethods':701312 G1 Survivor Space:0 Compressed Class Space:745584 Metaspace:7306744 G1 Eden Space:1048576 CodeHeap 'non-nmethods':1220096
- CodeHeap 'profiled nmethods':3624192 G1 Old Gen:262738296 CodeHeap 'non-profiled nmethods':701312 G1 Survivor Space:0 Compressed Class Space:745584 Metaspace:7306744 G1 Eden Space:0 CodeHeap 'non-nmethods':1220096
+time:65 totalGC:1679 maxGC:157 meanGC: 34,27 Name:G1 Old Generation action:end of major GC gcCause:G1 Evacuation Pause(97 ms)
+ CodeHeap 'profiled nmethods':1775744 G1 Old Gen:263084472 CodeHeap 'non-profiled nmethods':325376 G1 Survivor Space:0 Compressed Class Space:442792 Metaspace:4132944 G1 Eden Space:0 CodeHeap 'non-nmethods':1207296
+ CodeHeap 'profiled nmethods':1775744 G1 Old Gen:262586584 CodeHeap 'non-profiled nmethods':325376 G1 Survivor Space:0 Compressed Class Space:442792 Metaspace:4132944 G1 Eden Space:0 CodeHeap 'non-nmethods':1207296
 ---------------------------------------------------------------------------------
-time:64 totalGC:1866 Name:G1 Old Generation action:end of major GC gcCause:G1 Evacuation Pause(126 ms)
- CodeHeap 'profiled nmethods':3624192 G1 Old Gen:262738296 CodeHeap 'non-profiled nmethods':701312 G1 Survivor Space:0 Compressed Class Space:745584 Metaspace:7306744 G1 Eden Space:0 CodeHeap 'non-nmethods':1220096
- CodeHeap 'profiled nmethods':3624192 G1 Old Gen:262035648 CodeHeap 'non-profiled nmethods':701312 G1 Survivor Space:0 Compressed Class Space:745584 Metaspace:7306744 G1 Eden Space:0 CodeHeap 'non-nmethods':1220096
+time:65 totalGC:1683 maxGC:157 meanGC: 33,66 Name:G1 Young Generation action:end of minor GC gcCause:G1 Evacuation Pause(4 ms)
+ CodeHeap 'profiled nmethods':1793664 G1 Old Gen:262586584 CodeHeap 'non-profiled nmethods':325376 G1 Survivor Space:0 Compressed Class Space:442792 Metaspace:4136864 G1 Eden Space:1048576 CodeHeap 'non-nmethods':1207296
+ CodeHeap 'profiled nmethods':1793664 G1 Old Gen:263635160 CodeHeap 'non-profiled nmethods':325376 G1 Survivor Space:0 Compressed Class Space:442792 Metaspace:4136864 G1 Eden Space:0 CodeHeap 'non-nmethods':1207296
 ---------------------------------------------------------------------------------
-time:65 totalGC:1872 Name:G1 Young Generation action:end of minor GC gcCause:G1 Evacuation Pause(6 ms)
- CodeHeap 'profiled nmethods':3625216 G1 Old Gen:262035648 CodeHeap 'non-profiled nmethods':703104 G1 Survivor Space:0 Compressed Class Space:746136 Metaspace:7310624 G1 Eden Space:0 CodeHeap 'non-nmethods':1220096
- CodeHeap 'profiled nmethods':3625216 G1 Old Gen:263067704 CodeHeap 'non-profiled nmethods':703104 G1 Survivor Space:0 Compressed Class Space:746136 Metaspace:7310624 G1 Eden Space:0 CodeHeap 'non-nmethods':1220096
+time:65 totalGC:1790 maxGC:157 meanGC: 35,10 Name:G1 Old Generation action:end of major GC gcCause:G1 Evacuation Pause(107 ms)
+ CodeHeap 'profiled nmethods':1793664 G1 Old Gen:263635160 CodeHeap 'non-profiled nmethods':325376 G1 Survivor Space:0 Compressed Class Space:442792 Metaspace:4136864 G1 Eden Space:0 CodeHeap 'non-nmethods':1207296
+ CodeHeap 'profiled nmethods':1793664 G1 Old Gen:262987072 CodeHeap 'non-profiled nmethods':325376 G1 Survivor Space:0 Compressed Class Space:442792 Metaspace:4136864 G1 Eden Space:0 CodeHeap 'non-nmethods':1207296
 ---------------------------------------------------------------------------------
-time:65 totalGC:2037 Name:G1 Old Generation action:end of major GC gcCause:G1 Evacuation Pause(165 ms)
- CodeHeap 'profiled nmethods':3625216 G1 Old Gen:263067704 CodeHeap 'non-profiled nmethods':703104 G1 Survivor Space:0 Compressed Class Space:746136 Metaspace:7310624 G1 Eden Space:0 CodeHeap 'non-nmethods':1220096
- CodeHeap 'profiled nmethods':3625216 G1 Old Gen:262359984 CodeHeap 'non-profiled nmethods':703104 G1 Survivor Space:0 Compressed Class Space:745584 Metaspace:7306744 G1 Eden Space:0 CodeHeap 'non-nmethods':1220096
----------------------------------------------------------------------------------
-time:65 totalGC:2039 Name:G1 Young Generation action:end of minor GC gcCause:G1 Evacuation Pause(2 ms)
- CodeHeap 'profiled nmethods':3626496 G1 Old Gen:262359984 CodeHeap 'non-profiled nmethods':703104 G1 Survivor Space:0 Compressed Class Space:745584 Metaspace:7306744 G1 Eden Space:1048576 CodeHeap 'non-nmethods':1220096
- CodeHeap 'profiled nmethods':3626496 G1 Old Gen:263408560 CodeHeap 'non-profiled nmethods':703104 G1 Survivor Space:0 Compressed Class Space:745584 Metaspace:7306744 G1 Eden Space:0 CodeHeap 'non-nmethods':1220096
----------------------------------------------------------------------------------
-time:65 totalGC:2159 Name:G1 Old Generation action:end of major GC gcCause:G1 Evacuation Pause(120 ms)
- CodeHeap 'profiled nmethods':3626496 G1 Old Gen:263408560 CodeHeap 'non-profiled nmethods':703104 G1 Survivor Space:0 Compressed Class Space:745584 Metaspace:7306744 G1 Eden Space:0 CodeHeap 'non-nmethods':1220096
- CodeHeap 'profiled nmethods':3626496 G1 Old Gen:262752576 CodeHeap 'non-profiled nmethods':703104 G1 Survivor Space:0 Compressed Class Space:745584 Metaspace:7306744 G1 Eden Space:0 CodeHeap 'non-nmethods':1220096
----------------------------------------------------------------------------------
-time:65 totalGC:2173 Name:G1 Young Generation action:end of minor GC gcCause:G1 Evacuation Pause(14 ms)
- CodeHeap 'profiled nmethods':3646464 G1 Old Gen:262752576 CodeHeap 'non-profiled nmethods':709632 G1 Survivor Space:0 Compressed Class Space:752728 Metaspace:7361352 G1 Eden Space:1048576 CodeHeap 'non-nmethods':1220096
- CodeHeap 'profiled nmethods':3646464 G1 Old Gen:263801152 CodeHeap 'non-profiled nmethods':709632 G1 Survivor Space:0 Compressed Class Space:752728 Metaspace:7361352 G1 Eden Space:0 CodeHeap 'non-nmethods':1220096
----------------------------------------------------------------------------------
-time:65 totalGC:2296 Name:G1 Old Generation action:end of major GC gcCause:G1 Evacuation Pause(123 ms)
- CodeHeap 'profiled nmethods':3646464 G1 Old Gen:263801152 CodeHeap 'non-profiled nmethods':709632 G1 Survivor Space:0 Compressed Class Space:752728 Metaspace:7361352 G1 Eden Space:0 CodeHeap 'non-nmethods':1220096
- CodeHeap 'profiled nmethods':3646464 G1 Old Gen:262986616 CodeHeap 'non-profiled nmethods':709632 G1 Survivor Space:0 Compressed Class Space:747760 Metaspace:7326192 G1 Eden Space:0 CodeHeap 'non-nmethods':1220096
----------------------------------------------------------------------------------
-time:65 totalGC:2299 Name:G1 Young Generation action:end of minor GC gcCause:G1 Evacuation Pause(3 ms)
- CodeHeap 'profiled nmethods':3656320 G1 Old Gen:262986616 CodeHeap 'non-profiled nmethods':710656 G1 Survivor Space:0 Compressed Class Space:753280 Metaspace:7367480 G1 Eden Space:1048576 CodeHeap 'non-nmethods':1220096
- CodeHeap 'profiled nmethods':3656320 G1 Old Gen:264035192 CodeHeap 'non-profiled nmethods':710656 G1 Survivor Space:0 Compressed Class Space:753280 Metaspace:7367480 G1 Eden Space:0 CodeHeap 'non-nmethods':1220096
----------------------------------------------------------------------------------
-time:65 totalGC:2396 Name:G1 Old Generation action:end of major GC gcCause:G1 Evacuation Pause(97 ms)
- CodeHeap 'profiled nmethods':3656320 G1 Old Gen:264035192 CodeHeap 'non-profiled nmethods':710656 G1 Survivor Space:0 Compressed Class Space:753280 Metaspace:7367480 G1 Eden Space:0 CodeHeap 'non-nmethods':1220096
- CodeHeap 'profiled nmethods':3656320 G1 Old Gen:263173896 CodeHeap 'non-profiled nmethods':710656 G1 Survivor Space:0 Compressed Class Space:746656 Metaspace:7320744 G1 Eden Space:0 CodeHeap 'non-nmethods':1220096
----------------------------------------------------------------------------------
-time:65 totalGC:2528 Name:G1 Old Generation action:end of major GC gcCause:G1 Evacuation Pause(132 ms)
- CodeHeap 'profiled nmethods':3656320 G1 Old Gen:263173896 CodeHeap 'non-profiled nmethods':710656 G1 Survivor Space:0 Compressed Class Space:746656 Metaspace:7320744 G1 Eden Space:0 CodeHeap 'non-nmethods':1220096
- CodeHeap 'profiled nmethods':3656320 G1 Old Gen:263173896 CodeHeap 'non-profiled nmethods':710656 G1 Survivor Space:0 Compressed Class Space:746656 Metaspace:7320744 G1 Eden Space:0 CodeHeap 'non-nmethods':1220096
----------------------------------------------------------------------------------
-time:65 totalGC:2585 Name:G1 Old Generation action:end of major GC gcCause:G1 Evacuation Pause(57 ms)
- CodeHeap 'profiled nmethods':3656320 G1 Old Gen:263173896 CodeHeap 'non-profiled nmethods':710656 G1 Survivor Space:0 Compressed Class Space:746656 Metaspace:7320744 G1 Eden Space:0 CodeHeap 'non-nmethods':1220096
- CodeHeap 'profiled nmethods':3656320 G1 Old Gen:263173896 CodeHeap 'non-profiled nmethods':710656 G1 Survivor Space:0 Compressed Class Space:746656 Metaspace:7320744 G1 Eden Space:0 CodeHeap 'non-nmethods':1220096
+time:65 totalGC:1829 maxGC:157 meanGC: 35,17 Name:G1 Old Generation action:end of major GC gcCause:G1 Evacuation Pause(39 ms)
+ CodeHeap 'profiled nmethods':1793664 G1 Old Gen:262987072 CodeHeap 'non-profiled nmethods':325376 G1 Survivor Space:0 Compressed Class Space:442792 Metaspace:4136864 G1 Eden Space:0 CodeHeap 'non-nmethods':1207296
+ CodeHeap 'profiled nmethods':1793664 G1 Old Gen:262987072 CodeHeap 'non-profiled nmethods':325376 G1 Survivor Space:0 Compressed Class Space:442792 Metaspace:4136864 G1 Eden Space:0 CodeHeap 'non-nmethods':1207296
 ---------------------------------------------------------------------------------
 Exception in thread "main" java.lang.OutOfMemoryError: Java heap space
 	at java.base/java.lang.String.repeat(String.java:3583)
-	at ru.otus.benchmark.Consumer.run(Consumer.java:17)
+	at ru.otus.benchmark.Consumer.run(Consumer.java:16)
 	at ru.otus.GCMonitor.main(GCMonitor.java:26)
-time:66 totalGC:2589 Name:G1 Young Generation action:end of minor GC gcCause:G1 Evacuation Pause(4 ms)
- CodeHeap 'profiled nmethods':3660800 G1 Old Gen:263173896 CodeHeap 'non-profiled nmethods':712192 G1 Survivor Space:0 Compressed Class Space:746656 Metaspace:7321992 G1 Eden Space:0 CodeHeap 'non-nmethods':1220096
- CodeHeap 'profiled nmethods':3660800 G1 Old Gen:264204168 CodeHeap 'non-profiled nmethods':712192 G1 Survivor Space:0 Compressed Class Space:746656 Metaspace:7321992 G1 Eden Space:0 CodeHeap 'non-nmethods':1220096
+time:65 totalGC:1833 maxGC:157 meanGC: 34,58 Name:G1 Young Generation action:end of minor GC gcCause:G1 Evacuation Pause(4 ms)
+ CodeHeap 'profiled nmethods':1795712 G1 Old Gen:262987072 CodeHeap 'non-profiled nmethods':327680 G1 Survivor Space:0 Compressed Class Space:442792 Metaspace:4137536 G1 Eden Space:0 CodeHeap 'non-nmethods':1207296
+ CodeHeap 'profiled nmethods':1795712 G1 Old Gen:264033128 CodeHeap 'non-profiled nmethods':327680 G1 Survivor Space:0 Compressed Class Space:442792 Metaspace:4137536 G1 Eden Space:0 CodeHeap 'non-nmethods':1207296
 ---------------------------------------------------------------------------------
-time:66 totalGC:2717 Name:G1 Old Generation action:end of major GC gcCause:G1 Evacuation Pause(128 ms)
- CodeHeap 'profiled nmethods':3660800 G1 Old Gen:264204168 CodeHeap 'non-profiled nmethods':712192 G1 Survivor Space:0 Compressed Class Space:746656 Metaspace:7321992 G1 Eden Space:0 CodeHeap 'non-nmethods':1220096
- CodeHeap 'profiled nmethods':3660800 G1 Old Gen:263595728 CodeHeap 'non-profiled nmethods':712192
+
 > Task :hw04-gc:GCMonitor.main() FAILED
 
 FAILURE: Build failed with an exception.
@@ -285,7 +251,6 @@ Run with --stacktrace option to get the stack trace. Run with --info or --debug 
 
 * Get more help at https://help.gradle.org
 
-BUILD FAILED in 1m 26s
+BUILD FAILED in 1m 11s
 2 actionable tasks: 2 executed
-18:23:55: Task execution finished 'GCMonitor.main()'.
-
+13:33:51: Task execution finished 'GCMonitor.main()'.
