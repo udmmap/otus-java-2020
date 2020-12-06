@@ -1,14 +1,14 @@
 package ru.otus.units;
 
-import ru.otus.devices.interfaces.IDeviceCassette;
+import ru.otus.devices.interfaces.DeviceCassette;
 
-public class UnitCassette extends Unit {
-    private IDeviceCassette device;
-    public UnitCassette(IDeviceCassette device){
+public class UnitCassette extends UnitImpl {
+    private DeviceCassette device;
+    public UnitCassette(DeviceCassette device){
         this.device = device;
     }
     @Override
-    public void Process(ITransaction t) {
+    public void Process(Context t) {
         try {
             switch(t.getOperationType()) {
                 case AMOUNT_RECEIVING -> device.putMoney(t.getMoney());

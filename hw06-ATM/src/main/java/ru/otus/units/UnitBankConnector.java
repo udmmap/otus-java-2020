@@ -1,16 +1,16 @@
 package ru.otus.units;
 
-import ru.otus.devices.interfaces.IDeviceBankConnector;
+import ru.otus.devices.interfaces.DeviceBankConnector;
 
-public class UnitBankConnector extends Unit{
-    final private IDeviceBankConnector device;
+public class UnitBankConnector extends UnitImpl {
+    final private DeviceBankConnector device;
 
-    public UnitBankConnector(IDeviceBankConnector device){
+    public UnitBankConnector(DeviceBankConnector device){
         this.device = device;
     }
 
     @Override
-    public void Process(ITransaction t) {
+    public void Process(Context t) {
         try {
             switch (t.getOperationType()) {
                 case AMOUNT_RECEIVING -> device.reserveAmount(t.getUserID(), t.getAccountID(), t.getAmount());
@@ -24,13 +24,13 @@ public class UnitBankConnector extends Unit{
     }
 
     @Override
-    public void onCommit(ITransaction t) {
+    public void onCommit(Context t) {
         device.commitAmount(t.getUserID(), t.getAccountID());
         super.onCommit(t);
     }
 
     @Override
-    public void onRollback(ITransaction t) {
+    public void onRollback(Context t) {
         device.rollbackAmount(t.getUserID(), t.getAccountID());
         super.onRollback(t);
     }

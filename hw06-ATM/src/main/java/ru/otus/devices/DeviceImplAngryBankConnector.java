@@ -1,8 +1,8 @@
 package ru.otus.devices;
 
-import ru.otus.devices.interfaces.IDeviceBankConnector;
+import ru.otus.devices.interfaces.DeviceBankConnector;
 
-public class DeviceBadBankConnector implements IDeviceBankConnector {
+public class DeviceImplAngryBankConnector implements DeviceBankConnector {
     @Override
     public void reserveAmount(int userID, int AccountID, int amount) {
         throw new RuntimeException("Счёт заблокирован!!!");

@@ -1,27 +1,28 @@
 package ru.otus.units;
 
+import ru.otus.enums.ENominal;
 import ru.otus.enums.EOperationType;
 
 import java.util.Map;
 import java.util.TreeMap;
 
-public class Transaction implements ITransaction {
-    final EOperationType operationType;
-    final int userId;
-    final int accountId;
-    int amount;
-    Map<Integer,Integer> money;
+public class ContextImpl implements Context {
+    private final EOperationType operationType;
+    private final int userId;
+    private final int accountId;
+    private int amount;
+    private Map<ENominal,Integer> money;
 
-    StringBuilder sbLog = new StringBuilder();
+    private StringBuilder sbLog = new StringBuilder();
 
-    public Transaction(EOperationType operationType, int userId, int accountId)
+    public ContextImpl(EOperationType operationType, int userId, int accountId)
     {
         this.operationType = operationType;
         this.userId = userId;
         this.accountId = accountId;
     }
 
-    public Transaction(EOperationType operationType, int userId, int accountId, int amount)
+    public ContextImpl(EOperationType operationType, int userId, int accountId, int amount)
     {
         this.operationType = operationType;
         this.userId = userId;
@@ -55,17 +56,17 @@ public class Transaction implements ITransaction {
     }
 
     @Override
-    public void setMoney(Map<Integer,Integer> money) throws RuntimeException {
+    public void setMoney(Map<ENominal,Integer> money) throws RuntimeException {
         this.money = new TreeMap(money);
         this.amount = money.entrySet().stream()
                 .map((e) -> {
-                    return e.getKey() * e.getValue();
+                    return e.getKey().toInt() * e.getValue();
                 }).mapToInt(Integer::intValue).sum();
     }
 
     @Override
-    public Map<Integer, Integer> getMoney() {
-        return new TreeMap<Integer,Integer>(this.money);
+    public Map<ENominal, Integer> getMoney() {
+        return new TreeMap<ENominal,Integer>(this.money);
     }
 
     @Override

@@ -1,15 +1,15 @@
 package ru.otus.units;
 
-import ru.otus.devices.interfaces.IDeviceDispenser;
+import ru.otus.devices.interfaces.DeviceDispenser;
 
-public class UnitDispenser extends Unit {
-    IDeviceDispenser device;
-    public UnitDispenser(IDeviceDispenser device){
+public class UnitDispenser extends UnitImpl {
+    DeviceDispenser device;
+    public UnitDispenser(DeviceDispenser device){
         this.device = device;
     }
 
     @Override
-    public void Process(ITransaction t) {
+    public void Process(Context t) {
         device.putMoney(t.getMoney());
 
         super.Process(t);
