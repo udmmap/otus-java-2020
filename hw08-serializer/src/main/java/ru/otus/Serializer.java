@@ -85,12 +85,4 @@ public class Serializer {
         })
         .collect(Collectors.joining(delim))+"}";
     }
-
-    public static void main(String... args) {
-        Gson gson = new Gson();
-        Example exmp = new Example();
-        System.out.println(gson.toJson(null)==null?"!NULL!":gson.toJson(null));
-        System.out.println(gson.toJson(exmp));
-        System.out.println(toJson(exmp));
-    }
 }
