@@ -18,7 +18,8 @@ public class User {
     @JoinColumn(name = "address_id", nullable = true)
     AddressDataSet addressDataSet;
 
-    @OneToMany(mappedBy = "user", cascade = CascadeType.ALL)
+    @OneToMany(cascade = CascadeType.ALL)
+    @JoinColumn(name = "user_id")
     List<PhoneDataSet> phoneDataSet;
 
     public Long getId() {
