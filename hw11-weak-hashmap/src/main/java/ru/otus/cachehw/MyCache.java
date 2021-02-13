@@ -10,8 +10,8 @@ import java.util.WeakHashMap;
  */
 public class MyCache<K, V> implements HwCache<K, V> {
 
-    private WeakHashMap<K,V> cacheMap = new WeakHashMap();
-    private HashSet<HwListener> listeners = new HashSet<HwListener>();
+    private Map<K,V> cacheMap = new WeakHashMap();
+    private Set<HwListener> listeners = new HashSet<HwListener>();
 
     private void notifyListeners(K key, V value, String act){
         listeners.forEach(l->{try{l.notify(key, value, act);}catch (Exception e){}});
