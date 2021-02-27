@@ -1,0 +1,56 @@
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>Пользователи</title>
+    <script>
+        function postUser() {
+            fetch("/api/user?name="+encodeURIComponent(document.getElementById('userNameTextBox').value)
+            +"&login="+encodeURIComponent(document.getElementById('userLoginTextBox').value)
+            +"&password="+encodeURIComponent(document.getElementById('userPasswordTextBox').value)
+            +"&role="+encodeURIComponent(document.getElementById("userRoleSelect").value)
+            , {method:"POST"})
+                .then(resp=>resp.json())
+                .then(inf=>document.getElementById('userDataContainer').innerHTML = "Для просмотра изменений необходимо обновить страницу")
+
+        }
+    </script>
+</head>
+
+<body>
+<h4>Добавить/Изменить пользователя</h4>
+<div>
+    <label>Имя<input type="text" id = "userNameTextBox" value="*"></label>
+    <label>Логин<input type="text" id = "userLoginTextBox" value="*"></label>
+    <label>Пароль<input type="text" id = "userPasswordTextBox" value="*"></label>
+    <select id = "userRoleSelect">
+        <option value="user">роль пользователь</option>
+        <option value="admin">роль администратор</option>
+    </select>
+<button onclick="postUser()">Сохранить</button>
+</div>
+<pre id = "userDataContainer"></pre>
+
+<h4>Случайный пользователь</h4>
+<table style="width: 400px">
+    <thead>
+        <tr>
+            <td style="width: 50px">Id</td>
+            <td style="width: 150px">Имя</td>
+            <td style="width: 100px">Логин</td>
+            <td style="width: 100px">Пароль</td>
+            <td style="width: 100px">Роль</td>
+        </tr>
+    </thead>
+    <tbody>
+    <#list userItems as userItem>
+        <tr>
+            <td>${userItem.id}</td>
+            <td>${userItem.name}</td>
+            <td>${userItem.login}</td>
+            <td>${userItem.password}</td>
+            <td>${userItem.role}</td>
+        </tr>
+    </#list>
+    </tbody>
+</table>
+</body>
+</html>

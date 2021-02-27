@@ -8,6 +8,7 @@
  */
 
 rootProject.name = 'otus-java-2020'
+include 'hw12-server'
 include 'hw01-gradle'
 include 'hw02-diy-array-list'
 include 'hw03-test-annotation'
