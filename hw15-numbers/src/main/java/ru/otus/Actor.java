@@ -9,11 +9,13 @@ public class Actor implements Callable<Integer> {
     private final Counter counter;
     private int val;
     private final Blocker blocker;
+    private final String name;
 
-    Actor(Blocker blocker, Counter counter, int initial){
+    Actor(Blocker blocker, Counter counter, int initial, String name){
         this.val = initial;
         this.counter = counter;
         this.blocker = blocker;
+        this.name = name;
     }
 
     @Override
@@ -31,6 +33,7 @@ public class Actor implements Callable<Integer> {
 
                     val = nextVal;
                     counter.setVal(nextVal);
+                    System.out.println(name+"  "+Thread.currentThread().toString() + ": " + String.valueOf(val));
 
                 } catch (Exception e) {
                     e.printStackTrace();

@@ -9,9 +9,9 @@ public class Main {
         Blocker blocker = new Blocker(new ReentrantLock());
         Counter counter = new Counter(0);
         ForkJoinPool pool = new ForkJoinPool();
-        pool.submit(new Actor(blocker, counter, -1));
+        pool.submit(new Actor(blocker, counter, -1, "First"));
         try {
-            pool.submit(new Actor(blocker, counter, 0)).get();
+            pool.submit(new Actor(blocker, counter, 0, "Second")).get();
         } catch (Exception e) {
             e.printStackTrace();
         }

@@ -1,8 +1,8 @@
 package ru.otus;
 
 public class Counter {
-    private volatile int delta = 1;
-    private volatile int val;
+    private int delta = 1;
+    private int val;
 
     Counter(int initial){
         this.val = initial;
@@ -10,7 +10,6 @@ public class Counter {
 
     public void setVal(int val) {
         this.val = val;
-        System.out.println(Thread.currentThread().toString() + ": " + String.valueOf(val));
     }
 
     public Integer getVal() {
